@@ -183,7 +183,7 @@ h3 {
     font-size:1.714rem;
     line-height: 2.5rem; 
     color:#fff;
-    font-weight: 400;
+    font-weight: 600;
 }
 h4 {
     font-family: 'Open Sans', sans-serif;
@@ -322,6 +322,15 @@ Separator
     display: inline-block;
     border-radius: 50%;
 }
+.separator-v2 {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    background: #5b4f96;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+}
 .separator:after {
     position: absolute;
     left:5%;
@@ -356,7 +365,7 @@ Separator
     height: 2px;
     width: 40px;
     margin:20px auto;
-    background: #888888;
+    background: #5b4f96;
 }
 .separator4 {
     height: 2px;
@@ -419,6 +428,24 @@ Button
     border-radius: 2px;
 
 }
+.btn-v2 {
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size:0.8125rem;
+    border-radius: 0px;
+    margin-top: 20px;
+    transition: .5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 0.8rem 3rem;
+    transition: all 0.6s;
+    border-radius: 2px;
+
+}
 .btn:hover{
     box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
     color:#fff;
@@ -434,6 +461,11 @@ Button
 }
 .btn-lg{
     background: #ff81a0;
+    padding: 1.125rem 3rem;
+}
+.btn-lg-v2{
+    background: white;
+    color:#5b4f96;
     padding: 1.125rem 3rem;
 }
 .btn-md{
@@ -1369,7 +1401,9 @@ li .single_team_text p{
 /*contact section css*/
 .contact{
     background:#f4f5f9;
-
+}
+.contact-v2{
+    background: white;
 }
 .contact_info_content{
     background: #fff;
