@@ -14,6 +14,13 @@ Author URI: http://bootstrapthemes.co
     font-family: 'Dancing Script', bold;
     font-weight: 600;
 }
+.invite-me:hover {
+    color: #5b4f96 !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Dancing Script', bold;
+    font-weight: 600;
+}
 a {
     font-size: 15px !important;
 }
@@ -322,15 +329,6 @@ Separator
     display: inline-block;
     border-radius: 50%;
 }
-.separator-v2 {
-    width: 10px;
-    height: 10px;
-    margin: 20px auto;
-    background: #5b4f96;
-    position: relative;
-    display: inline-block;
-    border-radius: 50%;
-}
 .separator:after {
     position: absolute;
     left:5%;
@@ -352,6 +350,37 @@ Separator
     content:"";
     display: inline-block;
     margin-right: 20px;
+}
+.separator-v2:after {
+    position: absolute;
+    left:5%;
+    bottom:4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content:"";
+    display: inline-block;
+    margin-left: 20px;
+}
+.separator-v2:before {
+    position: absolute;
+    right: 5%;
+    bottom:4px;
+    height: 1px;
+    width: 80px;
+    background: #eee;
+    content:"";
+    display: inline-block;
+    margin-right: 20px;
+}
+.separator-v2 {
+    width: 10px;
+    height: 10px;
+    margin: 20px auto;
+    background: #5b4f96;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
 }
 .separator2 {
     height: 4px;
