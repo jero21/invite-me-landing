@@ -104,6 +104,7 @@ body {
 }
 
 
+
 /* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
@@ -1501,6 +1502,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
+  text-align: center;
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1.286;
@@ -2084,6 +2086,44 @@ input::-moz-focus-inner {
 }
 
 .no-js .s-home {
+  background: #000000;
+}
+
+/* ===================================================================
+ * # Invitacion
+ *
+ * ------------------------------------------------------------------- */
+
+.s-invitacion {
+  display: table;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+}
+
+.s-invitacion::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  background-color: #0000005c;
+}
+
+.s-invitacion .shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.no-js .s-invitacion {
   background: #000000;
 }
 
@@ -2680,6 +2720,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .about-desc {
   margin-top: 6rem;
+  margin-bottom: 12rem;
 }
 
 .about-desc__slider .slick-dots {
@@ -2885,6 +2926,15 @@ html.no-csstransitions .home-content__main {
 }
 
 .process-wrap h2 {
+  margin-bottom: 4rem;
+  padding: 0 10px;
+}
+
+.process-wrap-invitacion {
+  padding-top: 12rem;
+}
+
+.process-wrap-invitacion h2 {
   margin-bottom: 4rem;
   padding: 0 10px;
 }
