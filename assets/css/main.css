@@ -2720,7 +2720,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .about-desc {
   margin-top: 6rem;
-  margin-bottom: 12rem;
+  padding-bottom: 12rem;
 }
 
 .about-desc__slider .slick-dots {
