@@ -395,6 +395,7 @@ Separator
     width: 40px;
     margin:20px auto;
     background: #5b4f96;
+    z-index: 10000;
 }
 .separator4 {
     height: 2px;
