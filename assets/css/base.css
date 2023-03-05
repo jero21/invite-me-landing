@@ -961,4 +961,41 @@ textarea {
   text-align: center;
 }
 
+.separator3 {
+  height: 3px;
+  width: 50px;
+  margin:20px auto;
+  background: #5b4f96!important;
+}
+.separator-v2:after {
+  position: absolute;
+  left:5%;
+  bottom:4px;
+  height: 1px;
+  width: 80px;
+  background: #eee;
+  content:"";
+  display: inline-block;
+  margin-left: 20px;
+}
+.separator-v2:before {
+  position: absolute;
+  right: 5%;
+  bottom:4px;
+  height: 1px;
+  width: 80px;
+  background: #eee;
+  content:"";
+  display: inline-block;
+  margin-right: 20px;
+}
+.separator-v2 {
+  width: 10px;
+  height: 10px;
+  margin: 20px auto;
+  background: #5b4f96;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=base.css.map */
