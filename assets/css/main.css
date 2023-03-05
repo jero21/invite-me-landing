@@ -4158,3 +4158,10 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.separator3 {
+  height: 2px;
+  width: 40px;
+  margin:20px auto;
+  background: #5b4f96;
+}
