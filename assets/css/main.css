@@ -2496,7 +2496,6 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1200px) {
   .s-home {
     display: block;
-    overflow: hidden;
     min-height: 740px;
   }
 
@@ -3659,7 +3658,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-download {
-  padding-top: 18.4rem;
+  padding-top: 10.4rem;
   background-color: #5b4f96;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
