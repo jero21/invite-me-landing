@@ -1,409 +1,356 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
-
+<!DOCTYPE html>
+<html class="no-js" lang="es">
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Invite-me After-boda</title>
-    <link rel="icon" type="image/x-icon" href="../icon.ico">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="language" content="es">
+    <title>Invite-me</title>
+    <meta name="description" content="Ejemplos de invitación/parte de matrimonio digital para enviar por whatsapp.">
+    <meta name="keywords" content="invitación a matrimonio, parte de matrimonio, invitación web">
 
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Clicker+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
-    <link rel="stylesheet" href="../assets_invitaciones/css/iconfont.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/slick/slick.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/slick/slick-theme.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/jquery.fancybox.css">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link rel="stylesheet" href="../assets_invitaciones/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets_invitaciones/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/vendor.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets_invitaciones/css/cuenta.css">
-    <!--        <link rel="stylesheet" href="assets_invitaciones/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- script
+    ================================================== -->
+    <script src="../assets/js/modernizr.js"></script>
+    <script src="../assets/js/pace.min.js"></script>
 
-    <!--For Plugins external css-->
-    <link rel="stylesheet" href="../assets_invitaciones/css/plugins.css" />
-
-    <!--Theme custom css -->
-    <link rel="stylesheet" href="../assets_invitaciones/css/style.css">
-
-    <!--Theme Responsive css-->
-    <link rel="stylesheet" href="../assets_invitaciones/css/responsive.css" />
-
-    <script src="../assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <style media="screen">
-    .another-letter h3, h2{
-        font-family: 'Open Sans';
-    }
-    @media (max-width: 768px) {
-      .home{
-        background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/portada/portada.jpg) no-repeat center center;
-        background-position: 51% 57%;
-      }
-
-    }
-    @media (min-width: 768px) {
-      .home{
-        background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/portada/portada.jpg) no-repeat center center;
-        background-position: 49% 51%;
-      }
-    }
-    @media (min-width: 992px) {
-      .home{
-        background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/portada/portada.jpg) no-repeat center center;
-        background-position: 48% 51%;
-      }
-    }
-    @media (min-width: 1200px) {
-      .home{
-        background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/portada/portada.jpg) no-repeat center center;
-        background-size: cover;
-      }
-    }
-    </style>
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+    <link rel="icon" href="../icon.ico" type="image/x-icon">
 </head>
+<style>
+    .simply-amount, .simply-word {
+        color:pink;
+    }
+    .separator3 {
+        height: 2px;
+        width: 40px;
+        margin:20px auto;
+        background: pink;
+        z-index: 10000;
+    }
+    .home-content h1::before {
+        background-color: #00000000!important;
+    }
+    .home-content {
+        padding-top: 11rem;
+    }
+    .photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
 
-<body data-spy="scroll" data-target=".navbar-collapse">
-    <div class="culmn">
-        <header id="main_menu" class="header navbar-fixed-top">
-            <div class="main_menu_bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="nave_menu">
-                            <nav class="navbar navbar-default">
-                                <div class="container-fluid">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
-                                            Invite-me
-                                        </a>
-                                    </div>
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
-                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+.photo-gallery p {
+  color:#7d8285;
+}
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
 
-                                        <ul class="nav navbar-nav navbar-right">
-                                            <li><a href="#home">INICIO</a></li>
-                                            <li><a href="#nosotros">NOSOTROS</a></li>
-                                            <li><a href="#ustedes">USTEDES</a></li>
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!--End of header -->
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
 
-        <!--home Section -->
-        <section id="home" class="home">
-            <div class="overlay">
-                <div class="home_skew_border">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 ">
-                                <div class="main_home_slider text-center">
-                                  <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
-                                      <br><br><br><br><br><br><br><br><br><br>
-                                      <div class="home_btn">
-                                          <h2 class="font-invite-me" style="color: white; font-size: 30px">11 . Febrero . 2024</h2>
-                                      </div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+</style>
 
-        <section id="tiempo" class="portfolio sections">
-            <div class="container">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                              <!--
-                                <h2 class="another-letter"> No tenemos palabras para expresar lo felices y agradecidos que estamos por haber compartido con nosotros el día más importante de nuestras vidas. 
-                                  Fue una noche increíble, llena de amor, alegría y diversión. Gracias por sus buenos deseos, sus regalos y su presencia. Cada uno de ustedes tiene un lugar especial en nuestros corazones.
-                                      Les invitamos a ver las fotos y el video de nuestra boda en esta página web. 
-                                      Esperamos que les gusten y que les traigan buenos recuerdos de ese día tan especial.</h2> -->
-                                <h2 class="another-letter"> No tenemos palabras para expresar lo agradecidos que estamos por haber compartido con nosotros el día más importante de nuestras vidas. 
-                                      Les invitamos a ver las fotos y el video de nuestra boda en esta página web. 
-                                      Esperamos que les gusten y que les traigan buenos recuerdos de ese día tan especial.</h2>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<body id="top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N92H7K8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-
-        <!-- Blog Section -->
-        <section id="nosotros" class="blog">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_blog sections">
-                        <div class="text-center">
-                            <h1 class="font-invite-me" style="color: #797979">Nosotros</h1>
-                            <div class="separator"></div>
-                        </div><!-- End off Head_title -->
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-12">
-
-                          <div id="mdb-lightbox-ui"></div>
-
-                          <div class="mdb-lightbox no-margin">
-
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/1.jpg"
-                                  class="img-fluid">
-                              </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/2.jpg"
-                                  class="img-fluid" />
-                              </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/4.jpg"
-                                  class="img-fluid" />
-                              </a>
-                            </figure>
-                            <br>
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/3.jpg"
-                                  class="img-fluid" />
-                              </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/5.jpg"
-                                  class="img-fluid">
-                              </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                              <a data-size="1600x1067">
-                                <img alt="picture" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/6.jpg"
-                                  class="img-fluid" />
-                              </a>
-                            </figure>
-
-
-                          </div>
-
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End off container -->
-        </section><!-- End off Blog Section -->
-
-        <section id="ustedes" class="portfolio sections">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <h2 class="font-invite-me" style="color: #797979"> Gracias por acompañarnos </h2>
-                                <div class="separator"></div>
-                            </div>
-                        </div>
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12">
-
-                              <div id="mdb-lightbox-ui"></div>
-
-                              <div class="mdb-lightbox no-margin">
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/7.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/8.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/9.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/10.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/11.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/12.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/13.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/15.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/16.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/14.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/17.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                                <figure class="col-md-4">
-                                  <a data-size="1600x1067">
-                                    <img alt="picture" src="assets_invitaciones/images/boda/18.jpg"
-                                      class="img-fluid">
-                                  </a>
-                                </figure>
-
-                              </div>
-
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End off container -->
-        </section> <!-- End off Work Section -->
-
-        <section id="frase" class="portfolio sections" style="padding-top:0px">
-            <div class="container">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                              <div class="separator-v2"></div>
-                                <h2 class="font-invite-me"> Los invitamos a ver un video recopilatorio de nuestro matrimonio ❤️</h2>
-                                <br><br>
-                                <iframe width="100%" height="600px" src="https://www.youtube.com/embed/mX8URedaZWI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Footer section-->
-
-        <section class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="main_footer">
-                            <div class="row">
-                                <div class="col-md-4 col-md-offset-4">
-                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me" style="float:none" href="/" target="_blank"> Invite-me </a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End off footer Section-->
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 
-    <!-- START SCROLL TO TOP  -->
 
-    <div class="scrollup">
-        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+            <div class="header-logo">
+                <a class="site-logo logo-invite-me" href="/">
+                    Invite-me
+                </a>
+            </div>
+
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+        </div>
+
+    </header> <!-- end header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-invitacion target-section parallax-window" data-parallax="scroll" data-image-src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/portada/portada.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+        <div class="shadow-overlay"></div>
+        <div class="home-content">
+            <div class="row home-content__main">
+                <div style="text-align: center;">
+                    <br><br><br><br><br><br>
+                    <h1 class="font-invite-me" style="font-size: 6rem;">
+                        Camila y Jeremías
+                    </h1>
+                    <div class="separator3"></div>
+                    <h2 style="color: rgb(255 255 255);" class="font-invite-me">
+                        11 . 02 . 2023
+                    </h2>
+                </div> <!-- end home-content__left-->
+
+            </div> <!-- end home-content__main -->
+
+        </div> <!-- end home-content -->
+
+        <a href="#mensaje" class="home-scroll smoothscroll">
+            <span class="home-scroll__icon"></span>
+        </a>
+
+    </section> <!-- end s-home -->
+
+
+    <!-- Cuándo
+    ================================================== -->
+    <section class="s-about-how" id="mensaje">
+
+        <div class="row process-wrap-invitacion has-bottom-sep" data-aos="fade-up">
+            <div class="col-full" style="text-align: center;">
+                <p class="lead">
+                    No tenemos palabras para expresar lo agradecidos que estamos por haber compartido con nosotros el día más importante de nuestras vidas. 
+                    Les invitamos a ver las fotos y el video de nuestra boda en esta página web. 
+                    Esperamos que les gusten y que les traigan buenos recuerdos de ese día tan especial.
+                </p>
+            </div>
+        </div>
+    </section> <!-- Cuándo -->
+    <div class="photo-gallery">
+        <div class="container">
+            <h2 class="text-center">Nosotros ❤️</h2>  
+        </div>
+        <div class="row photos">
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/1.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/1.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/2.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/2.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/9.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/9.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/4.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/4.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/3.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/3.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/5.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/5.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/7.jpeg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/7.jpeg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/8.jpeg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/casados/8.jpeg"></a></div>
+        </div>
     </div>
 
-    <script src="../assets_invitaciones/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="../assets_invitaciones/js/vendor/bootstrap.min.js"></script>
+    <div class="photo-gallery">
+        <div class="container">
+            <h2 class="text-center">Fiesta 🕺💃</h2>  
+        </div>
+        <div class="row photos">
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/1-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/1-min.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/2-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/2-min.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/3-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/3-min.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/4-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/4-min.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/5-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/5-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/6-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/6-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/7-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/7-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/8-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/8-min.jpg"></a></div>
+        </div>
+    </div>
 
-    <script src="../assets_invitaciones/js/jquery.magnific-popup.js"></script>
-    <script src="../assets_invitaciones/js/jquery.mixitup.min.js"></script>
-    <script src="../assets_invitaciones/js/jquery.easing.1.3.js"></script>
-    <script src="../assets_invitaciones/js/jquery.masonry.min.js"></script>
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/9-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/9-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/10-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/10-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/11-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/11-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/12-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/12-min.jpg"></a></div>
+        </div>
+    </div>
 
-    <!--slick slide js -->
-    <script src="../assets_invitaciones/css/slick/slick.js"></script>
-    <script src="../assets_invitaciones/css/slick/slick.min.js"></script>
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/13-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/13-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/14-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/14-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/15-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/15-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/16-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/16-min.jpg"></a></div>
+        </div>
+    </div>
 
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/17-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/17-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/18-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/18-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/19-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/19-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/20-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/20-min.jpg"></a></div>
+        </div>
+    </div>
 
-    <script src="../assets_invitaciones/js/plugins.js"></script>
-    <script src="../assets_invitaciones/js/main.js"></script>
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/21-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/21-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/22-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/22-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/23-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/23-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/24-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/24-min.jpg"></a></div>
+        </div>
+    </div>
 
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="../assets_invitaciones/js/simplyCountdown.min.js"></script>
-	<script src="../assets_invitaciones/js/countdown.js"></script>
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/25-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/25-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/26-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/26-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/27-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/27-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/28-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/28-min.jpg"></a></div>
+        </div>
+    </div>
 
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/29-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/29-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/30-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/30-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/31-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/31-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/32-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/32-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/33-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/33-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/34-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/34-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/35-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/35-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/36-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/36-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/37-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/37-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/38-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/38-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/39-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/39-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/40-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/40-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/41-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/41-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/42-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/42-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/43-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/43-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/44-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/44-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/45-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/45-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/46-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/46-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/47-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/47-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/48-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/48-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/49-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/49-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/50-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/50-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/51-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/51-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/52-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/52-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/53-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/53-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/54-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/54-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/55-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/55-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/56-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/56-min.jpg"></a></div>
+        </div>
+    </div>
+
+    <div class="photo-gallery">
+        <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-6 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/57-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/57-min.jpg"></a></div>
+            <div class="col-sm-6 col-md-4 col-lg-6 item"><a href="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/58-min.jpg" data-lightbox="photos"><img class="img-fluid" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/after-boda/cami-jero/fiesta/58-min.jpg"></a></div>
+        </div>
+    </div>
+    
+    <footer> 
+        <div class="row">
+            <div class="col-full ss-copyright">
+                <p>Página creada por </p> <a href="/" class="logo-invite-me"> Invite-me</a>
+            </div>
+        </div> <!-- end footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+    <!-- Java Script
+    ================================================== -->
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
-
-</html>
