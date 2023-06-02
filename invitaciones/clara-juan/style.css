@@ -29,12 +29,12 @@ Author URI: http://bootstrapthemes.co
         -moz-appearance: none;
         appearance: none;
     }
-    .main_home h1 {
-        margin-bottom: -8px;
-    }
     h1 {
         font-size: 4.143rem!important;
         font-weight: unset!important;
+    }
+    .main_home h1 {
+        margin-bottom: -8px;
     }
 }
 @media (min-width: 768px) {
@@ -52,7 +52,8 @@ Author URI: http://bootstrapthemes.co
         margin-bottom: -8px;
     }
     h1 {
-        font-size: 6.143rem!important;
+        font-size: 4.143rem!important;
+        font-weight: unset!important;
     }
 }
 @media (min-width: 992px) {
