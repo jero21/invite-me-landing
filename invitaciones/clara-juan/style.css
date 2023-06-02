@@ -7,76 +7,89 @@ Author URI: http://bootstrapthemes.co
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.frase-portada {
-    font-size: 50px; 
-}
-
-.separator3 {
-    height: 2px;
-    width: 40px;
-    margin:20px auto;
-    background: #BE9E4E;
-    z-index: 10000;
-}
-
 .regalo{
     background-size: auto 100%;
     background-color: #142f52;
 }
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin:20px auto;
+    background: #142f52;
+    z-index: 10000;
+}
 @media (max-width: 768px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada.jpg');
-    background-position: 47% 30%;
-    background-repeat: no-repeat;
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
 
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .main_home h1 {
+        margin-bottom: -8px;
+    }
+    h1 {
+        font-size: 6.143rem!important;
+    }
 }
 @media (min-width: 768px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada.jpg');
-    background-position: 49% 28%;
-    background-repeat: no-repeat;
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
 
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .main_home h1 {
+        margin-bottom: -8px;
+    }
+    h1 {
+        font-size: 6.143rem!important;
+    }
 }
 @media (min-width: 992px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/IMG-20230523-WA0021.jpg');
-    background-position: 31% 51%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  #padrinos {
-    width: 20%;
-  }
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .main_home h1 {
+        margin-bottom: 0px;
+    }
+    h1 {
+        font-size: 8.143rem!important;
+    }
 }
 @media (min-width: 1200px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/IMG-20230523-WA0021.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  #padrinos {
-    width: 20%;
-  }
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
+        background-position: 31% 70%!important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .main_home h1 {
+        margin-bottom: 0px;
+    }
+    h1 {
+        font-size: 8.143rem;
+    }
+    
 }
-
-/*----------------------------------------------------------------------*/
 .logo-invite-me-footer {
     color: #797979 !important;
     font-size: 23px !important; 
@@ -92,7 +105,7 @@ Author URI: http://bootstrapthemes.co
     font-weight: 600;
 }
 .logo-invite-me:hover {
-    color: #5b4f96 !important;
+    color: #142f52 !important;
     font-size: 23px !important; 
     margin-top: 10px;
     font-family: 'Dancing Script', bold;
@@ -257,13 +270,12 @@ h1 {
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:2.571rem;
+    font-size:3.571rem;
     line-height: 3rem;
-
 }
 h3 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:1.714rem;
+    font-size:2.714rem;
     line-height: 2.5rem; 
     color:#fff;
     font-weight: 600;
@@ -453,7 +465,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #5b4f96;
+    background: #142f52;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -500,13 +512,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #BE9E4E;
-    border-color: #BE9E4E;
+    background-color: #142f52;
+    border-color: #142f52;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #BE9E4E;
-    border-color: #BE9E4E;
+    background-color: #142f52;
+    border-color: #142f52;
 }
 .btn {
     display: inline-block;
@@ -519,7 +531,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #BE9E4E;
+    border: 1px solid #142f52;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -555,16 +567,16 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #BE9E4E;
-    border:1px solid #BE9E4E;
+    background: #142f52;
+    border:1px solid #142f52;
 }
 .btn-lg{
-    background: #BE9E4E;
+    background: #142f52;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
     background: white;
-    color:#5b4f96;
+    color:#142f52;
     padding: 1.125rem 3rem;
 }
 .btn-md{
@@ -718,7 +730,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #BE9E4E;
+    border-bottom: 1px solid #142f52;
     background: transparent;
 
 }
@@ -1023,9 +1035,9 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #BE9E4E;
+    color: #142f52;
     text-decoration: none;
-    border: 0px solid #BE9E4E;
+    border: 0px solid #f4720a;
 }
 .portfolio .toolbar{
     margin-bottom:50px;
