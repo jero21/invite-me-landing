@@ -1,5 +1,3 @@
-
-
 /*
 Author: Bootstrapthemes
 Author URI: http://bootstrapthemes.co
@@ -1281,32 +1279,6 @@ button.btn-md:hover {
 .single_pricing a{
     margin-top:30px;
 }
-
-
-
-/*video section css*/
-
-/*.video{
-    background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;
-}
-.video .main_video{
-    padding: 220px 0px 160px 0px;
-    overflow: hidden;
-}
-.video .icon{}
-.video .icon h3{
-    color:#fff;
-    margin-top:30px;
-    margin-bottom: 0px;
-}*/
-
-
-/*about section css*/
-
-
-
-
 
 /* Team section css */
 .main_team_area{
