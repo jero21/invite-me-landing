@@ -12,9 +12,7 @@
     background: #142f52;
     z-index: 10000;
 }
-.musica {
-    text-align: center;
-}
+
 @media (max-width: 768px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
@@ -32,6 +30,9 @@
     }
     .main_home h1 {
         margin-bottom: -8px;
+    }
+    .musica {
+        text-align: center;
     }
 }
 @media (min-width: 768px) {
@@ -53,7 +54,7 @@
         font-weight: unset!important;
     }
     .musica {
-        margin-top: 20px;
+        text-align: center;
     }
 }
 @media (min-width: 992px) {
@@ -74,6 +75,7 @@
         font-weight: unset!important;
     }
     .musica {
+        text-align: center;
         margin-top: 20px;
     }
 }
@@ -95,7 +97,10 @@
         font-size: 8.143rem!important;
         font-weight: unset!important;
     }
-    
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 .logo-invite-me-footer {
     color: #797979 !important;
