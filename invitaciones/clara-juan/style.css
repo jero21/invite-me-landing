@@ -33,7 +33,8 @@ Author URI: http://bootstrapthemes.co
         margin-bottom: -8px;
     }
     h1 {
-        font-size: 6.143rem!important;
+        font-size: 4.143rem!important;
+        font-weight: unset!important;
     }
 }
 @media (min-width: 768px) {
@@ -845,7 +846,7 @@ input::-ms-input-placeholder {
 }
 .main_home h1{
     color: #fff;
-    margin-bottom:20px;
+    margin-bottom:0px;
 }
 .main_home p{
     color: #fff;
