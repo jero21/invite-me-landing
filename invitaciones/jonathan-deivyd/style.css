@@ -59,6 +59,9 @@
         margin-top: 20px;
     }
 }
+h1 {
+    font-weight: normal;
+}
 .row2 {
     margin-right: -6px;
     margin-left: -6px;
