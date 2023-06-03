@@ -1,16 +1,9 @@
-
-
-/*
-Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
-*/
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 .frase-portada {
     font-size: 50px; 
 }
-
 .separator3 {
     height: 2px;
     width: 40px;
@@ -18,34 +11,41 @@ Author URI: http://bootstrapthemes.co
     background: #BE9E4E;
     z-index: 10000;
 }
-
 .regalo{
     background-size: auto 100%;
     background-color: #142f52;
 }
+.row2 {
+    margin-right: -6px;
+    margin-left: -6px;
+}
 @media (max-width: 768px) {
   .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada.jpg');
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada2.jpg');
     background-position: 47% 30%;
     background-repeat: no-repeat;
-
     background-size: cover;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
   }
+  .musica {
+    text-align: center;
+    }
 }
 @media (min-width: 768px) {
   .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada.jpg');
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/claudia-fernando/portada2.jpg');
     background-position: 49% 28%;
     background-repeat: no-repeat;
-
     background-size: cover;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
   }
+  .musica {
+    text-align: center;
+    }
 }
 @media (min-width: 992px) {
   .home{
@@ -57,9 +57,13 @@ Author URI: http://bootstrapthemes.co
     -moz-appearance: none;
     appearance: none;
   }
-  #padrinos {
-    width: 20%;
-  }
+    #padrinos-img {
+        width: 20%;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 @media (min-width: 1200px) {
   .home{
@@ -71,9 +75,13 @@ Author URI: http://bootstrapthemes.co
     -moz-appearance: none;
     appearance: none;
   }
-  #padrinos {
-    width: 20%;
-  }
+    #padrinos-img {
+        width: 20%;
+    } 
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 /*----------------------------------------------------------------------*/
