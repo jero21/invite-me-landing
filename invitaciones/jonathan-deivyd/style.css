@@ -7,6 +7,68 @@ Author URI: http://bootstrapthemes.co
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/portada.JPG');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .musica {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/portada.JPG');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/portada.JPG');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/portada.JPG');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+.regalo{
+    background-size: auto 100%;
+    background-color: #142f52;
+}
 .logo-invite-me-footer {
     color: #797979 !important;
     font-size: 23px !important; 
@@ -449,7 +511,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #ebc1c8;
+    border: 1px solid #efcdd3;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -489,7 +551,7 @@ Button
     border:1px solid #e99891;
 }
 .btn-lg{
-    background: #ebc1c8;
+    background: #efcdd3;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -648,7 +710,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #ebc1c8;
+    border-bottom: 1px solid #efcdd3;
     background: transparent;
 
 }
