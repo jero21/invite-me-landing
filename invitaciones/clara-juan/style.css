@@ -1,6 +1,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.fotos > img {
+    margin-bottom: 10px;
+}
 .regalo{
     background-size: auto 100%;
     background-color: #142f52;
@@ -33,6 +36,12 @@
     }
     .musica {
         text-align: center;
+    }
+    .simply-amount {
+        font-size: 50px!important;
+    }
+    .simply-word {
+        font-size: 25px;
     }
 }
 @media (min-width: 768px) {
@@ -275,7 +284,7 @@ h5 {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 5.143rem;
+    font-size: 6.143rem;
     line-height: 5.5rem;
     color:#fff;
     letter-spacing: .4rem;
@@ -424,7 +433,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #ad7281;
+    background: #efb810;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -435,7 +444,7 @@ Separator
     bottom:4px;
     height: 1px;
     width: 80px;
-    background: #eee;
+    background: #efb810;
     content:"";
     display: inline-block;
     margin-left: 20px;
@@ -446,7 +455,7 @@ Separator
     bottom:4px;
     height: 1px;
     width: 80px;
-    background: #eee;
+    background: #efb810;
     content:"";
     display: inline-block;
     margin-right: 20px;

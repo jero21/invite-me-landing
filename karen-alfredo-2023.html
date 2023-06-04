@@ -21,7 +21,7 @@
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Great+Vibes&family=Dancing+Script&family=Clicker+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Pompiere&Great+Vibes&family=Dancing+Script&family=Clicker+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
     <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
 
     <!--Theme custom css -->
-    <link rel="stylesheet" href="invitaciones/jonathan-deivyd/style.css">
+    <link rel="stylesheet" href="invitaciones/karen-alfredo/style.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
@@ -46,86 +46,39 @@
     <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style media="screen">
     .simply-amount, .simply-word {
-        color:#ebc1c8;
-        font-family: 'Ovo', serif;
+        color:#ff5757;
+        font-family: 'Pompiere';
     }
     .separator3 {
         height: 2px;
         width: 40px;
         margin:20px auto;
-        background: #ebc1c8;
+        background: #ff5757;
         z-index: 10000;
     }
     .another-letter h3, h2{
-        font-family: 'Ovo', serif;
+        font-family: 'Pompiere';
     }
     .invite-me {
         color: white !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'Clicker Script', bold;
+        font-family: 'amsterdam-two';
         font-weight: 600;
     }
     .invite-me:hover {
         color: #5b4f96 !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'Clicker Script', bold;
+        font-family: 'amsterdam-two';
         font-weight: 600;
     }
     .font-invite-me {
-        font-family: 'Great Vibes', cursive;
+        font-family: 'amsterdam-two';
     }
-    .regalo{
-        background-size: auto 100%;
-        background-color: #142f52;
-    }
-    @media (max-width: 768px) {
-      .home{
-        background: url('invitaciones/karen-alfredo/img/portada.JPG');
-        background-position: 47% 30%;
-        background-repeat: no-repeat;
-
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-      }
-    }
-    @media (min-width: 768px) {
-      .home{
-        background: url('invitaciones/karen-alfredo/img/portada.JPG');
-        background-position: 49% 28%;
-        background-repeat: no-repeat;
-
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-      }
-    }
-    @media (min-width: 992px) {
-      .home{
-        background: url('invitaciones/karen-alfredo/img/portada.JPG');
-        background-position: 31% 51%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-      }
-    }
-    @media (min-width: 1200px) {
-      .home{
-        background: url('invitaciones/karen-alfredo/img/portada.JPG');
-        background-position: 31% 70%!important;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-      }
+    @font-face {
+        font-family: 'amsterdam-two';
+        src: url("invitaciones/karen-alfredo/font/amsterdam-two.ttf") format("opentype");
     }
     </style>
 </head>
@@ -186,7 +139,7 @@
 
         <!--home Section -->
         <section id="home" class="home">
-            <div class="overlay">
+            <div>
                 <div class="home_skew_border">
                     <div class="container">
                         <div class="row">
@@ -196,10 +149,10 @@
                                         <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
                                             <br><br><br><br><br><br><br><br>
                                             <br>
-                                            <h1 class="font-invite-me" style="font-size: 60px">Karen & Alfredo</h1>
-                                            <div class="separator3"></div>
-                                            <div class="">
-                                                <h3  style="font-family: 'Ovo', serif; color: white; font-size: 30px">22 . Diciembre . 2023</h3>
+                                            <h1 class="font-invite-me frase-portada">Karen & Alfredo</h1>
+                                            <div class="separator"></div>
+                                            <div>
+                                                <h2 class="another-letter" style="color: white">22 . Diciembre . 2023</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -220,17 +173,18 @@
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center another-letter">
-                                <h2>¡Estamos contando los días!</h2>
+                                <h2 class="font-invite-me frase-contando-dias">Estamos contando los días!</h2>
+                                <br><br>
                                 <div id="cuenta"></div>
-                                <div class="separator3"></div>
+                                <div class="separator"></div>
                             </div>
                         </div>
                         <div class="container text-center">
                             <div class="row justify-content-md-center another-letter">
                                 <div col-sm-12 class="container">
-                                    <h2 style="color: #797979">Y el anillo pa cuando... ya está y ahora a sellar nuestro amor. </h2>
+                                    <h2 style="color: #797979">Y el anillo pa cuándo?... ya está y ahora a sellar nuestro amor. </h2>
                                     <br><br>
-                                    <h2>Te esperamos el viernes 20 de Octubre del 2023. </h2>
+                                    <h2>Te esperamos el viernes 22 de Diciembre del 2023. </h2>
                                     <h2>Comenzamos a las 19:30 horas</h2>
                                 </div>
                             </div>
@@ -253,7 +207,8 @@
                     <div class="main_blog sections">
                         <div class="text-center">
                             <h1 class="font-invite-me" style="color: #797979">Nosotros</h1>
-                            <div class="separator3"></div>
+                            <br>
+                            <div class="separator"></div>
                             <div class="subtitle">
                                 <h2 class="another-letter" style="color: #797979">Los Ojos son el reflejo del corazón </h2>
                                 <br><br>
@@ -263,7 +218,7 @@
                     <div class="container">
                         <!-- Gallery -->
                         <div class="row">
-                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/1.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
@@ -288,7 +243,7 @@
 
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/4.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
@@ -313,7 +268,7 @@
                                 />
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/8.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
@@ -350,7 +305,8 @@
                         <div class="contact_contant sections" style="padding-bottom: 20px;">
                             <div class="head_title text-center">
                                 <h1 class="font-invite-me" style="color: #797979">Celebración </h1>
-                                <div class="separator3"></div>
+                                <br>
+                                <div class="separator"></div>
                                 <h2 class="another-letter" style="color: #797979"> Espacio Quilín </h2>
                                 <div class="subtitle">
                                     <h3 class="another-letter" style="color: #797979">Av. Quilín 8809, Penalolen, Peñalolén, Región Metropolitana</h3>
@@ -363,37 +319,30 @@
                 </div>
             </div>
         </section>
-        <!-- DressCode-->
-        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9">
+        <hr>
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: white">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <h1 class="font-invite-me" style="color: #ebc1c8"> Dresscode </h1>
-                                <div class="separator3"></div>
-                                <h2 style="color: #ebc1c8" class="another-letter"> Formal </h2>
-                                <div class="separator3"></div>
-                                <h1 style="color: #ebc1c8" class="font-invite-me"> Solo adultos </h1>
-                            </div>
-                        </div>
-                        <div style="clear:both;"></div>
-                    </div>
+                <div class="row text-center">
+                    <img src="invitaciones/karen-alfredo/img/dresscode_celu.png" alt="">
                 </div>
             </div>
         </section>
-
+        <!-- FIN DRESSCODE-->
+        <hr>
+        <!-- REGALOS-->
         <section id="regalos" class="regalo">
             <div class="container">
-                <div class="row">
+                <div class="row2">
                     <div class="main_pricing_area sections">
                         <div class="text-center">
-                            <h1 class="font-invite-me">Regalos</h1>
-                            <div class="separator3"></div>
-                            <div class="subtitle another-letter" style="color:white">
-                                <h3>Nuestro mejor regalo es que nos acompañes esta gran noche</h3>
-                                <h3>Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí. </h3>
-                                <h3>¡Gracias! </h3>
+                            <h1 class="font-invite-me" style="color:#797979">Regalos</h1>
+                            <br><br>
+                            <div class="separator"></div>
+                            <div class="subtitle another-letter">
+                                <h2 style="color:#797979">Nuestro mejor regalo es que nos acompañes esta gran noche</h2>
+                                <h2 style="color:#797979">Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí. </h2>
+                                <h2 style="color:#797979">Gracias! </h2>
                             </div>
                             <br>
                             <div>
@@ -404,15 +353,18 @@
                 </div>
             </div>
         </section>
-
+        <!-- FIN  REGALOS-->
+        <hr>
         <section id="confirmacion" class="portfolio sections">
             <div class="container-fluid">
                 <div class="row">
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <h1 class="font-invite-me" style="color: #797979"> ¿Nos acompañas? </h1>
-                                <div class="separator3"></div>
+                                <h1 class="font-invite-me" style="font-size: 30px; color: #797979"> ¿Nos acompañas? </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <br>
                                 <a href="https://wa.me/+56999640061?text=Hola+confirmamos+asistencia+a+su+matrimonio+❤️" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> CONFÍRMANOS AQUÍ</a>
                             </div>
                         </div>
@@ -432,7 +384,7 @@
                         <div class="contact_contant sections" style="padding-bottom: 20px;">
                             <div class="head_title text-center">
                                 <h1 class="font-invite-me" style="color: #797979">¡Agrega las infaltables! </h1>
-                                <div class="separator3"></div>
+                                <div class="separator"></div>
                                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6TlyUqL302vGugX3HbPDiI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                             </div>
                         </div>
