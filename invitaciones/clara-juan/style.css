@@ -11,12 +11,6 @@
     background: #142f52;
     z-index: 10000;
 }
-.foto_regalos {
-    background-repeat: no-repeat!important;
-    background-position: center center!important;
-    appearance: none!important;
-    height: 670px;
-}
 h1 {
     font-weight: normal!important;
     font-size: 8.143rem!important;
