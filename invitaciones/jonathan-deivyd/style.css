@@ -1,18 +1,9 @@
 .fotos > img {
     margin-bottom: 10px;
 }
-.texto_informativo {
-    font-size: 4.143rem;
-    font-family: 'Benedict';
-    color: #797979
-}
 .row2 {
     margin-right: -6px;
     margin-left: -6px;
-}
-.regalo{
-    background-size: auto 100%;
-    background-color: #d4a8b0;
 }
 .logo-invite-me-footer {
     color: #797979 !important;
