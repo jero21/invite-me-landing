@@ -4,6 +4,17 @@
 .fotos > img {
     margin-bottom: 10px;
 }
+.foto_regalos {
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    appearance: none!important;
+    height: 600px;
+}
+.texto_informativo {
+    font-size: 4.143rem;
+    font-family: 'Benedict';  
+    color: #797979
+}
 @media (max-width: 768px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/portada.JPG');
@@ -16,6 +27,9 @@
     }
     .musica {
         text-align: center;
+    }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/regalos_celu.png');
     }
 }
 @media (min-width: 768px) {
@@ -30,6 +44,9 @@
     }
     .musica {
         text-align: center;
+    }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/regalos_celu.png');
     }
 }
 @media (min-width: 992px) {
@@ -46,6 +63,9 @@
         text-align: center;
         margin-top: 20px;
     }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/regalo2.png');
+    }
 }
 @media (min-width: 1200px) {
     .home{
@@ -60,6 +80,9 @@
     .musica {
         text-align: center;
         margin-top: 20px;
+    }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/jonathan-deivyd-2023/regalo2.png');
     }
 }
 .row2 {

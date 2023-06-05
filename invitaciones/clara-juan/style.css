@@ -4,10 +4,6 @@
 .fotos > img {
     margin-bottom: 10px;
 }
-.regalo{
-    background-size: auto 100%;
-    background-color: #142f52;
-}
 .separator3 {
     height: 2px;
     width: 40px;
@@ -15,7 +11,16 @@
     background: #142f52;
     z-index: 10000;
 }
-
+.foto_regalos {
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    appearance: none!important;
+    height: 670px;
+}
+h1 {
+    font-weight: normal!important;
+    font-size: 8.143rem!important;
+}
 @media (max-width: 768px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
@@ -43,6 +48,12 @@
     .simply-word {
         font-size: 25px;
     }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/regalos_celu.png');
+    }
+    h1 {
+        font-size: 6.143rem!important;
+    }
 }
 @media (min-width: 768px) {
     .home{
@@ -64,6 +75,12 @@
     }
     .musica {
         text-align: center;
+    }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/regalos_celu.png');
+    }
+    h1 {
+        font-size: 6.143rem!important;
     }
 }
 @media (min-width: 992px) {
@@ -87,6 +104,12 @@
         text-align: center;
         margin-top: 20px;
     }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/regalos.png');
+    }
+    h1 {
+        font-size: 8.143rem!important;
+    }
 }
 @media (min-width: 1200px) {
     .home{
@@ -109,6 +132,12 @@
     .musica {
         text-align: center;
         margin-top: 20px;
+    }
+    .foto_regalos {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/regalos.png');
+    }
+    h1 {
+        font-size: 8.143rem!important;
     }
 }
 .logo-invite-me-footer {
