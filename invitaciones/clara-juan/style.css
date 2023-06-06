@@ -274,7 +274,7 @@ Section
 */
 .sections {
     padding-top:85px;
-    padding-bottom: 105px;
+    padding-bottom: 60px;
     /*overflow: hidden;*/
 }
 .sections.footer {
@@ -440,13 +440,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #142f52;
-    border-color: #142f52;
+    background-color: #e8b343;
+    border-color: #e8b343;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #142f52;
-    border-color: #142f52;
+    background-color: #e8b343;
+    border-color: #e8b343;
 }
 .btn {
     display: inline-block;
@@ -459,7 +459,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #142f52;
+    border: 1px solid #e8b343;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -495,11 +495,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #142f52;
-    border:1px solid #142f52;
+    background: #e8b343;
+    border:1px solid #e8b343;
 }
 .btn-lg{
-    background: #142f52;
+    background: #e8b343;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
