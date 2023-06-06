@@ -77,6 +77,41 @@
         font-weight: normal;
         font-size: 20px;
     }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #BE9E4E;
+    }
+    .separator-regalos {
+        width: 10px;
+        height: 10px;
+        margin: 20px auto;
+        background: white;
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+    }
+    .separator-regalos:after {
+        position: absolute;
+        left:5%;
+        bottom:4px;
+        height: 1px;
+        width: 80px;
+        background: white;
+        content:"";
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .separator-regalos:before {
+        position: absolute;
+        right: 5%;
+        bottom:4px;
+        height: 1px;
+        width: 80px;
+        background: white;
+        content:"";
+        display: inline-block;
+        margin-right: 20px;
+    }
     @font-face {
         font-family: 'gistesy';
         src: url("invitaciones/claudia-fernando/font/Gistesy.ttf") format("opentype");
@@ -407,7 +442,7 @@
                     <div class="main_pricing_area sections">
                         <div class="text-center">
                             <h1 class="font-invite-me">Regalos</h1>
-                            <div class="separator"></div>
+                            <div class="separator-regalos"></div>
                             <div class="subtitle another-letter" style="color:white">
                                 <h3 style="font-weight: normal;font-size: 20px;">Nuestro mejor regalo es que nos acompañes esta gran noche,</h3>
                                 <h3 style="font-weight: normal;font-size: 20px;">pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí. </h3>
