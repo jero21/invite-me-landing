@@ -15,6 +15,9 @@ h1 {
     font-weight: normal!important;
     font-size: 8.143rem!important;
 }
+.musica {
+    text-align: center;
+}
 @media (max-width: 768px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/portada.jpeg');
@@ -32,10 +35,7 @@ h1 {
     }
     .main_home h1 {
         margin-bottom: -8px;
-    }
-    .musica {
-        text-align: center;
-    }
+    } 
     .simply-amount {
         font-size: 50px!important;
     }
@@ -67,9 +67,6 @@ h1 {
         font-size: 6.143rem!important;
         font-weight: unset!important;
     }
-    .musica {
-        text-align: center;
-    }
     .foto_regalos {
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/clara-juan-2023/regalos_celu.png');
     }
@@ -95,7 +92,6 @@ h1 {
         font-weight: unset!important;
     }
     .musica {
-        text-align: center;
         margin-top: 20px;
     }
     .foto_regalos {
@@ -124,7 +120,6 @@ h1 {
         font-weight: unset!important;
     }
     .musica {
-        text-align: center;
         margin-top: 20px;
     }
     .foto_regalos {
