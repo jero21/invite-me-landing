@@ -6,7 +6,7 @@
 }
 .regalo{
     background-size: auto 100%;
-    background-color: white;
+    background-color: #1e1e1e;
 }
 h1 {
     font-weight:normal!important;
@@ -263,7 +263,6 @@ h1 {
     font-size: 5.143rem;
     line-height: 5.5rem;
     color:#fff;
-    letter-spacing: .4rem;
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -409,7 +408,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #ff5757;
+    background: #c54238;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -505,13 +504,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #e99891;
-    border-color: #e99891;
+    background-color: #c54238;
+    border-color: #c54238;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #e99891;
-    border-color: #e99891;
+    background-color: #c54238;
+    border-color: #c54238;
 }
 .btn {
     display: inline-block;
@@ -524,7 +523,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #ff5757;
+    border: 1px solid #c54238;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -560,11 +559,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #e99891;
-    border:1px solid #e99891;
+    background: #c54238;
+    border:1px solid #c54238;
 }
 .btn-lg{
-    background: #ff5757;
+    background: #c54238;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -723,7 +722,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #ff5757;
+    border-bottom: 1px solid #c54238;
     background: transparent;
 
 }
@@ -1028,7 +1027,7 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #e99891;
+    color: #c54238;
     text-decoration: none;
     border: 0px solid #f4720a;
 }
