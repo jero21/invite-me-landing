@@ -176,7 +176,7 @@ h5 {
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 5.143rem;
+    font-size: 3.143rem;
     line-height: 5.5rem;
     color:#fff;
     letter-spacing: .4rem;
@@ -307,7 +307,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #BA9745;
+    background: #976b8a;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -407,13 +407,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #BA9745;
-    border-color: #BA9745;
+    background-color: #976b8a;
+    border-color: #976b8a;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #BA9745;
-    border-color: #BA9745;
+    background-color: #976b8a;
+    border-color: #976b8a;
 }
 .btn {
     display: inline-block;
@@ -426,7 +426,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #BA9745;
+    border: 1px solid #976b8a;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -462,11 +462,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #BA9745;
-    border:1px solid #BA9745;
+    background: #976b8a;
+    border:1px solid #976b8a;
 }
 .btn-lg{
-    background: #BA9745;
+    background: #976b8a;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -900,7 +900,7 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #BA9745;
+    color: #976b8a;
     text-decoration: none;
     border: 0px solid #f4720a;
 }

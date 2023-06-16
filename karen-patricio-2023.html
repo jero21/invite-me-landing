@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Karen & Alfredo</title>
+    <title>Karen & Patricio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -21,7 +21,7 @@
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Pompiere&Great+Vibes&family=Dancing+Script&family=Clicker+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Great+Vibes&family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
     <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
@@ -31,64 +31,134 @@
     <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
     <link rel="stylesheet" href="assets_invitaciones/css/magnific-popup.css">
     <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
-    <!--        <link rel="stylesheet" href="assets_invitaciones/css/bootstrap-theme.min.css">-->
-
 
     <!--For Plugins external css-->
     <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
 
     <!--Theme custom css -->
-    <link rel="stylesheet" href="invitaciones/karen-alfredo/style.css">
+    <link rel="stylesheet" href="invitaciones/karen-patricio/style.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
 
     <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style media="screen">
+    .fotos > img {
+        border: 3px solid #BA9745;
+    }
+    .btn {
+        font-family: 'Montserrat'!important;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #a6b082;
+    }
+    .texto_informativo {
+        font-size: 2.143rem;
+        font-family: 'Montserrat';
+        color: #797979
+    }
     .simply-amount, .simply-word {
-        color:#ff5757;
-        font-family: 'Pompiere';
+        color:#976b8a;
+        font-family: 'Montserrat';
     }
     .separator3 {
         height: 2px;
         width: 40px;
         margin:20px auto;
-        background: #ff5757;
+        background: #976b8a;
         z-index: 10000;
     }
-    .another-letter h3, h2{
-        font-family: 'Pompiere';
+    .another-letter > h3, h2{
+        font-family: 'Montserrat';
+        font-size: 22px;
     }
     .invite-me {
         color: white !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'amsterdam-two';
+        font-family: 'Great Vibes', cursive;
         font-weight: 600;
     }
     .invite-me:hover {
         color: #5b4f96 !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'amsterdam-two';
+        font-family: 'Great Vibes', cursive;
         font-weight: 600;
     }
-    .font-invite-me {
-        font-family: 'amsterdam-two';
+    .font-principal {
+        font-family: 'Halimun';
+    }
+    h1 {
+        font-weight: normal;
     }
     @font-face {
-        font-family: 'amsterdam-two';
-        src: url("invitaciones/karen-alfredo/font/amsterdam-two.ttf") format("opentype");
+        font-family: 'Halimun';
+        src: url("invitaciones/karen-patricio/font/Halimun.ttf") format("opentype");
+    }
+    @media (max-width: 768px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/portada.jpg');
+            background-position: 47% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none; 
+        }
+        .musica {
+            text-align: center;
+        }
+    }
+    @media (min-width: 768px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/portada.jpg');
+            background-position: 49% 28%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+        }
+    }
+    @media (min-width: 992px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/4.jpg');
+            background-position: 31% 51%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/4.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+            margin-top: 20px;
+        }
     }
     </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
-    <!--
-    <div class='preloader'>
-        <div class='loaded'>&nbsp;</div>
-    </div>
-    -->
     <div class="culmn">
         <header id="main_menu" class="header navbar-fixed-top">
             <div class="main_menu_bg">
@@ -118,7 +188,6 @@
                                             <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
                                             <li><a href="#nosotros">NOSOTROS</a></li>
                                             <li><a href="#donde">¿DÓNDE?</a></li>
-                                            <li><a href="#dresscode">DRESSCODE</a></li>
                                             <li><a href="#regalos">REGALOS</a></li>
                                             <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
                                         </ul>
@@ -134,12 +203,9 @@
         </header>
         <!--End of header -->
 
-
-
-
         <!--home Section -->
         <section id="home" class="home">
-            <div>
+            <div class="overlay">
                 <div class="home_skew_border">
                     <div class="container">
                         <div class="row">
@@ -147,21 +213,22 @@
                                 <div class="main_home_slider text-center">
                                     <div class="single_home_slider">
                                         <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
-                                            <br><br><br><br><br><br><br><br>
+                                            <br><br>
                                             <br>
-                                            <h1 class="font-invite-me frase-portada">Karen & Alfredo</h1>
+                                            <h1 class="font-principal" style="font-size: 40px">Karem </h1>
+                                            <h1 class="font-principal" style="font-size: 40px"> y </h1>
+                                            <h1 class="font-principal" style="font-size: 40px"> Patricio </h1>
+                                            <br>
                                             <div class="separator"></div>
+                                            <br>
                                             <div>
-                                                <h2 class="another-letter" style="color: white">22 . Diciembre . 2023</h2>
+                                                <h3 style="font-family:'Montserrat'; color: white; font-size: 20px; font-weight:normal"> 20 . Enero . 2024</h3>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="scrooldown">
-                        <a href="#tiempo"><i class="fa fa-arrow-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -173,8 +240,7 @@
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center another-letter">
-                                <h2 class="font-invite-me frase-contando-dias">Estamos contando los días!</h2>
-                                <br><br>
+                                <h1 class="texto_informativo" style="color: #797979">Estamos contando los días!</h1>
                                 <div id="cuenta"></div>
                                 <div class="separator"></div>
                             </div>
@@ -182,10 +248,9 @@
                         <div class="container text-center">
                             <div class="row justify-content-md-center another-letter">
                                 <div col-sm-12 class="container">
-                                    <h2 style="color: #797979">Y el anillo pa cuándo?... ya está y ahora a sellar nuestro amor. </h2>
                                     <br><br>
-                                    <h2>Te esperamos el viernes 22 de Diciembre del 2023. </h2>
-                                    <h2>Comenzamos a las 19:30 horas</h2>
+                                    <h2 style="font-family: 'Montserrat'">Te esperamos el viernes 20 de Enero del 2024. </h2>
+                                    <h2 style="font-family: 'Montserrat'">Comenzamos a las 12:00 horas</h2>
                                 </div>
                             </div>
                         </div>
@@ -196,8 +261,8 @@
                         <div style="clear:both;"></div>
                     </div>
                 </div>
-            </div><!-- End off container -->
-        </section> <!-- End off Work Section -->
+            </div>
+        </section>
 
 
         <!-- Blog Section -->
@@ -206,156 +271,126 @@
                 <div class="row">
                     <div class="main_blog sections">
                         <div class="text-center">
-                            <h1 class="font-invite-me" style="color: #797979">Nosotros</h1>
+                            <h1 class="font-principal" style="color: #a6b082">Nosotros</h1>
                             <br>
                             <div class="separator"></div>
                             <div class="subtitle">
-                                <h2 class="another-letter" style="color: #797979">Los Ojos son el reflejo del corazón </h2>
+                                <h2 style="font-family: 'Montserrat'; font-size: 22px; color: #797979">Muchas historias de amor decaen con el tiempo, la nuestra madura y se llena de amor cada día. </h2>
                                 <br><br>
                             </div>
-                        </div><!-- End off Head_title -->
+                        </div>
                     </div>
                     <div class="container">
                         <!-- Gallery -->
                         <div class="row">
-                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/1.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/2.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"
-                                />
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/3.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/4.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/8.jpeg"
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/1.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
                                 />
 
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/9.jpeg"
-                                    
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/2.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
                                 />
 
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/6.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
+                            </div>
 
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/7.jpeg"
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/3.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
                                 />
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/5.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/10.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/11.jpeg"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                />
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/12.jpeg"
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-patricio-2023/4.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
                                 />
                             </div>
-                        </div> <!-- Gallery -->
+                        </div>
                     </div>
                 </div>
-            </div><!-- End off container -->
-        </section><!-- End off Blog Section -->
+            </div>
+        </section>
 
+        <!-- CENTRO DE EVENTOS-->
         <section id="donde" class="contact-v2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="contact_contant sections" style="padding-bottom: 20px;">
                             <div class="head_title text-center">
-                                <h1 class="font-invite-me" style="color: #797979">Celebración </h1>
+                                <h1 class="font-principal" style="color: #a6b082">Centro de eventos </h1>
+                                <br>
+                                <h2 class="texto_informativo">12:00 horas</h2>
                                 <br>
                                 <div class="separator"></div>
-                                <h2 class="another-letter" style="color: #797979"> Espacio Quilín </h2>
+                                <h2 class="texto_informativo">El Rincón del Gaucho </h2>
                                 <div class="subtitle">
-                                    <h3 class="another-letter" style="color: #797979">Av. Quilín 8809, Penalolen, Peñalolén, Región Metropolitana</h3>
+                                    <h3 style="font-family: 'Montserrat';color: #797979">Camino a Toltén km 3, Sector Baja de Piedra - Pitrufquén</h3>
                                 </div>
                                 <br>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.481272004232!2d-70.54459013836907!3d-33.501613398657334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d119e1d0fd79%3A0xe2bfb616a3ed05ba!2zQXYuIFF1aWzDrW4gODgwOSwgUGVuYWxvbGVuLCBQZcOxYWxvbMOpbiwgUmVnacOzbiBNZXRyb3BvbGl0YW5h!5e0!3m2!1ses!2scl!4v1685491065135!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div><!-- End off Head_title -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.6787540584123!2d-72.67351649999999!3d-38.999827499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614dfd92298271b%3A0x4a0d5a9952c3eb5a!2sEL%20RINCON%20DEL%20GAUCHO!5e0!3m2!1ses!2scl!4v1686882988812!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
-        <!-- DRESSCODE-->
-        <section id="dresscode" class="portfolio sections" style="background-color: white">
-            <div class="container-fluid">
-                <div class="row text-center">
-                    <img src="invitaciones/karen-alfredo/img/dresscode_celu.png" alt="">
-                </div>
-            </div>
-        </section>
-        <!-- FIN DRESSCODE-->
-        <hr>
+        <!-- FIN CENTRO DE EVENTOS-->        
+
+        
         <!-- REGALOS-->
         <section id="regalos" class="regalo">
             <div class="container">
                 <div class="row2">
                     <div class="main_pricing_area sections">
                         <div class="text-center">
-                            <h1 class="font-invite-me" style="color:#797979">Regalos</h1>
-                            <br><br>
+                            <h1 class="font-principal">Regalos</h1>
+                            <br>
                             <div class="separator"></div>
-                            <div class="subtitle another-letter">
-                                <h2 style="color:#797979">Nuestro mejor regalo es que nos acompañes esta gran noche</h2>
-                                <h2 style="color:#797979">Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí. </h2>
-                                <h2 style="color:#797979">Gracias! </h2>
+                            <div class="another-letter" style="color:white">
+                                <h2>En nuestro día especial, su presencia es el mejor regalo que podríamos desear.</h2>
+                                <h2>Si desean honrarnos con un obsequio, preferimos depósitos bancarios</h2>
+                                <h2>para ayudarnos a construir un futuro juntos.</h2>
+                                <br>
+                            </div>
+                            <br><br>
+                            <div class="another-letter" style="color:white">
+                                <h2>Titular: Karen Mena Bertoline</h2>
+                                <h2>Banco: Banco Estado</h2>
+                                <h2>RUN: 19.036.817-3</h2>
+                                <h2>Cuenta VISTA</h2>
+                                <h2>N° 19036817</h2>
                             </div>
                             <br>
-                            <div>
-                                <a href="https://milistadenovios.cl/lista/alfredoykaren" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE NOVIOS</a>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- FIN  REGALOS-->
-        <hr>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
         <section id="confirmacion" class="portfolio sections">
             <div class="container-fluid">
                 <div class="row">
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <h1 class="font-invite-me" style="font-size: 30px; color: #797979"> ¿Nos acompañas? </h1>
+                                <h1 class="font-principal" style="color: #a6b082;"> ¡No te lo pierdas!</h1>
+                                <br>
+                                <h2 class="another-letter" style="color: #797979;"> No olvides confirmar tu asistencia</h2>
                                 <br>
                                 <div class="separator"></div>
                                 <br>
-                                <a href="https://wa.me/+56999640061?text=Hola+confirmamos+asistencia+a+su+matrimonio+❤️" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> CONFÍRMANOS AQUÍ</a>
+                                <a href="https://wa.me/+56954138401?text=Hola+confirmamos+asistencia+a+su+matrimonio!" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> Novia</a>
+                                <a href="https://wa.me/+56961562248?text=Hola+confirmamos+asistencia+a+su+matrimonio!" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> Novio</a>           
                             </div>
                         </div>
                         <div style="clear:both;"></div>
@@ -363,27 +398,8 @@
                 </div>
             </div>
         </section>
+        <!-- FIN CONFIRMACIÓN-->
 
-        <!-- DressCode-->
-        <!-- Spotify-->
-        <!--
-        <section id="spotify" class="contact-v2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="contact_contant sections" style="padding-bottom: 20px;">
-                            <div class="head_title text-center">
-                                <h1 class="font-invite-me" style="color: #797979">¡Agrega las infaltables! </h1>
-                                <div class="separator"></div>
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6TlyUqL302vGugX3HbPDiI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-        <!-- Spotify-->
         <section class="footer">
             <div class="container">
                 <div class="row">
@@ -424,8 +440,8 @@
     <script src="assets_invitaciones/js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="invitaciones/jonathan-deivyd/simplyCountdown.min.js"></script>
-	<script src="invitaciones/jonathan-deivyd/countdown.js"></script>
+	<script src="invitaciones/karen-patricio/simplyCountdown.min.js"></script>
+	<script src="invitaciones/karen-patricio/countdown.js"></script>
 
 </body>
 </html>
