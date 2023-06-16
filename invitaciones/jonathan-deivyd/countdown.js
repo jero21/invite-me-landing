@@ -8,7 +8,7 @@ simplyCountdown('#cuenta', {
 	words: { //words displayed into the countdown
 		days: 'Día',
 		hours: 'Hora',
-		minutes: 'Minuto',
+		minutes: 'Minutos',
 		seconds: 'Segundo',
 		pluralLetter: 's'
 	},

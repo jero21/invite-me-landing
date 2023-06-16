@@ -179,7 +179,6 @@ h1 {
     font-size: 3.143rem;
     line-height: 5.5rem;
     color:#fff;
-    letter-spacing: .4rem;
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -609,7 +608,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #efcdd3;
+    border-bottom: 1px solid #976b8a;
     background: transparent;
 
 }
