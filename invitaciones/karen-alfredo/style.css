@@ -4,84 +4,8 @@
 .fotos > img {
     margin-bottom: 10px;
 }
-.regalo{
-    background-size: auto 100%;
-    background-color: #1e1e1e;
-}
 h1 {
     font-weight:normal!important;
-}
-@media (max-width: 768px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/portada.JPG');
-    background-position: 47% 30%;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    
-  }
-  .frase-contando-dias {
-    font-size: 3.143rem;
-  }
-  .frase-portada {
-    font-size: 2.143rem;
-  }
-}
-@media (min-width: 768px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/portada.JPG');
-    background-position: 49% 28%;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .frase-contando-dias {
-    font-size: 2.143rem;
-  }
-  .frase-portada {
-    font-size: 3.143rem;
-  }
-}
-@media (min-width: 992px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/portada.JPG');
-    background-position: 31% 51%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .frase-contando-dias {
-    font-size: 4.143rem;
-  }
-  .frase-portada {
-    font-size: 3.143rem;
-  }
-}
-@media (min-width: 1200px) {
-  .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/karen-alfredo-2023/portada.JPG');
-    background-position: 31% 70%!important;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  .frase-contando-dias {
-    font-size: 5.143rem;
-  }
-  .frase-portada {
-    font-size: 5.143rem
-  }
 }
 .row2 {
     margin-right: -6px;
@@ -261,7 +185,6 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 5.143rem;
-    line-height: 5.5rem;
     color:#fff;
 }
 h2 {
