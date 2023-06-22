@@ -1,254 +1,415 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js" lang="es">
+<!--<![endif]-->
+
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
-    <meta name="language" content="es">
-    <title>Fabiola-Felipe</title>
-
-    <!--Google Fonts link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- mobile specific metas
-    ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Karen & Patricio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/modal.css">
-    <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- script
-    ================================================== -->
-    <script src="assets/js/modernizr.js"></script>
-    <script src="assets/js/pace.min.js"></script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <link rel="icon" href="icon.ico" type="image/x-icon">
-</head>
-<style>
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Great+Vibes&family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/fabiola-felipe/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
+
+    <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style media="screen">
+    .fotos > img {
+        border: 3px solid #976b8a;
+    }
+    .btn {
+        font-family: 'Montserrat'!important;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #a6b082;
+    }
+    .texto_informativo {
+        font-size: 2.143rem;
+        font-family: 'Montserrat';
+        color: #797979
+    }
     .simply-amount, .simply-word {
-        color:pink;
+        color:#976b8a;
+        font-family: 'Montserrat';
     }
     .separator3 {
         height: 2px;
         width: 40px;
         margin:20px auto;
-        background: pink;
+        background: #976b8a;
         z-index: 10000;
     }
-    .home-content h1::before {
-        background-color: #00000000!important;
+    .another-letter > h3, h2{
+        font-family: 'Montserrat';
+        font-size: 22px;
     }
-    .home-content {
-        padding-top: 11rem;
+    .invite-me {
+        color: white !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
     }
-</style>
+    .invite-me:hover {
+        color: #5b4f96 !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+    }
+    .font-principal {
+        font-family: 'Halimun';
+    }
+    h1 {
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Halimun';
+        src: url("invitaciones/fabiola-felipe/font/Halimun.ttf") format("opentype");
+    }
+    @media (max-width: 768px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+            background-position: 47% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none; 
+        }
+        .musica {
+            text-align: center;
+        }
+    }
+    @media (min-width: 768px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+            background-position: 49% 28%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+        }
+    }
+    @media (min-width: 992px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+            background-position: 31% 51%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .home{
+            background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        .musica {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    </style>
+</head>
 
-<body id="top">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N92H7K8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
+                                            Invite-me
+                                        </a>
+                                    </div>
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#regalos">REGALOS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br>
+                                            <br>
+                                            <h1 class="font-principal" style="font-size: 40px">Fabiola </h1>
+                                            <h1 class="font-principal" style="font-size: 40px"> y </h1>
+                                            <h1 class="font-principal" style="font-size: 40px">Felipe </h1>
+                                            <br>
+                                            <div class="separator"></div>
+                                            <br>
+                                            <div>
+                                                <h3 style="font-family:'Montserrat'; color: white; font-size: 20px; font-weight:normal"> 10 . Febrero . 2024</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tiempo" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center another-letter">
+                                <h1 class="texto_informativo" style="color: #797979; font-size: 30px;">Estamos contando los días!</h1>
+                                <div id="cuenta"></div>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center another-letter">
+                                <div col-sm-12 class="container">
+                                    <br><br>
+                                    <h2 style="font-family: 'Montserrat'">Te esperamos el Sabado 10 de Febrero del 2024. </h2>
+                                    <h2 style="font-family: 'Montserrat'">Comenzamos a las 18:30 horas</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        </div>
+
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_blog sections">
+                        <div class="text-center">
+                            <h1 class="font-principal" style="color: #a6b082">Nosotros</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="subtitle">
+                                <h2 style="font-family: 'Montserrat'; font-size: 22px; color: #797979">Muchas historias de amor decaen con el tiempo, la nuestra madura y se llena de amor cada día. </h2>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/1.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/2.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/3.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+
+                            <div class="col-lg-3 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/4.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-principal">Regalos</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="another-letter" style="color:white">
+                                <h2>Nuestro mejor regalo es que nos acompañes esta gran noche</h2>
+                                <h2>Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí</h2>
+                                <h2>Creamos una lista de regalos donde podrás escoger</h2>
+                                <br>
+                                <h2>Gracias!</h2>
+                            </div>
+                            <br><br>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE NOVIOS</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CENTRO DE EVENTOS-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #a6b082">Evento </h1>
+                                <br>
+                                <h2 class="texto_informativo">18:30 horas</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">Centro de eventos Fajamaisan, Freire Araucanía </h2>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.41324429505!2d-72.70067565189606!3d-38.85138990541353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d81a824e731d%3A0x10ec0c928187adea!2sCentro%20Eventos%20Faja%20Maisan!5e0!3m2!1ses!2scl!4v1662987479095!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CENTRO DE EVENTOS-->      
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_footer">
+                            <div class="row">
+                                <div class="col-md-4 col-md-offset-4">
+                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me-footer" style="float:none;" href="/" target="_blank"> Invite-me </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
+    <!-- START SCROLL TO TOP  -->
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="row">
-            <div class="header-logo">
-                <a class="site-logo logo-invite-me" href="/">
-                    Invite-me
-                </a>
-            </div>
-
-            <nav class="header-nav-wrap">
-                <ul class="header-main-nav">
-                    <li class="current"><a class="smoothscroll" href="#home" title="inicio">INICIO</a></li>
-                    <li class="current"><a class="smoothscroll" href="#cuando" title="cuando">¿CUÁNDO?</a></li>
-                    <li class="current"><a class="smoothscroll" href="#nosotros" title="nosotros">NOSOTROS</a></li>
-                    <li class="current"><a class="smoothscroll" href="#regalos" title="regalos">REGALOS</a></li>
-                    <li class="current"><a class="smoothscroll" href="#donde" title="donde">¿DÓNDE?</a></li>
-            </nav> <!-- end header-nav-wrap -->
-
-            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-        </div>
-
-    </header> <!-- end header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-invitacion target-section parallax-window" data-parallax="scroll" data-image-src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-        <div class="shadow-overlay"></div>
-        <div class="home-content">
-            <div class="row home-content__main">
-                <div style="text-align: center;">
-                    <br><br><br><br><br><br>
-                    <h1 class="font-invite-me" style="font-size: 6rem;">
-                        Fabiola y Felipe
-                    </h1>
-                    <div class="separator3"></div>
-                    <h2 style="color: rgb(255 255 255);" class="font-invite-me">
-                        27 . 02 . 2024
-                    </h2>
-                </div> <!-- end home-content__left-->
-
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <a href="#examples" class="home-scroll smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a>
-
-    </section> <!-- end s-home -->
-
-
-    <!-- Cuándo
-    ================================================== -->
-    <section class="s-about-how" id="cuando">
-
-        <div class="row process-wrap-invitacion has-bottom-sep" data-aos="fade-up">
-            <div class="col-full" style="text-align: center;">
-                <h1 class="display-1">
-                    ¡Estamos contando los días!
-                </h1>
-                <div id="cuenta"></div>
-                <div class="separator3"></div>
-                <p class="lead">
-                    No queremos que te pierdas por nada del mundo nuestro matrimonio.
-                </p>
-                <h2>Te esperamos el Sábado 10 de Febrero del 2024. <br>    Comenzamos a las 18:00 hrs. y finalizamos a las 04:30 hrs.</h2>
-            </div>
-        </div>
-    </section> <!-- Cuándo -->
-
-    <!-- Fotos -->
-    <section class="s-about-how" id="nosotros">
-
-        <div class="row process-wrap-invitacion has-bottom-sep" data-aos="fade-up">
-            <div class="col-full" style="text-align: center;">
-                <h1 class="display-1">
-                    Nosotros ❤️
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row wide about-desc" data-aos="fade-up" >
-
-            <div class="col-full slick-slider about-desc__slider">
-
-                <div class="about-desc__slide">
-                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/4.jpg" alt="Ejemplo de invitación pdf 1" id="1" class="myImg" onClick="reply_click(this.id)">
-                </div>
-
-                <div class="about-desc__slide">
-                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/11.jpg" alt="Ejemplo de invitación pdf 2" id="2" class="myImg" onClick="reply_click(this.id)">
-                </div>
-
-                <div class="about-desc__slide">
-                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/5.jpg" alt="Ejemplo de invitación pdf extendido" id="3" class="myImg" onClick="reply_click(this.id)">
-                </div>
-
-                <div class="about-desc__slide">
-                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/3.jpg" alt="Ejemplo de invitación pdf extendido" id="4" class="myImg" onClick="reply_click(this.id)">
-                </div>
-            </div>
-            
-        </div> 
-    </section>
-    <!-- Fotos -->
-
-    <!-- Modal -->
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content imagen_modald" id="img01" alt="imágen en modal">
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
-    <!-- End Modal -->
-    
-    <!-- Regalos
-    ================================================== -->
-    <section class="s-about-how" id="regalos" style="background-color: #5b4f96;">
 
-        <div class="row process-wrap-invitacion has-bottom-sep" data-aos="fade-up">
-            <div class="col-full" style="text-align: center;">
-                <h1 class="display-1" style="color:white">
-                    Regalos
-                </h1>
-                <p class="lead" style="color:white">
-                    Nuestro mejor regalo es que nos acompañes esta gran noche
-                    Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí.
-                    Creamos una lista de regalos donde podrás escoger
-                    ¡Gracias!
-                </p>
-                <div class="separator3"></div>
-                <a href="#" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE REGALOS</a>
-            </div>
-        </div>
-    </section> 
-    <!-- Regalos -->
+    <script src="assets_invitaciones/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets_invitaciones/js/vendor/bootstrap.min.js"></script>
 
-    <!-- Dónde
-    ================================================== -->
-    <section class="s-about-how" id="donde">
+    <script src="assets_invitaciones/js/jquery.magnific-popup.js"></script>
+    <script src="assets_invitaciones/js/jquery.mixitup.min.js"></script>
+    <script src="assets_invitaciones/js/jquery.easing.1.3.js"></script>
+    <script src="assets_invitaciones/js/jquery.masonry.min.js"></script>
 
-        <div class="row process-wrap-invitacion has-bottom-sep" data-aos="fade-up">
-            <div class="col-full" style="text-align: center;">
-                <h1 class="display-1">
-                    Centro de eventos Los Larureles
-                </h1>
-                <p class="lead">
-                    Km 13, Camino Lanco
-                </p>
-                <div class="separator3"></div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.41324429505!2d-72.70067565189606!3d-38.85138990541353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d81a824e731d%3A0x10ec0c928187adea!2sCentro%20Eventos%20Faja%20Maisan!5e0!3m2!1ses!2scl!4v1662987479095!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </section> 
-    <!-- Dónde -->
+    <!--slick slide js -->
+    <script src="assets_invitaciones/css/slick/slick.js"></script>
+    <script src="assets_invitaciones/css/slick/slick.min.js"></script>
 
-    <footer> 
-        <div class="row">
-            <div class="col-full ss-copyright">
-                <p>Página creada por </p> <a href="/" class="logo-invite-me"> Invite-me</a>
-            </div>
-        </div> <!-- end footer__bottom -->
 
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
-        </div>
+    <script src="assets_invitaciones/js/plugins.js"></script>
+    <script src="assets_invitaciones/js/main.js"></script>
 
-    </footer> <!-- end s-footer -->
-    <!-- Java Script
-    ================================================== -->
-    <script src="assets/js/modal.js"></script>
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets_invitaciones/js/simplyCountdown.min.js"></script>
-	<script src="assets_invitaciones/js/countdown.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="invitaciones/fabiola-felipe/simplyCountdown.min.js"></script>
+	<script src="invitaciones/fabiola-felipe/countdown.js"></script>
 
 </body>
+</html>
