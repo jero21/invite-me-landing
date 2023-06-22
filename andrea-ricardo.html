@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Andrea-Ricardo</title>
+    <title>Cecilia & Gerardo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -21,8 +21,7 @@
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Clicker+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Great+Vibes&family=Pompiere&family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
     <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
@@ -32,80 +31,97 @@
     <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
     <link rel="stylesheet" href="assets_invitaciones/css/magnific-popup.css">
     <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
-    <!--        <link rel="stylesheet" href="assets_invitaciones/css/bootstrap-theme.min.css">-->
-
 
     <!--For Plugins external css-->
     <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
 
     <!--Theme custom css -->
-    <link rel="stylesheet" href="assets_invitaciones/css/style.css">
+    <link rel="stylesheet" href="invitaciones/cecilia-gerardo/style.css">
 
     <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
 
     <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style media="screen">
-    .musica {
-        text-align: center;
+    .fotos > img {
+        border: 3px solid #BA9745;
+    }
+    .btn {
+        font-family: 'Pompiere'!important;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #ABBBA0;
+    }
+    .texto_informativo {
+        font-size: 4.143rem;
+        font-family: 'Pompiere';
+        color: #797979
     }
     .simply-amount, .simply-word {
-        color:pink;
+        color:#ABBBA0;
+        font-family: 'Pompiere';
     }
     .separator3 {
         height: 2px;
         width: 40px;
         margin:20px auto;
-        background: pink;
+        background: #efcdd3;
         z-index: 10000;
     }
-    .another-letter h3, h2{
-        font-family: 'Open Sans';
+    .another-letter > h3, h2{
+        font-family: 'Pompiere';
     }
     .invite-me {
         color: white !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'Clicker Script', bold;
+        font-family: 'Great Vibes', cursive;
         font-weight: 600;
     }
     .invite-me:hover {
         color: #5b4f96 !important;
         font-size: 30px !important; 
         margin-top: 10px;
-        font-family: 'Clicker Script', bold;
+        font-family: 'Great Vibes', cursive;
         font-weight: 600;
     }
     .font-invite-me {
-        font-family: 'Clicker Script', cursive;
+        font-family: 'Great Vibes', cursive;
+    }
+    h1 {
+        font-weight: normal;
     }
     @media (max-width: 768px) {
-      .home{
+    .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
         background-position: 47% 30%;
         background-repeat: no-repeat;
-
         background-size: cover;
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none;
-      }
-
+        appearance: none; 
     }
-    @media (min-width: 768px) {
-      .home{
+    .musica {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
         background-position: 49% 28%;
         background-repeat: no-repeat;
-
         background-size: cover;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-      }
     }
-    @media (min-width: 992px) {
-      .home{
+    .musica {
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
         background-position: 31% 51%;
         background-repeat: no-repeat;
@@ -113,13 +129,14 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-      }
-      .musica {
-            margin-top: 20px;
-        }
     }
-    @media (min-width: 1200px) {
-      .home{
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
         background-repeat: no-repeat;
         background-position: center center;
@@ -127,20 +144,16 @@
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-      }
-      .musica {
-            margin-top: 20px;
-        }
     }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
     </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
-    <!--
-    <div class='preloader'>
-        <div class='loaded'>&nbsp;</div>
-    </div>
-    -->
     <div class="culmn">
         <header id="main_menu" class="header navbar-fixed-top">
             <div class="main_menu_bg">
@@ -168,12 +181,11 @@
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a href="#home">INICIO</a></li>
                                             <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
-                                            <li><a href="#donde">¿DÓNDE?</a></li>
                                             <li><a href="#nosotros">NOSOTROS</a></li>
-                                            <li><a href="#regalos">REGALOS</a></li>   
-                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
                                             <li><a href="#dresscode">DRESSCODE</a></li>
-                                            <li><a href="#spotify">MÚSICA</a></li>
+                                            <li><a href="#regalos">REGALOS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -187,9 +199,6 @@
         </header>
         <!--End of header -->
 
-
-
-
         <!--home Section -->
         <section id="home" class="home">
             <div class="overlay">
@@ -200,12 +209,16 @@
                                 <div class="main_home_slider text-center">
                                     <div class="single_home_slider">
                                         <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
-                                            <br><br><br><br><br><br><br><br>
+                                            <br><br>
                                             <br>
-                                            <h1 class="font-invite-me" style="font-size: 60px">Andrea y Ricardo</h1>
-                                            <div class="separator3"></div>
-                                            <div class="home_btn">
-                                                <h2 class="font-invite-me" style="color: white; font-size: 40px">10 . Febrero . 2024</h2>
+                                            <h1 class="font-invite-me" style="font-size: 60px">Andrea </h1>
+                                            <h1 class="font-invite-me" style="font-size: 60px"> & </h1>
+                                            <h1 class="font-invite-me" style="font-size: 60px"> Ricardo</h1>
+                                            <br>
+                                            <div class="separator"></div>
+                                            <br>
+                                            <div>
+                                                <h3 style="font-family: 'Pompiere'; color: white; font-size: 20px">10 . Febrero . 2024</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -213,15 +226,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="scrooldown">
-                        <a href="#tiempo"><i class="fa fa-arrow-down"></i></a>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- MUSICA-->
-        <section class="musica">
+         <!-- MUSICA-->
+         <section class="musica">
             <audio controls>
                 <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/denise.mp3" type="audio/mpeg">
             </audio>
@@ -234,51 +244,25 @@
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center another-letter">
-                                <h2>¡Estamos contando los días!</h2>
+                                <h1 class="texto_informativo" style="color: #797979">Estamos contando los días!</h1>
                                 <div id="cuenta"></div>
-                                <div class="separator3"></div>
+                                <div class="separator"></div>
                             </div>
                         </div>
                         <div class="container text-center">
                             <div class="row justify-content-md-center another-letter">
                                 <div col-sm-12 class="container">
-                                    <h3 style="color: #797979">No queremos que te pierdas por nada del mundo nuestro matrimonio. </h3>
+                                    <!--<h3 style="color: #797979">No queremos que te pierdas por nada del mundo nuestro matrimonio. </h3>-->
                                     <br><br>
-                                    <h2>Te esperamos el Sábado 10 de Febrero del 2024. </h2>
-                                    <h2>Comenzamos a las 18:00 hrs. y finalizamos a las 04:30 hrs.</h2>
+                                    <h2 style="font-family: 'Pompiere'">Te esperamos el Sabado 10 de Febrero del 2024. </h2>
+                                    <h2 style="font-family: 'Pompiere'">Comenzamos a las 18:30 horas</h2>
                                 </div>
                             </div>
                         </div>
-
-
-                        </div>
-
-                        <div style="clear:both;"></div>
                     </div>
                 </div>
             </div><!-- End off container -->
         </section> <!-- End off Work Section -->
-
-        <hr>
-        <section id="donde" class="contact-v2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="contact_contant sections" style="padding-bottom: 20px;">
-                            <div class="head_title text-center">
-                                <h1 class="font-invite-me" style="color: #797979">Celebración </h1>
-                                <h2 class="another-letter" style="color: #797979">Centro de eventos Los Larureles </h2>
-                                <div class="subtitle">
-                                    <h2 class="another-letter" style="color: #797979">Km 13, Camino Lanco</h2>
-                                </div>
-                                <div class="separator3"></div>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.41324429505!2d-72.70067565189606!3d-38.85138990541353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d81a824e731d%3A0x10ec0c928187adea!2sCentro%20Eventos%20Faja%20Maisan!5e0!3m2!1ses!2scl!4v1662987479095!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div><!-- End off Head_title -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End of contact section -->
 
 
         <!-- Blog Section -->
@@ -287,109 +271,79 @@
                 <div class="row">
                     <div class="main_blog sections">
                         <div class="text-center">
-                            <h1 class="font-invite-me" style="color: #797979">Nosotros</h1>
-                            <div class="separator3"></div>
+                            <h1 class="font-invite-me" style="color: #ABBBA0">Nosotros</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="subtitle">
+                                <h2 style="font-family: 'Pompiere'; font-size: 27px; color: #797979">Son muchos años de momentos y fotografías </h2>
+                                <br><br>
+                            </div>
                         </div><!-- End off Head_title -->
                     </div>
                     <div class="container">
                         <!-- Gallery -->
                         <div class="row">
-                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/1.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
 
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/2.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"
                                 />
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/3.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"
                                 />
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/11.jpg"
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/12.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"
                                 />
 
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/4.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
 
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/5.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
 
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/6.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/7.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
                             </div>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/8.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
                                 />
 
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/9.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
                                 />
 
                                 <img
                                     src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/10.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
                                 <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/12.jpg"
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/11.jpg"
                                     class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"
                                 />
-                            </div>
-                        </div> <!-- Gallery -->
-                    </div>
-                </div>
-            </div><!-- End off container -->
-        </section><!-- End off Blog Section -->
-
-        <section id="regalos" class="regalos-v2">
-            <div class="container">
-                <div class="row">
-                    <div class="main_pricing_area sections">
-                        <div class="text-center">
-                            <h1 class="font-invite-me">Regalos</h1>
-                            <div class="separator3"></div>
-                            <div class="subtitle another-letter" style="color:white">
-                                <h3>Nuestro mejor regalo es que nos acompañes esta gran noche</h3>
-                                <h3>Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí. </h3>
-                                <h3>Creamos una lista de regalos donde podrás escoger</h3>
-                                <h3>¡Gracias! </h3>
-                            </div>
-                            <br>
-                            <div>
-                                <a href="#" class="btn-v2 btn-primary-v2 btn-lg-v2 btn-lista-novios" target="_blank"> LISTA DE NOVIOS</a>
                             </div>
                         </div>
                     </div>
@@ -397,57 +351,122 @@
             </div>
         </section>
 
+        <!-- CEREMONIA-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-invite-me" style="color: #ABBBA0">Ceremonia </h1>
+                                <h2 class="texto_informativo" style="font-size: 30px;">18:30 horas</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="font-size: 30px;">Parroquia</h2>
+                                <div class="subtitle another-letter">
+                                    <h3 style="font-family: 'Pompiere';color: #797979">Temuco s/n </h3>
+                                </div>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.41324429505!2d-72.70067565189606!3d-38.85138990541353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d81a824e731d%3A0x10ec0c928187adea!2sCentro%20Eventos%20Faja%20Maisan!5e0!3m2!1ses!2scl!4v1662987479095!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CEREMONIA-->
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-invite-me" style="color: #ABBBA0">Celebración </h1>
+                                <h2 class="texto_informativo" style="font-size: 30px;">19:00 horas</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="font-size: 30px;">Centro de eventos Fajamaisan </h2>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8788.41324429505!2d-72.70067565189606!3d-38.85138990541353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d81a824e731d%3A0x10ec0c928187adea!2sCentro%20Eventos%20Faja%20Maisan!5e0!3m2!1ses!2scl!4v1662987479095!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;"">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-invite-me" style="color: #ABBBA0"> Dresscode </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 style="color: #797979;font-size: 30px; font-family: 'Pompiere'"> Formal </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN DRESSCODE-->         
+
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-invite-me">Regalos</h1>
+                            <div class="separator"></div>
+                            <div class="another-letter" style="color:white">
+                                <h2>Nuestro mejor regalo es que nos acompañes esta gran noche</h2>
+                                <h2>Pero si quisieras contribuir a nuestro proyecto de vida lo puedes hacer aquí</h2>
+                                <h2>Creamos una lista de regalos donde podrás escoger</h2>
+                                <br>
+                                <h2>Gracias!</h2>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE NOVIOS</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
         <section id="confirmacion" class="portfolio sections">
             <div class="container-fluid">
                 <div class="row">
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center">
-                                <h1 class="font-invite-me" style="color: #797979"> ¿Nos acompañas? </h1>
-                                <div class="separator3"></div>
-                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> CONFÍRMANOS AQUÍ</a>
+                                <h1 class="font-invite-me" style="color: #ABBBA0; font-size: 4.143rem;"> ¡No te lo pierdas!</h1>
+                                <h2 class="another-letter" style="color: #ABBBA0;"> No olvides confirmar tu asistencia</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <br>
+                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> NOVIA</a>
+                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> NOVIO</a>           
                             </div>
                         </div>
-                        <div style="clear:both;"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- DressCode-->
-        <section id="dresscode" class="portfolio sections" style="background-color: #f1f1f1;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <h1 class="font-invite-me" style="color: #797979"> Dresscode </h1>
-                                <div class="separator3"></div>
-                                <h2 style="color: #797979" class="another-letter"> Formal </h2>
-                            </div>
-                        </div>
-                        <div style="clear:both;"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- DressCode-->
-        <!-- Spotify-->
-        <section id="spotify" class="contact-v2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="contact_contant sections" style="padding-bottom: 20px;">
-                            <div class="head_title text-center">
-                                <h1 class="font-invite-me" style="color: #797979">¡Agrega las infaltables! </h1>
-                                <div class="separator3"></div>
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6TlyUqL302vGugX3HbPDiI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                            </div><!-- End off Head_title -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Spotify-->
+        <!-- FIN CONFIRMACIÓN-->
+
         <section class="footer">
             <div class="container">
                 <div class="row">
@@ -455,7 +474,7 @@
                         <div class="main_footer">
                             <div class="row">
                                 <div class="col-md-4 col-md-offset-4">
-                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me" style="float:none" href="/" target="_blank"> Invite-me </a></p>
+                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me-footer" style="float:none;" href="/" target="_blank"> Invite-me </a></p>
                                 </div>
                             </div>
                         </div>
@@ -488,8 +507,8 @@
     <script src="assets_invitaciones/js/main.js"></script>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="assets_invitaciones/js/simplyCountdown.min.js"></script>
-	<script src="assets_invitaciones/js/countdown.js"></script>
+	<script src="invitaciones/cecilia-gerardo/simplyCountdown.min.js"></script>
+	<script src="invitaciones/cecilia-gerardo/countdown.js"></script>
 
 </body>
 </html>

@@ -609,7 +609,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #efcdd3;
+    border-bottom: 1px solid #BA9745;
     background: transparent;
 
 }
