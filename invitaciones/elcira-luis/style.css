@@ -406,13 +406,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #b7697d;
-    border-color: #b7697d;
+    background-color: #ea8e6b;
+    border-color: #ea8e6b;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #b7697d;
-    border-color: #b7697d;
+    background-color: #ea8e6b;
+    border-color: #ea8e6b;
 }
 .btn {
     display: inline-block;
@@ -425,7 +425,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #b7697d;
+    border: 1px solid #eb7548;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -464,7 +464,7 @@ Button
     border:1px solid #ea8e6b;
 }
 .btn-lg{
-    background: #b7697d;
+    background: #eb7548;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
