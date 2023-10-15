@@ -306,7 +306,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #eb7548;
+    background: #976b8a;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -406,13 +406,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #ea8e6b;
-    border-color: #ea8e6b;
+    background-color: #976b8a;
+    border-color: #976b8a;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #ea8e6b;
-    border-color: #ea8e6b;
+    background-color: #976b8a;
+    border-color: #976b8a;
 }
 .btn {
     display: inline-block;
@@ -425,7 +425,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #eb7548;
+    border: 1px solid #976b8a;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -452,6 +452,7 @@ Button
 
 }
 .btn:hover{
+    box-shadow: 0px 2px 2px 1px rgba(221, 221, 221, 0.6);
     color:#fff;
 }
 .btn-default{
@@ -460,11 +461,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #ea8e6b;
-    border:1px solid #ea8e6b;
+    background: #976b8a;
+    border:1px solid #976b8a;
 }
 .btn-lg{
-    background: #eb7548;
+    background: #976b8a;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
