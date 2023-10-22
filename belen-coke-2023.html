@@ -1,0 +1,550 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="es">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Belén & Coke</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Pompiere&family=Dancing+Script&Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/belen-coke/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
+
+    <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style media="screen">
+    .fotos > img {
+        border: 3px solid #ae7999;
+    }
+    .btn {
+        font-family: 'Lora', serif;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #ae7999;
+    }
+    .texto_informativo {
+        font-family: 'Lora', serif;
+        color: #797979
+    }
+    .simply-amount, .simply-word {
+        color:#4d568f;
+        font-family: 'Lora', serif;
+    }
+    .separator3 {
+        height: 2px;
+        width: 40px;
+        margin:20px auto;
+        background: #efcdd3;
+        z-index: 10000;
+    }
+    .another-letter > h3, h2{
+        font-family: 'Lora', serif;
+    }
+    .invite-me {
+        color: white !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Hello_Januari', cursive;
+        font-weight: 600;
+    }
+    .invite-me:hover {
+        color: #5b4f96 !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Hello_Januari', cursive;
+        font-weight: 600;
+    }
+    .font-principal {
+        font-family: 'Hello_Januari', cursive;
+    }
+    h1 {
+        font-weight: normal;
+        line-height: 3rem;
+        letter-spacing: .1rem;
+    }
+    @font-face {
+        font-family: 'Hello_Januari';
+        src: url("invitaciones/belen-coke/font/Hello-January.otf") format("opentype");
+    }
+@media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/3+foto.JPEG');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .musica {
+        text-align: center;
+    }
+    .font-principal {
+            font-size: 5.5rem;
+    }
+    .texto_informativo {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/3+foto.JPEG');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+    }
+    .font-principal {
+            font-size: 5.5rem;
+    }
+    .texto_informativo {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/4+foto.JPEG');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 10rem;   
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/4+foto.JPEG');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 10rem;    
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
+                                            Invite-me
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                            <li><a href="#dresscode">DRESSCODE</a></li>
+                                            <li><a href="#reglas">REGLAS</a></li>
+                                            <li><a href="#regalos">OBSEQUIOS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br>
+                                            <br>
+                                            <h1 class="font-principal">Belén </h1>
+                                            <h1 class="font-principal">& </h1>
+                                            <h1 class="font-principal">Coke</h1>
+                                            <br>
+                                            <div class="separator"></div>
+                                            <br>
+                                            <div>
+                                                <h3 class="texto_informativo" style="color: white; font-size: 20px">24 . Febrero . 2024</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- MUSICA-->
+         <section class="musica">
+            <audio controls>
+                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/Christina_Perri.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <!-- FIN MUSICA-->
+
+        <section id="tiempo" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center texto_informativo">
+                                <h1 class="texto_informativo" style="color: #797979">Estamos contando los días!</h1>
+                                <div id="cuenta"></div>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center texto_informativo">
+                                <div col-sm-12 class="container">
+                                    <h2 class="texto_informativo" style="font-weight: 500; font-style: italic;">Cuando las idas al cine van demasiado lejos. </h2>
+                                    <br><br>
+                                    <h2 class="texto_informativo">Te esperamos el sábado 24 de Febrero del 2024. </h2>
+                                    <h2 class="texto_informativo">Comenzamos a las 16:30 horas</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        </div>
+
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div><!-- End off container -->
+        </section> <!-- End off Work Section -->
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog">
+            <div class="container-fluid">
+                <div class="row2">
+                    <div class="main_blog sections">
+                        <div class="text-center">
+                            <h1 class="font-principal" style="color: #4d568f">Nosotros</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div>
+                                <h1 class="texto_informativo" style="color: #797979">Hoy, empezamos un nuevo guion, uno escrito por nosotros, en el que el amor es el protagonista. </h1>
+                                <h1 class="texto_informativo" style="color: #797979;"> Aquí estamos, listos para la secuela más emocionante... </h1>
+                                <br><br>
+                            </div>
+                        </div><!-- End off Head_title -->
+                    </div>
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/1+foto.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/2+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/3+foto.JPEG"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/4+foto.JPEG"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/5+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/6+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/7+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/8+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/9+foto.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/10+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/11+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/12+foto.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #4d568f">Recepción </h1>
+                                <br><br>
+                                <h2 class="texto_informativo">18:30 horas</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">Parque Residencial La Foresta - Sector Laguna/Quincho </h2>
+                                <h2 class="texto_informativo" style="color: #797979">Parque La Foresta I, Temuco, Araucanía</h2>
+                                <br>
+                                
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49852.890466665085!2d-72.83419155136721!3d-38.653348799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966ad4fe110f7897%3A0xd2d657ecec06c93c!2sParque%20La%20Foresta%20I!5e0!3m2!1ses!2scl!4v1697845546596!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;"">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #4d568f"> Dress code </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #797979;"> Lúcete con el encanto del <b> "boho chic" </b>, abraza la elegancia relajada y despierta la chispa romántica en cada detalle.</h2> 
+                                <h2 class="texto_informativo" style="color: #797979;">¡Únete a nosotros en este viaje de amor y comodidad! </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN DRESSCODE-->
+
+        <!-- REGLA-->
+        <section id="reglas" class="portfolio sections" style="background-color: #f4f5f9; margin-top: -40px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #4d568f"> Reglas </h1>
+                                <br><br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #797979;"> Hemos reservado esta noche solo para adultos, los niños se quedan en casa.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN REGLA-->
+          
+
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-principal">Obsequios</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="subtitle texto_informativo">
+                                <h2 class="texto_informativo" style="color:white">Tu presencia es el mejor regalo, pero si deseas hacernos un obsequio, te invitamos a explorar nuestra lista de novios para contribuir a nuestro futuro juntos.</h2>
+                                <h2 class="texto_informativo" style="color:white">¡Gracias! </h2>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="https://milistadenovios.cl/enviar-regalo?id=11928" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE NOVIOS</a>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
+        <section id="confirmacion" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #4d568f;"> Confirmación</h1>
+                                <br><br>
+                                <h2 class="texto_informativo" style="color: #797979;"> No te olvides de confirmar antes de que la pista de baile se llene!</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <br>
+                                <a href="https://wa.me/+56988824813?text=Hola+confirmamos+asistencia+a+su+matrimonio!" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> CONFIRMA AQUÍ</a>           
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONFIRMACIÓN-->
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_footer">
+                            <div class="row">
+                                <div class="col-md-4 col-md-offset-4">
+                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me-footer" style="float:none;" href="/" target="_blank"> Invite-me </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- START SCROLL TO TOP  -->
+
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <script src="assets_invitaciones/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets_invitaciones/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets_invitaciones/js/jquery.magnific-popup.js"></script>
+    <script src="assets_invitaciones/js/jquery.mixitup.min.js"></script>
+    <script src="assets_invitaciones/js/jquery.easing.1.3.js"></script>
+    <script src="assets_invitaciones/js/jquery.masonry.min.js"></script>
+
+    <!--slick slide js -->
+    <script src="assets_invitaciones/css/slick/slick.js"></script>
+    <script src="assets_invitaciones/css/slick/slick.min.js"></script>
+
+
+    <script src="assets_invitaciones/js/plugins.js"></script>
+    <script src="assets_invitaciones/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="invitaciones/belen-coke/simplyCountdown.min.js"></script>
+	<script src="invitaciones/belen-coke/countdown.js"></script>
+
+</body>
+</html>
