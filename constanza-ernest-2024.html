@@ -1,0 +1,530 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="es">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Constanza & Ernest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Great+Vibes&family=lora&family=Lora&display=swap&family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets_invitaciones/css/iconfont.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/constanza-ernest/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets_invitaciones/css/responsive.css" />
+
+    <script src="assets_invitaciones/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style media="screen">
+    .btn {
+        font-family: 'lora'!important;
+        background-color: #382518;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #b0a092;
+    }
+    .texto_informativo {
+        font-size: 3.143rem;
+        font-family: 'lora';
+        color: #b0a092
+    }
+    .simply-amount, .simply-word {
+        color:#382518;
+        font-family: 'lora';
+    }
+    .separator3 {
+        height: 2px;
+        width: 40px;
+        margin:20px auto;
+        background: #efcdd3;
+        z-index: 10000;
+    }
+    .another-letter > h3, h2{
+        font-family: 'lora';
+        font-size: 3.143rem;
+    }
+    .invite-me {
+        color: white !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+    }
+    .invite-me:hover {
+        color: #5b4f96 !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+    }
+    .font-invite-me {
+        font-family: 'Eyesome_Italic', cursive;
+    }
+    h1 {
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Eyesome_Italic';
+        src: url("invitaciones/constanza-ernest/font/Eyesome_Script.otf") format("opentype");
+    }
+    @media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/portada.jpeg');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .musica {
+        text-align: center;
+    }
+    .texto_informativo {
+        font-size: 1.6rem;
+        font-family: 'lora';
+        color: #b0a092
+    }
+}
+@media (min-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/portada.jpeg');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/portada.jpeg');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/portada.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
+                                            Invite-me
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                            <li><a href="#dresscode">DRESSCODE</a></li>
+                                            <li><a href="#regalos">REGALOS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                            <li><a href="#spotify">SPOTIFY</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br><br><br><br><br><br><br><br><br>
+                                            <br><br><br><br>
+                                            <br>
+                                            <h1 class="font-invite-me" style="font-size: 60px">Nos casamos! </h1>
+                                            <div class="separator"></div>
+                                            <h3 class="texto_informativo" style="color: white; font-size: 20px">08 . Junio . 2024</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- MUSICA-->
+         <section class="musica">
+            <div class="text-center texto_informativo">
+                <h1 class="texto_informativo">Dale play a la melodía que nos une.</h1>
+            </div>
+            <br>
+            <audio controls>
+                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/Until_I_Found.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <!-- FIN MUSICA-->
+
+        <section id="tiempo" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center texto_informativo">
+                                <h1 class="texto_informativo" style="color: #b0a092">¡Estamos contando los días!</h1>
+                                <div id="cuenta"></div>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center texto_informativo">
+                                <div col-sm-12 class="container">
+                                    <h2 class="texto_informativo">No queremos que te pierdas por nada del mundo nuestro matrimonio. </h2>
+                                    <br>
+                                    <h2 class="texto_informativo">Los esperamos a las 17:00 horas en Castell Jalpí</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End off container -->
+        </section> <!-- End off Work Section -->
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_blog sections">
+                        <div class="text-center">
+                            <h1 class="font-invite-me" style="color: #382518">Nosotros</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="subtitle">
+                                <h2 class="texto_informativo">Lo mejor de los viajes es la buena compañía.</h2>
+                                <h2 class="texto_informativo">Por eso os hemos reservado una plaza para el comienzo de nuestra mayor aventura.</h2>
+                                <br><br>
+                            </div>
+                        </div><!-- End off Head_title -->
+                    </div>
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/1.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/2.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/3.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/4.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/5.png"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-invite-me" style="color: #382518">Celebración </h1>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">A las 17:00 horas</h2>
+                                <br>
+                                <h3 class="texto_informativo">Castell Jalpí s/n, 08358 Arenys de Munt, Barcelona  </h3>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.619205910765!2d2.5399601999999994!3d41.59912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb37ddc365a789%3A0x252f0c68d6c7ce38!2sCastell%20Jalp%C3%AD!5e0!3m2!1ses-419!2scl!4v1705627415797!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <h2 class="texto_informativo text-center">Tendremos buses de traslado desde Barcelona, pronto más información.  También hay parking ilimitado para todos los invitados. </h2>
+                            <br><br><br>
+                            <!-- Gallery -->
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 mb-12 mb-lg-0 fotos">
+                                    <img
+                                        src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/castillo1.jpeg"
+                                        class="w-100 shadow-1-strong rounded mb-4"
+                                    />
+    
+                                    <img
+                                        src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/castillo2.jpeg"
+                                        class="w-100 shadow-1-strong rounded mb-4"
+                                    />
+                                    <img
+                                        src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/constanza-ernest/castillo3.jpeg"
+                                        class="w-100 shadow-1-strong rounded mb-4"
+                                    />    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-invite-me" style="color: #382518"> Dresscode </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo"> Formal, no blanco ni beige. </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN DRESSCODE-->         
+
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-invite-me">Regalos!</h1>
+                            <div class="separator" style="background: white;"></div>
+                            <div>
+                                <h2 class="texto_informativo" style="color:white">Celebrar juntos este día será el mejor regalo para nosotros, pero si desean contribuir a nuestro regalo de bodas, estaríamos profundamente agradecidos.</h2>
+                                <h2 class="texto_informativo" style="color:white">Gracias!</h2>
+                                <br>
+                                <h2 class="texto_informativo" style="color:white">IBAN: ES5200810147170001719076 </h2>
+                                <h2 class="texto_informativo" style="color:white">A nombre de: Ernest Casany o Constanza sepulveda </h2>
+                                <h2 class="texto_informativo" style="color:white">Motivo transferencia: Regalo boda</h2>
+                            </div>
+                            <br><br>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> CUENTA DE CHILE</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
+        <section id="confirmacion" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-invite-me" style="color: #382518; font-size: 4.143rem;"> ¡No olvides confirmar asistencia:!</h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #b0a092;"> La cuenta regresiva comienza ahora, tienes 2 meses para confirmar tu asistencia !! </h2>
+                                <h2 class="texto_informativo" style="color: #b0a092;"> La invitación es individual.</h2>
+                                <br>
+                                <br>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrXuAfEklNGKIWfu-T2u4JZVV_4EexQxRgZb-LuQ4kg9PaLw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> CONFIRMA AQUÍ</a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONFIRMACIÓN-->
+
+        <!-- Spotify-->
+        <section id="spotify" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-invite-me" style="color: #382518">¡Lista Spotify! </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #b0a092;">Hagamos juntos una fiesta única, comparte tus canciones favoritas. </h2>
+                                <br>
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3Z1juo5IQ91mh03mfLN1Mu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div><!-- End off Head_title -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Spotify-->
+
+        <section class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-invite-me" style="color: #382518; font-size: 5.143rem;"> Compartimos este día junto a tí </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #b0a092;">Comparte tus fotos y videos de este hermoso día en Instagram con el #HASHTAG</h2>
+                                <br>
+                                <h1 class="texto_informativo" style="color: #b0a092;">#ConstanzayErnest</h1>
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main_footer">
+                            <div class="row">
+                                <div class="col-md-4 col-md-offset-4">
+                                <p style="font-size: 20px;"> Página creada por <a class="navbar-brand logo-invite-me-footer" style="float:none;" href="/" target="_blank"> Invite-me </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- START SCROLL TO TOP  -->
+
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <script src="assets_invitaciones/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets_invitaciones/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets_invitaciones/js/jquery.magnific-popup.js"></script>
+    <script src="assets_invitaciones/js/jquery.mixitup.min.js"></script>
+    <script src="assets_invitaciones/js/jquery.easing.1.3.js"></script>
+    <script src="assets_invitaciones/js/jquery.masonry.min.js"></script>
+
+    <!--slick slide js -->
+    <script src="assets_invitaciones/css/slick/slick.js"></script>
+    <script src="assets_invitaciones/css/slick/slick.min.js"></script>
+
+
+    <script src="assets_invitaciones/js/plugins.js"></script>
+    <script src="assets_invitaciones/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="invitaciones/constanza-ernest/simplyCountdown.min.js"></script>
+	<script src="invitaciones/constanza-ernest/countdown.js"></script>
+
+</body>
+</html>
