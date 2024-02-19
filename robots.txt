@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://invite-me.cl/sitemap.xml
