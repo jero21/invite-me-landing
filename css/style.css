@@ -60,13 +60,13 @@ h1 {
   justify-content: center;
 }
 .navbar {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: #EBEBEB!important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #EBEBEB!important;
 }
 
 .nav-link, .navbar-brand {
-    color: #634c47;
+  color: #634c47;
 }
 .header-content {
     position: absolute;
@@ -745,4 +745,8 @@ footer p {
     min-height: 100vh;
     background-image: none!important;
   }
+}
+.btn-nav {
+  padding: 0.4rem 0.5rem !important;
+  font-size: 16px !important;
 }
