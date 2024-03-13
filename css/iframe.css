@@ -221,7 +221,7 @@
 /* Rango para dispositivos alrededor de 413px de ancho */
 @media only screen and (min-width: 414px) and (max-width: 416px) {
   #invitaciones {
-    min-height: 126vh;
+    min-height: 111vh;
     background-size: 126%;
   }
   .pdf, .pdf iframe {
@@ -232,7 +232,7 @@
     margin-top: 11vh;
     margin-left: 26px;
     width: 76vw;
-    height: 94vh;
+    height: 80vh;
     display: block;
   }
 }
@@ -240,7 +240,7 @@
 /* Rango para dispositivos alrededor de 413px de ancho */
 @media only screen and (min-width: 425px) and (max-width: 430px) {
   #invitaciones {
-    min-height: 126vh;
+    min-height: 111vh;
     background-size: 126%;
   }
   .pdf, .pdf iframe {
@@ -248,10 +248,10 @@
     height: 734vh;
   }
   .pdf-container {
-    margin-top: 11vh;
+    margin-top: 18vh;
     margin-left: 26px;
     width: 76vw;
-    height: 94vh;
+    height: 81vh;
     display: block;
   }
 }
