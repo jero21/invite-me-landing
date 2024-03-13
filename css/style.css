@@ -1,0 +1,748 @@
+body {
+  background-color: #ebebeb;
+  padding-top: 70px;
+}
+
+.form-control {
+  height: calc(2.5em + 0.75rem + 2px);
+}
+@font-face {
+    font-family: 'Hatton';
+    src: url("../fonts/Hatton_Ultralight_200.otf");
+}
+@font-face {
+  font-family: 'Alta_regular';
+  src: url("../fonts/Alta_regular.otf");
+}
+@font-face {
+  font-family: 'BrittanySignature';
+  src: url("../fonts/BrittanySignature.ttf");
+}
+@font-face {
+  font-family: 'TAN-MONCHERI';
+  src: url("../fonts/TAN-MONCHERI.woff2");
+}
+.img-min-width {
+  min-width: 36vw!important;
+}
+
+.hatton-title {
+    font-family: 'Hatton';
+    font-weight: bold;
+}
+.container {
+    max-width: 1335px;
+}
+
+h1 {
+    line-height: 1;
+}
+#inicio-movil {
+  display: none;
+}
+.posicion-texto-titulo {
+  margin-top: 120px;
+}
+.posicion-boton-titulo {
+  margin-top: 19px;
+}
+.size-sello {
+  width: 125px; 
+  height: 125px;
+}
+.header-container-invite-me {
+  background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/regalaundeseo/invite-me/Inicio.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  min-height: 107vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #EBEBEB!important;
+}
+
+.nav-link, .navbar-brand {
+    color: #634c47;
+}
+.header-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-content h1 {
+    font-family: 'Hatton';
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.logo {
+    font-family: 'Hatton';
+    font-size: 2.5rem;
+    color: #634c47!important;
+}
+
+.container p {
+    margin-bottom: 0rem!important;
+}
+.btn-primary .btn-line {
+    display: block;
+}
+.btn-evento {
+  padding: 1rem 3rem!important;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #634c47;
+  border: 1px solid #634c47!important;
+  color: white!important;
+  outline: none;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #634c47;
+  border: 1px solid #634c47!important;
+  color: white!important;
+  outline: none;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+  }
+/* Sección 2 */
+
+#celebration-section {
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/regalaundeseo/significado3.jpg') no-repeat center center;
+    position: relative;
+    min-height: 800px;
+    padding: 100px 0;
+    background-position: 26% 100px;
+  }
+  
+  .text-content {
+    padding: 2rem;
+    max-width: 540px;
+  }
+  
+  #celebration-section h2 {
+    color: #634c47;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  #celebration-section p {
+    color: #5d5c5c;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .btn-primary {
+    font-size: 1.2rem;
+    background-color: #634c47;
+    border: 1px solid #634c47!important;
+    color: white!important;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 1rem 4rem;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .custom-margin {
+    margin-top: 15rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #634c47;
+    border: 1px solid white;
+    color: #ffffff!important;
+  }
+  
+  .right-text-container h2 {
+    font-size: 2.5rem;
+    color: #634c47;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+
+/* Sección 3 */
+
+#tipo-eventos {
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.container-eventos {
+    max-width: 1800px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Sección 4 */
+.invite-me {
+    padding-top: 70px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.testimonios {
+  padding-top: 70px;
+  background-color: #ebebeb;
+  padding-bottom: 50px;
+}
+.text-invite-me {
+    text-decoration: none;
+    color: #f3a09c;
+}
+.text-invite-me:hover {
+  color: #d18e8b;
+}
+
+/* Sección Listado */
+
+.titulo-lista {
+  background-color: #a59d9c;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  width: 100%;
+}
+.listado {
+  font-size: 20px;
+}
+
+#seccion-ventajas {
+  background-color: #f9f9f9;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/* Sección tipos de eventos */
+
+.gift-card {
+  transition: transform .2s;
+  margin: 20px;
+  border-radius: 0.25rem;
+}
+.gift-card:hover {
+  transform: scale(1.05);
+  border: 1px solid #00B4D8;
+  cursor: pointer;
+}
+.gift-card .btn-primary {
+  opacity: 0;
+  transition: opacity .2s;
+}
+.gift-card:hover .btn-primary {
+  opacity: 1
+}
+
+/* Preguntas frecuentes */
+.preguntas-frecuentes {
+  background-color: #f9f9f9;
+}
+/* footer */
+.link-footer {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+.link-footer:hover {
+  color: #f3a09c;
+  font-weight: bold;
+  text-decoration: none;
+}
+.rrss {
+  font-size: 23px;
+}
+.rrss:hover {
+  color: #f3a09c;
+  font-size: 23px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: -1.5em 0;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid white;
+}
+.divider:not(:empty)::before {
+  margin-right: .25em;
+}
+.divider:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.titles-invite-me {
+  margin-top: 372px;
+}
+/* Pagina invite-me */
+.title-invite-me {
+  font-family: 'Alta_regular';
+  font-size: 90px; 
+  color: #F0EBE1;
+  margin-top: 30px;
+}
+
+.subtitle-invite-me {
+  font-family: 'Alta_regular';
+  font-size: 30px;
+  margin-top: 10px;
+  color: #F0EBE1;
+}
+.rrss-invite-me {
+  font-size: 40px;
+  color: #f3a09c;
+  position: absolute;
+  margin-top: -7px;
+}
+#seccion-conoce-invite-me {
+  background-color: #ebebeb;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.btn-contrata-celular {
+  display: none;
+}
+.seccion-imagen-pc {
+  display: block;
+}
+.seccion-imagen-celular {
+  display: none;
+}
+.mobile-image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 57%;
+  transform: translateY(-50%);
+}
+.title-line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nuestros-servicios h2, .nuestros-servicios h3, .nuestros-servicios p{
+  color: white;
+}
+.title-servicios {
+  font-family: 'BrittanySignature';
+  font-size: 60px;
+  padding-top: 20px;
+}
+.subtitle-servicios {
+  font-family: 'TAN-MONCHERI';
+  color: white;
+}
+.numero-list {
+  font-family: 'BrittanySignature';
+  font-size: 60px;
+}
+.text-list {
+  font-family: 'Livvic', sans-serif;
+}
+.text-servicios {
+  font-family: 'Livvic', sans-serif;
+  font-size: 20px;
+}
+#como-funciona {
+  background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/como-funciona.jpg) center center / cover no-repeat;
+  position: relative;
+  min-height: 93vh;
+}
+#como-funciona p{
+  color: white;
+}
+ul.list-unstyled li {
+  position: relative;
+  padding-left: 40px;
+}
+
+ul.list-unstyled li h3 {
+  display: inline-block;
+  margin-left: 15px;
+  color: #000;
+}
+.text-primary {
+  color: white!important;
+}
+.pareja-image {  
+  width: 90%;
+}
+.imagen-pareja2 {
+  text-align: right;
+}
+#invitaciones {
+  background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitacion_pdf_web.jpg) center center no-repeat;
+  position: relative;
+  min-height: 100vh;
+  background-size: 110% 122%;
+}
+.split-background {
+  background-image: linear-gradient(to right, #FFFFFF 20%, #b08a79 20%);
+  min-height: 100vh;
+}
+.sello-servicios {
+  display: block;
+}
+.top-invitaciones {
+  padding-top: 80px;
+}
+
+/* AfterBoda */
+#after-boda {
+  background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/novios.jpg) center center / cover no-repeat;
+  min-height: 93vh;
+}
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.content-box {
+  background-color: #B08A79;
+  opacity: 0.8; /* opacidad del fondo marrón */
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1150px;
+}
+
+.btn-after-boda {
+  background-color: #B08A79;
+  color: white;
+}
+
+.fa-check-circle {
+  color: white;
+  font-size: 20px;
+}
+#after-boda ul {
+  text-align: left;
+  display: inline-block;
+  padding-left: 0;
+}
+#after-boda ul li {
+  margin: 0.25em 0;
+}
+.text-list-after-boda {
+  font-family: 'Livvic', sans-serif;
+  font-size: 20px;
+}
+.btn-after-boda.btn-primary:hover {
+  background-color: #B08A79;
+  border: 1px solid white;
+  color: #ffffff !important;
+}
+.split-background-plan-plata {
+  background-image: linear-gradient(to bottom, #b08a79 70%, #FFFFFF 70%);
+  }
+.split-background-plan-diamante {
+  background-image: linear-gradient(to top, #b08a79 70%, #FFFFFF 70%);
+  }
+.content-box-plan-plata {
+  padding: 30px;
+  padding-left: 200px;
+}
+.font-color-plan-plata {
+  color: #4B4B3D!important;
+}
+.font-tan-moncheri-planes {
+  font-family: 'TAN-MONCHERI';
+  font-size: 40px;
+}
+#servicios {
+  padding-bottom: 40px;
+}
+#servicios p, #servicios h2 {
+  color: white;
+}
+.color-fondo {
+  background-color: white;
+}
+
+footer a {
+  color: #f3a09c!important;
+  font-size: 20px!important;
+}
+footer p {
+  font-size: 20px;
+}
+.matrimonios {
+  width: 23px;
+  text-decoration: none;
+}
+/* Querys */
+@media (max-width: 1423px) {
+  #invitaciones {
+    background-size: 101% 118%;
+  }
+  .content-box-plan-plata {
+    padding-left: 50px;
+  }
+  .font-tan-moncheri-planes {
+    font-family: 'TAN-MONCHERI';
+    font-size: 30px;
+  }
+  .text-list {
+    font-size: 15px;
+  }
+  ul.list-unstyled li {
+    font-size: 17px;
+  }
+  .btn-evento {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .numero-list {
+    font-size: 30px;
+  }
+  .text-list {
+    font-size: 13px;
+  }
+  .subtitle-servicios {
+    font-size: 1.2rem;
+  }
+  .title-servicios {
+    font-size: 50px;
+  }
+  .posicion-boton-titulo {
+    margin-top: 5px;
+  }
+  .posicion-texto-titulo {
+    margin-top: 353px;
+  }
+  .text-servicios {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 1143px;
+  }
+  .titles-invite-me {
+    margin-top: 0px;
+  }
+  .title-invite-me {
+    font-size: 60px;
+  }
+  .subtitle-invite-me {
+    font-size: 25px;
+  }
+  .btn-primary {
+    padding: 0.5rem 2rem;
+  }
+  .h2, h2 {
+    font-size: 1.5rem;
+  }
+  #celebration-section h2 {
+    font-size: 2rem;
+  }
+  #celebration-section p {
+    font-size: 1rem;
+  }
+  #celebration-section {
+    background-position: 81% 100px;
+  }
+  .text-content {
+    max-width: 475px;
+    padding: 0rem;
+  }
+  .header-content h1 {
+    font-size: 3rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .header-container {
+    min-height: 91vh;
+  }
+  .link-footer {
+    font-size: 15px;
+  }
+  .content-box {
+    max-width: 945px;
+  }
+  .font-nav {
+    font-size: 13px;
+  }
+  .size-sello {
+    width: 85px; 
+    height: 85px;
+  }
+}
+@media (max-width: 992px) {
+  #celebration-section .text-content {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+  .title-invite-me {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-contrata-pc {
+    display: none;
+  }
+  .btn-contrata-celular {
+    display: block;
+  }
+  .seccion-imagen-celular {
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #b08a79;
+  }
+  .mobile-image {
+    padding-top: 10px;
+  }
+  .seccion-imagen-pc {
+    display: none;
+  }
+  .seccion-imagen-celular .mobile-image{
+    transform: none;
+  }
+  .posicion-sello {
+    margin-top: 10px;
+  }
+  .header-container-invite-me {
+    min-height: 80vh;
+  }
+  .title-invite-me {
+    font-size: 60px!important;
+    margin-top: 25px!important;
+  }
+  .subtitle-invite-me {
+    font-size: 20px!important; 
+  }
+  .header-content {
+    top: 75%;
+  }
+  .size-conoce-invite-me {
+    font-size: 2rem;
+  }
+  #inicio {
+    display: none;
+  }
+  .additional-faq {
+    display: none;
+  }
+  #inicio-movil {
+    display: block;
+  }
+  .pb-text {
+    padding-bottom: 20px;
+  }
+  .movil h1 {
+    font-size: 2.5rem;
+    font-family: 'Hatton', sans-serif;
+    width: 380px;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .custom-margin {
+    margin-top: 32rem;
+  }
+  .btn-comienza-ahora {
+    text-align: center;
+  }
+  .text-content {
+    text-align: center;
+  }
+  .header-container {
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/regalaundeseo/Inicio_movil4.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -100px;
+  }
+  #celebration-section {
+    padding: 27px 0px 0px;
+    background-position: 60% 266px;
+  }
+
+  #celebration-section .text-content {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  #celebration-section h2 {
+    font-size: 2rem;
+  }
+  .right-text-container {
+    text-align: right;
+  }
+  .split-background {
+    background-color: #b08a79;
+    min-height: 100vh;
+    background-image: none!important;
+  }
+  .sello-servicios {
+    display: none!important;
+  }
+  .subtitle-servicios, .title-servicios, .text-servicios {
+    text-align: center;
+  }
+  .text-servicios {
+    font-size: 17px;
+  }
+  .size-sello {
+    width: 90px; 
+    height: 90px;
+  }
+  .posicion-texto-titulo {
+    margin-top: 430px;  
+  }
+  .posicion-boton-titulo {
+    margin-bottom: 5px; 
+  }
+  ul.list-unstyled li {
+    padding-left: 15px;
+  }
+  .text-list {
+    font-size: 17px;
+  }
+  #invitaciones {
+    background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitaciones-celular2.jpg) center center / cover no-repeat;
+    position: relative;
+    min-height: 104vh;
+    background-size: 121%;
+  }
+}
+
+@media (max-width: 767px) {
+  .right-text-container {
+    text-align: center;
+  }
+  .split-background {
+    background-color: #b08a79;
+    min-height: 100vh;
+    background-image: none!important;
+  }
+}

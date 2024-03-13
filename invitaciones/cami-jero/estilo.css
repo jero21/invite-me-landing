@@ -1,0 +1,76 @@
+.fotos > img {
+    border: 3px solid #ad7281;
+}
+.musica {
+    text-align: center;
+}
+.invite-me {
+    color: white !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Dancing Script', bold;
+    font-weight: 600;
+}
+.invite-me:hover {
+    color: #5b4f96 !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Dancing Script', bold;
+    font-weight: 600;
+}
+.font-invite-me {
+    font-family: 'Dancing Script', cursive;
+}
+@media (max-width: 768px) {
+  .home{
+    background: url(img/portada_cel.jpg);
+    background-position: 47% 30%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+}
+@media (min-width: 768px) {
+  .home{
+    background: url(img/portada_cel.jpg);
+    background-position: 49% 28%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+@media (min-width: 992px) {
+  .home{
+    background: url(img/portada.jpg);
+    background-position: 31% 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .musica {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+  .home{
+    background: url(img/portada.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .musica {
+        margin-top: 20px;
+    }
+}

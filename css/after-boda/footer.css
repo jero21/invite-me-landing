@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.bg-dark {
+    background-color: #343a40 !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.s-header.sticky {
+    background-color: #343a40 !important;
+}
+footer p, h4 {
+    color: white;
+}
+footer p {
+    margin-bottom: 0rem;
+}
+footer a {
+    color: #f3a09c;
+}

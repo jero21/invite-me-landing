@@ -4,163 +4,26 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="language" content="es">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Belén & Coke</title>
+    <meta name="robots" content="noindex, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="icon.ico">
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-    <link rel="icon" href="icon.ico" type="image/x-icon">
 
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Pompiere&family=Dancing+Script&Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="assets_invitaciones/css/bootstrap.css">
-    <link rel="stylesheet" href="assets_invitaciones/css/cuenta.css">
+    <link rel="stylesheet" href="css/invitaciones/bootstrap.css">
+    <link rel="stylesheet" href="css/invitaciones/cuenta.css">
+
     <!--Theme custom css -->
     <link rel="stylesheet" href="invitaciones/belen-coke/style.css">
-    <style media="screen">
-    .fotos > img {
-        border: 3px solid #ae7999;
-    }
-    .btn {
-        font-family: 'Lora', serif;
-    }
-    .regalo{
-        background-size: auto 100%;
-        background-color: #ae7999;
-    }
-    .texto_informativo {
-        font-family: 'Lora', serif;
-        color: #797979
-    }
-    .simply-amount, .simply-word {
-        color:#4d568f;
-        font-family: 'Lora', serif;
-    }
-    .separator3 {
-        height: 2px;
-        width: 40px;
-        margin:20px auto;
-        background: #efcdd3;
-        z-index: 10000;
-    }
-    .another-letter > h3, h2{
-        font-family: 'Lora', serif;
-    }
-    .invite-me {
-        color: white !important;
-        font-size: 30px !important; 
-        margin-top: 10px;
-        font-family: 'Hello_Januari', cursive;
-        font-weight: 600;
-    }
-    .invite-me:hover {
-        color: #5b4f96 !important;
-        font-size: 30px !important; 
-        margin-top: 10px;
-        font-family: 'Hello_Januari', cursive;
-        font-weight: 600;
-    }
-    .font-principal {
-        font-family: 'Hello_Januari', cursive;
-    }
-    h1 {
-        font-weight: normal;
-        line-height: 3rem;
-        letter-spacing: .1rem;
-    }
-    @font-face {
-        font-family: 'Hello_Januari';
-        src: url("invitaciones/belen-coke/font/Hello-January.otf") format("opentype");
-    }
-@media (max-width: 768px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-        background-position: 47% 30%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none; 
-    }
-    .musica {
-        text-align: center;
-    }
-    .font-principal {
-            font-size: 5.5rem;
-    }
-    .texto_informativo {
-        font-size: 1.5rem;
-    }
-}
-@media (min-width: 768px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-        background-position: 49% 28%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
-    .musica {
-        text-align: center;
-    }
-    .font-principal {
-            font-size: 5.5rem;
-    }
-    .texto_informativo {
-        font-size: 1.5rem;
-    }
-}
-@media (min-width: 992px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-        background-position: 31% 51%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
-    .musica {
-        text-align: center;
-        margin-top: 20px;
-    }
-    .font-principal {
-        font-size: 10rem;   
-    }
-    .texto_informativo {
-        font-size: 2.5rem;
-    }
-}
-@media (min-width: 1200px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-    }
-    .musica {
-        text-align: center;
-        margin-top: 20px;
-    }
-    .font-principal {
-        font-size: 10rem;    
-    }
-    .texto_informativo {
-        font-size: 2.5rem;
-    }
-}
-    </style>
+
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon.ico" type="image/x-icon"> 
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
@@ -536,19 +399,17 @@
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
 
-    <script src="assets_invitaciones/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="assets_invitaciones/js/vendor/bootstrap.min.js"></script>
-
-    <script src="assets_invitaciones/js/jquery.magnific-popup.js"></script>
-
-    <script src="assets_invitaciones/css/slick/slick.min.js"></script>
+    <script src="js/invitaciones/jquery-1.11.2.min.js"></script>
+    <script src="js/invitaciones/bootstrap.min.js"></script>
+    <script src="js/invitaciones/jquery.magnific-popup.js"></script>
+    <script src="js/invitaciones/slick.min.js"></script>
 
 
-    <script src="assets_invitaciones/js/plugins.js"></script>
-    <script src="assets_invitaciones/js/main.js"></script>
+    <script src="js/invitaciones/plugins.js"></script>
+    <script src="js/invitaciones/main.js"></script>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="invitaciones/belen-coke/simplyCountdown.min.js"></script>
+	<script src="js/invitaciones/simplyCountdown.min.js"></script>
 	<script src="invitaciones/belen-coke/countdown.js"></script>
 
 </body>

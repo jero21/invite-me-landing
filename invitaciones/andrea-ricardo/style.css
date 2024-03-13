@@ -1477,3 +1477,110 @@ li .single_team_text p{
     text-decoration: none;
 
 }
+.fotos > img {
+    border: 3px solid #BA9745;
+}
+.btn {
+    font-family: 'Pompiere'!important;
+}
+.regalo{
+    background-size: auto 100%;
+    background-color: #ABBBA0;
+}
+.texto_informativo {
+    font-size: 4.143rem;
+    font-family: 'Pompiere';
+    color: #797979
+}
+.simply-amount, .simply-word {
+    color:#ABBBA0;
+    font-family: 'Pompiere';
+}
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin:20px auto;
+    background: #efcdd3;
+    z-index: 10000;
+}
+.another-letter > h3, h2{
+    font-family: 'Pompiere';
+}
+.invite-me {
+    color: white !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+}
+.invite-me:hover {
+    color: #5b4f96 !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+}
+.font-invite-me {
+    font-family: 'Great Vibes', cursive;
+}
+h1 {
+    font-weight: normal;
+}
+@media (max-width: 768px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+    background-position: 47% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+.musica {
+    text-align: center;
+}
+}
+@media (min-width: 768px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+    background-position: 49% 28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.musica {
+    text-align: center;
+}
+}
+@media (min-width: 992px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+    background-position: 31% 51%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.musica {
+    text-align: center;
+    margin-top: 20px;
+}
+}
+@media (min-width: 1200px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/portada.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.musica {
+    text-align: center;
+    margin-top: 20px;
+}
+}

@@ -1,0 +1,257 @@
+
+.top-invitaciones {
+  padding-top: 45px;
+}
+
+/* IFRAME PDF */
+.pdf {
+  -ms-zoom: 0.34;
+  -moz-transform: scale(0.34);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.34);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.34);
+  -webkit-transform-origin: 0 0;
+}
+
+.pdf-container {
+  border-radius: 10px;
+  margin-top: -18px;
+  margin-left: -523px;
+  width: calc(1054px* 0.35);
+  height: calc(1708px* 0.45);
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  background: #f9f9f9;
+  display: none;
+}
+.pdf-container::before {
+  position: absolute;
+  left: "calc(50% - 16px)";
+  top: "calc(50% - 18px)";
+  opacity: 0.4;
+  display: block;
+  -ms-zoom: 1;
+  -o-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJwaG90b18xXyI+PHBhdGggZD0iTTI3LDBINUMyLjc5MSwwLDEsMS43OTEsMSw0djI0YzAsMi4yMDksMS43OTEsNCw0LDRoMjJjMi4yMDksMCw0LTEuNzkxLDQtNFY0QzMxLDEuNzkxLDI5LjIwOSwwLDI3LDB6ICAgIE0yOSwyOGMwLDEuMTAyLTAuODk4LDItMiwySDVjLTEuMTAzLDAtMi0wLjg5OC0yLTJWNGMwLTEuMTAzLDAuODk3LTIsMi0yaDIyYzEuMTAyLDAsMiwwLjg5NywyLDJWMjh6IiBmaWxsPSIjMzMzMzMzIi8+PHBhdGggZD0iTTI2LDRINkM1LjQ0Nyw0LDUsNC40NDcsNSw1djE4YzAsMC41NTMsMC40NDcsMSwxLDFoMjBjMC41NTMsMCwxLTAuNDQ3LDEtMVY1QzI3LDQuNDQ3LDI2LjU1Myw0LDI2LDR6ICAgIE0yNiw1djEzLjg2OWwtMy4yNS0zLjUzQzIyLjU1OSwxNS4xMjMsMjIuMjg3LDE1LDIyLDE1cy0wLjU2MSwwLjEyMy0wLjc1LDAuMzM5bC0yLjYwNCwyLjk1bC03Ljg5Ni04Ljk1ICAgQzEwLjU2LDkuMTIzLDEwLjI4Nyw5LDEwLDlTOS40NCw5LjEyMyw5LjI1LDkuMzM5TDYsMTMuMDg3VjVIMjZ6IE02LDE0LjZsNC00LjZsOC4wNjYsOS4xNDNsMC41OCwwLjY1OEwyMS40MDgsMjNINlYxNC42eiAgICBNMjIuNzQsMjNsLTMuNDI4LTMuOTU1TDIyLDE2bDQsNC4zNzlWMjNIMjIuNzR6IiBmaWxsPSIjMzMzMzMzIi8+PHBhdGggZD0iTTIwLDEzYzEuNjU2LDAsMy0xLjM0MywzLTNzLTEuMzQ0LTMtMy0zYy0xLjY1OCwwLTMsMS4zNDMtMywzUzE4LjM0MiwxMywyMCwxM3ogTTIwLDhjMS4xMDIsMCwyLDAuODk3LDIsMiAgIHMtMC44OTgsMi0yLDJjLTEuMTA0LDAtMi0wLjg5Ny0yLTJTMTguODk2LDgsMjAsOHoiIGZpbGw9IiMzMzMzMzMiLz48L2c+PC9zdmc+");
+}
+.pdf, .pdf iframe {
+  width: 1086px;
+  height: 2209px;
+}
+
+@media (max-width: 1423px) {
+  .top-invitaciones {
+    padding-top: 45px;
+  }
+
+  /* IFRAME PDF */
+  .pdf {
+    -ms-zoom: 0.24;
+    -moz-transform: scale(0.24);
+    -o-transform: scale(0.24);
+    -webkit-transform: scale(0.24);
+  }
+
+  .pdf-container {
+    display: flex;
+    border-radius: 10px;
+    margin-top: -5vh;
+    margin-left: 44px;
+    width: 20vw;
+    height: 84vh;
+    display: none;
+  }
+  .pdf, .pdf iframe {
+    width: 83vw;
+    height: 350vh;
+  }
+}
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+  .thumbnail-container {
+    display: none;
+  }
+  .pdf {
+    -ms-zoom: 0.13;
+    -moz-transform: scale(0.13);
+    -o-transform: scale(0.13);
+    -webkit-transform: scale(0.13);
+  }
+  .pdf-container {
+    display: flex;
+    border-radius: 10px;
+    margin-top: 17vh;
+    margin-left: 44px;
+    width: 69vw;
+    height: 152vh;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 734vh;
+  }
+  #invitaciones {
+    min-height: 126vh;
+    background-size: 126%;
+  }
+}
+
+
+
+/* Rango para dispositivos alrededor de 360px de ancho */
+@media only screen and (min-width: 350px) and (max-width: 370px) {
+  #invitaciones {
+    min-height: 107vh;
+    background-size: cover;
+  }
+  .pdf, .pdf iframe {
+    width: 532vw;
+    height: 618vh;
+  }
+  .pdf-container {
+    margin-top: 8vh;
+    margin-left: 30px;
+    width: 71vw;
+    height: 78vh;
+    display: block;
+  }
+}
+
+/* Rango para dispositivos alrededor de 375px de ancho */
+@media only screen and (min-width: 365px) and (max-width: 385px) {
+  #invitaciones {
+    min-height: 123vh;
+    background-size: cover;
+  }
+  .pdf, .pdf iframe {
+    width: 532vw;
+    height: 734vh;
+  }
+  .pdf-container {
+    margin-top: 9vh;
+    margin-left: 35px;
+    width: 69vw;
+    height: 90vh;
+    display: block;
+  }
+}
+
+/* Rango para dispositivos alrededor de 390px de ancho */
+@media only screen and (min-width: 385px) and (max-width: 395px) {
+  #invitaciones {
+    min-height: 123vh;
+    background-size: cover;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 734vh;
+}
+  .pdf-container {
+    margin-top: 14vh;
+    margin-left: 17px;
+    width: 80vw;
+    height: 92vh;
+    display: block;
+  }
+}
+
+/* Media query para dispositivos con un ancho de 390px hasta 395px y una altura de 844px */
+@media only screen and (min-width: 390px) and (max-width: 390px){
+  #invitaciones {
+    min-height: 134vh;
+    background-size: cover;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 760vh;
+  }
+  .pdf-container {
+    margin-top: 12vh;
+    margin-left: 20px;
+    width: 78vw;
+    height: 99vh;
+    display: block;
+  }
+}
+
+/* Media query para dispositivos con un ancho de 390px hasta 395px y una altura de 851px */
+@media only screen and (min-width: 391px) and (max-width: 393px) {
+  #invitaciones {
+    min-height: 123vh;
+    background-size: cover;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 734vh;
+  }
+  .pdf-container {
+    margin-top: 10vh;
+    margin-left: 17px;
+    width: 80vw;
+    height: 92vh;
+    display: block;
+  }
+}
+
+/* Rango para dispositivos alrededor de 413px de ancho */
+@media only screen and (min-width: 412px) and (max-width: 414px) {
+  #invitaciones {
+    min-height: 111vh;
+    background-size: 126%;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 627vh;
+  }
+  .pdf-container {
+    margin-top: 9vh;
+    margin-left: 26px;
+    width: 76vw;
+    height: 82vh;
+    display: block;
+  }
+}
+
+/* Rango para dispositivos alrededor de 413px de ancho */
+@media only screen and (min-width: 414px) and (max-width: 416px) {
+  #invitaciones {
+    min-height: 126vh;
+    background-size: 126%;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 734vh;
+  }
+  .pdf-container {
+    margin-top: 11vh;
+    margin-left: 26px;
+    width: 76vw;
+    height: 94vh;
+    display: block;
+  }
+}
+
+/* Rango para dispositivos alrededor de 413px de ancho */
+@media only screen and (min-width: 425px) and (max-width: 430px) {
+  #invitaciones {
+    min-height: 126vh;
+    background-size: 126%;
+  }
+  .pdf, .pdf iframe {
+    width: 606vw;
+    height: 734vh;
+  }
+  .pdf-container {
+    margin-top: 11vh;
+    margin-left: 26px;
+    width: 76vw;
+    height: 94vh;
+    display: block;
+  }
+}

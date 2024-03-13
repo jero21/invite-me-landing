@@ -1,34 +1,28 @@
 
-.fotos > img {
-    margin-bottom: 10px;
-}
-.row2 {
-    margin-right: -6px;
-    margin-left: -6px;
-}
-.logo-invite-me-footer {
-    color: #797979 !important;
-    font-size: 23px !important; 
-    margin-top: 10px;
-    font-family: 'Dancing Script', bold;
-    font-weight: 600;
-}
+
+/*
+Author: Bootstrapthemes
+Author URI: http://bootstrapthemes.co
+*/
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
 .logo-invite-me {
     color: white !important;
-    font-size: 23px !important; 
+    font-size: 30px !important; 
     margin-top: 10px;
     font-family: 'Dancing Script', bold;
     font-weight: 600;
 }
 .logo-invite-me:hover {
     color: #5b4f96 !important;
-    font-size: 23px !important; 
+    font-size: 30px !important; 
     margin-top: 10px;
     font-family: 'Dancing Script', bold;
     font-weight: 600;
 }
 a {
-    font-size: 15px;
+    font-size: 15px !important;
 }
 html,
 .logo_invite-me{
@@ -104,6 +98,7 @@ a span {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /*    direction: rtl;*/
 }
 p {
     margin: 0 0 15px;
@@ -177,6 +172,7 @@ h5 {
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 5.143rem;
     line-height: 5.5rem;
     color:#fff;
@@ -186,6 +182,7 @@ h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size:2.571rem;
     line-height: 3rem;
+    font-weight: 700;
 
 }
 h3 {
@@ -202,7 +199,15 @@ h4 {
     line-height: 2rem;
     margin-bottom: 1rem;
 }
-
+/*h5 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color:#223d61;
+}
+h6 {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}*/
 p {
     line-height: 2rem;
     font-size: 0.875rem;
@@ -291,6 +296,17 @@ ul{
     width: 100%;
     height: 100%;
 }
+/*.map-overlay {
+    background-color: rgba(255, 114, 0, 0.75);
+    width: 100%;
+    height:auto;
+}
+.video_overlay {
+    background-color: rgba(41, 39, 34, 0.75);
+    width: 100%;
+    height: auto;
+}*/
+
 .no-padding {
     padding: 0 !important;
     margin:0 !important;
@@ -308,7 +324,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #7b2659;
+    background: #ad7281;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -408,13 +424,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #7b2659;
-    border-color: #7b2659;
+    background-color: #c66c82;
+    border-color: #c66c82;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #7b2659;
-    border-color: #7b2659;
+    background-color: #c66c82;
+    border-color: #c66c82;
 }
 .btn {
     display: inline-block;
@@ -427,7 +443,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #7b2659;
+    border: 1px solid #ff81a0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -463,11 +479,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #7b2659;
-    border:1px solid #7b2659;
+    background: #c66c82;
+    border:1px solid #c66c82;
 }
 .btn-lg{
-    background: #7b2659;
+    background: #ff81a0;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -564,6 +580,8 @@ h1 span {
     font-weight: 400;
 }
 
+/*for placeholder changes*/
+
 input::-webkit-input-placeholder {
     color: #ddd;
 }
@@ -574,6 +592,20 @@ input::-ms-input-placeholder {
     color: #ddd;
 }
 
+/*for image bg*/
+
+
+/*.img-bg{
+  background: url(../images/home-msg.jpg) no-repeat center top fixed;
+  background-size
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}*/
+/* navbar section */
 .menu-scroll {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -610,7 +642,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #7b2659;
+    border-bottom: 1px solid #000000;
     background: transparent;
 
 }
@@ -618,9 +650,8 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 20px;
-    font-size: 14px!important;
+    font-size: 0.875rem;
     color: #fff;
-    font-family: 'Ovo', serif;
 }
 .navbar-brand {
     padding: 0px 15px;
@@ -650,6 +681,20 @@ input::-ms-input-placeholder {
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.175); 
     box-shadow: 0 0px 0px 
 }
+
+/*.dropdown-menu .navbar-form .form-group input[type="text"]{
+    background-color:rgba(34, 61, 97, 0.68);
+    border: 1px solid #000000;
+    color:#000000;
+    width: 300px;
+}
+.dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
+    color: #000000;
+    opacity: 1; 
+}
+.dropdown-menu .navbar-form {
+    margin-right: -30px;
+}*/
 
 .scrooldown{
     position: absolute;
@@ -901,7 +946,7 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #7b2659;
+    color: #c66c82;
     text-decoration: none;
     border: 0px solid #f4720a;
 }
@@ -929,6 +974,7 @@ button.btn-md:hover {
     width: 100%;
     /*margin-bottom: -6px;*/
 }
+
 
 .tile img {
     height: auto;
@@ -1017,6 +1063,7 @@ button.btn-md:hover {
     position: relative;
 }
 
+
 /*=====================================================================
                     counter section css
 =======================================================================*/
@@ -1080,6 +1127,8 @@ button.btn-md:hover {
 .pricing_business .btn-md{
     background: #000000;
 }
+
+
 .pricing_head{
     padding: 30px 0px;
     background: #999999;
@@ -1116,7 +1165,10 @@ button.btn-md:hover {
     background: #f4f5f9;
     padding: 80px 0px 30px 0px;
 }
+.single_pricing ul{
 
+
+}
 .single_pricing ul li{
     line-height:45px;
     height:45px;
@@ -1128,6 +1180,32 @@ button.btn-md:hover {
 .single_pricing a{
     margin-top:30px;
 }
+
+
+
+/*video section css*/
+
+/*.video{
+    background: url(../images/videobg.jpg) no-repeat top center;
+    background-size:cover;
+}
+.video .main_video{
+    padding: 220px 0px 160px 0px;
+    overflow: hidden;
+}
+.video .icon{}
+.video .icon h3{
+    color:#fff;
+    margin-top:30px;
+    margin-bottom: 0px;
+}*/
+
+
+/*about section css*/
+
+
+
+
 
 /* Team section css */
 .main_team_area{
@@ -1226,6 +1304,9 @@ li .single_team_text h4{
 li .single_team_text p{
     color:#fff;
 }
+
+
+
 
 /* Carousel */
 .testimonial{
@@ -1336,7 +1417,10 @@ li .single_team_text p{
     /*height: 417px;*/
     display: inline-block;
 }
-
+/*.main_blog_content .single_blog_area .single_blog_img img{
+    width:100%;
+    height: 100%;
+} */
 /*contact section css*/
 .contact{
     background:#f4f5f9;
@@ -1377,7 +1461,7 @@ li .single_team_text p{
                         Trail Section 
 ======================================================================*/
 .main_trial_area{
-    background: url(../images/fotos/entrada.jpg) no-repeat top center;
+    background: url(img/entrada.jpg) no-repeat top center;
     overflow: hidden;
     background-size: cover;
     color:#fff;
@@ -1398,11 +1482,12 @@ li .single_team_text p{
     text-transform: none;
 }
 
+
 /*=================================================================
                         footer section
 ===================================================================*/
 .footer{
-    background: white;
+    background: #000000;
 }
 .main_footer{
     overflow: hidden;
@@ -1442,6 +1527,8 @@ li .single_team_text p{
     color:#000000;
 }
 
+
+
 /* scrollup */
 
 .scrollup{
@@ -1478,139 +1565,11 @@ li .single_team_text p{
     text-decoration: none;
 
 }
-.fotos > img {
-    border: 3px solid #ae7999;
-}
-.btn {
-    font-family: 'Lora', serif;
-}
-.regalo{
-    background-size: auto 100%;
-    background-color: #ae7999;
-}
-.texto_informativo {
-    font-family: 'Lora', serif;
-    color: #797979
-}
-.simply-amount, .simply-word {
-    color:#4d568f;
-    font-family: 'Lora', serif;
-}
-.separator3 {
-    height: 2px;
-    width: 40px;
-    margin:20px auto;
-    background: #efcdd3;
-    z-index: 10000;
-}
-.another-letter > h3, h2{
-    font-family: 'Lora', serif;
-}
-.invite-me {
-    color: white !important;
-    font-size: 30px !important; 
-    margin-top: 10px;
-    font-family: 'Hello_Januari', cursive;
-    font-weight: 600;
-}
-.invite-me:hover {
-    color: #5b4f96 !important;
-    font-size: 30px !important; 
-    margin-top: 10px;
-    font-family: 'Hello_Januari', cursive;
-    font-weight: 600;
-}
-.font-principal {
-    font-family: 'Hello_Januari', cursive;
-}
-h1 {
-    font-weight: normal;
-    line-height: 3rem;
-    letter-spacing: .1rem;
-}
-@font-face {
-    font-family: 'Hello_Januari';
-    src: url("../font/Hello-January.otf") format("opentype");
-}
-@media (max-width: 768px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-    background-position: 47% 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; 
-}
-.musica {
-    text-align: center;
-}
-.font-principal {
-        font-size: 5.5rem;
-}
-.texto_informativo {
-    font-size: 1.5rem;
-}
-}
-@media (min-width: 768px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-    background-position: 49% 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-.musica {
-    text-align: center;
-}
-.font-principal {
-        font-size: 5.5rem;
-}
-.texto_informativo {
-    font-size: 1.5rem;
-}
-}
-@media (min-width: 992px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-    background-position: 31% 51%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-.musica {
-    text-align: center;
-    margin-top: 20px;
-}
-.font-principal {
-    font-size: 10rem;   
-}
-.texto_informativo {
-    font-size: 2.5rem;
-}
-}
-@media (min-width: 1200px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/belen-coke-2023/portada.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-.musica {
-    text-align: center;
-    margin-top: 20px;
-}
-.font-principal {
-    font-size: 10rem;    
-}
-.texto_informativo {
-    font-size: 2.5rem;
-}
-}
+
+
+
+
+
+
+
+

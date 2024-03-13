@@ -1,485 +1,278 @@
 <!DOCTYPE html>
-<html class="no-js" lang="es">
-<head>
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
     <meta name="language" content="es">
-    <title>Invite-me | Invitaciones digitales para matrimonio</title>
-    <meta name="description" content="Creamos la invitación digital perfecta para tu matrimonio">
-    <meta name="keywords" content="invitaciones de boda, partes de matrimonio, invitación de matrimonio digital, invitaciones digitales de matrimonio, Invitaciones de boda digitales WhatsApp, invitacion digital, Invitaciones digitales para boda con confirmación ,partes digitales">
-    <meta name="author" content="invite-me.cl">
-    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invite-me.cl | Invitación digital personalizada para tu matrimonio</title>
+    <meta name="description" content="Creamos una invitación digital personalizada para tu matrimonio, baby shower, cumpleaños etc.">
+    <meta name="keywords" content="invite-me, invite-me.cl, invitaciones digitales, invitación digital, invitación personalizada">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Equipo de Invite-me">
 
-    <!--Google Fonts link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Metas de Facebook -->
+    <meta property="og:title" content="Invite-me.cl | Invitación digital personalizada para tu matrimonio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://invite-me.cl" />
+    <meta property="og:image" content="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/plan_platino.png" />
+    <meta property="og:description" content="Creamos una invitación digital personalizada para tu matrimonio, baby shower, cumpleaños etc." />
+    <meta property="og:site_name" content="Invite-me.cl" />
+    <meta property="og:site_name" content="Equipo de Invite-me">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/vendor.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- favicons
-    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iframe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="apple-touch-icon" href="icon.ico">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
-    <link rel="icon" href="icon.ico" type="image/x-icon">
-</head>
-<style>
-    .row2{
-        width: 89%;
-        max-width: 1800px;
-        margin: 0 auto;
-    }
-    .text-left {
-        text-align: left;
-    }
-</style>
-<body id="top">
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="row">
-            <div class="header-logo">
-                <a class="site-logo logo-invite-me" href="/">
-                    Invite-me
-                </a>
+    <link rel="icon" href="icon.ico" type="image/x-icon"> 
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <div class="container">            
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-block d-lg-none logo" href="/#inicio">INVITE-ME.CL</a>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse font-nav" id="navbarTogglerDemo">
+            <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <a class="nav-item nav-link" href="#servicios">SERVICIO</a>
+              <a class="nav-item nav-link" href="#como-funciona">¿CÓMO FUNCIONA?</a>
+              <a class="nav-item nav-link" href="#planes-precios">PLANES Y PRECIOS</a>
             </div>
+            <!-- Brand/logo - only visible on lg screens and up -->
+            <a class="navbar-brand mx-lg-auto logo d-none d-lg-block" href="/#inicio">INVITE-ME.CL</a>
 
-            <nav class="header-nav-wrap">
-                <ul class="header-main-nav">
-                    <li class="current"><a class="smoothscroll" href="#home" title="inicio">Inicio</a></li>
-                    <li><a class="smoothscroll" href="#about" title="about">Características</a></li>
-                    <li><a class="smoothscroll" href="#features" title="features">¿Cómo funciona?</a></li>
-                    <li><a class="smoothscroll" href="#pricing" title="precios">Valores</a></li>
-                    <li><a class="smoothscroll" href="#after-boda" title="after-boda">After Boda</a></li>
-
-
-                <div class="header-cta">
-                    <a href="https://wa.me/+56976177455?text=Hola+quisiera+saber+más+sobre+su+servicio+😁" target="_blank" class="btn btn--primary header-cta__btn contactanos">CONTÁCTANOS AQUÍ</a>
-                </div>
-            </nav> <!-- end header-nav-wrap -->
-
-            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
-        </div>
-
-    </header> <!-- end header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="assets/images/cena.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <div class="home-content__left">
-                    <h1 style="font-size: 40px;">
-                        La experiencia de tus invitados
-                        comienza con la invitación 
-                        al matrimonio.
-                    </h1>
-
-                    <h3 style="color: rgb(255 255 255);">
-                        Descubran nuestras invitaciones y creen una experiencia inolvidable 💜.
-                    </h3>
-
-                    <div class="home-content__btn-wrap">
-                        <a href="https://wa.me/+56976177455?text=Hola+quisiera+saber+más+sobre+su+servicio+😁" target="_blank" class="btn btn--primary home-content__btn contactanos">
-                            ¡Escríbenos!
-                        </a>
-                    </div>
-                </div> <!-- end home-content__left-->
-
-                <div class="home-content__right">
-                    <img src="assets/images/1.png" srcset="assets/images/moviles-negro.png 1x, assets/images/moviles-negro.png 2x" alt="moviles con invitaciones">
-                </div> <!-- end home-content__right -->
-
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__icon"></span>
-        </a>
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section" style="padding-top: 10.2rem;">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h2 class="display-1" style="font-size: 3.5rem;">
-                    Un toque de elegancia, modernidad y diversión desde el primer momento.
-                </h2>
+            <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <a class="nav-item nav-link" href="#testimonios">TESTIMONIOS REALES</a>
+              <a class="nav-item nav-link" href="#after-boda">AFTER BODA</a>
+              <a class="nav-item nav-link" href="#nosotros" target="_blank">NOSOTROS</a>
             </div>
-        </div> <!-- end section-header -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- about-how
-    ================================================== -->
-    <section class="s-about-how">
-
-        <div class="row">
-           <div class="col-full video-bg margin-movil" data-aos="fade-up">
-
-                <video autoplay loop playsinline muted src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/videos/invite-me.mp4" style="opacity: 1; width: 100%; margin-top: 0px;"></video>
-           </div> <!-- end video-bg -->
-        </div>
-
-        <div class="row process-wrap" id="features">
-
-            <h2 class="display-2 text-center" data-aos="fade-up">¿Cómo funciona?</h2>
-
-            <div class="process" data-aos="fade-up">
-                <div class="process__steps block-1-2 block-tab-full group">
-
-                    <div class="col-block step">
-                        <h3 class="item-title text-left">Iniciemos la Conversación</h3>
-                        <p> Comuníquense con nosotros y recibirán una respuesta en menos de 24 horas. Estamos aquí para aclarar todas sus dudas y ayudarles a seleccionar el plan ideal 👌</p>
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title text-left">Diseñando juntos</h3>
-                        <p>Una vez elegido el plan y confirmada el anticipo del 30%, coordinaremos una videollamada para conocernos. Nuestra meta es capturar la esencia de su relación, asegurándonos de que cada detalle de la invitación refleje fielmente su estilo.</p>
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title text-left"> Proceso creativo 👊</h3>
-                        <p>Creamos un grupo de whatsapp y nos ponemos a diseñar tres propuestas de invitación digital que cuente su historia de amor. 😁</p>
-                    </div>
-
-                    <div class="col-block step">
-                        <h3 class="item-title text-left">¡Comiencen a invitar!</h3>
-                        <p> Tras seleccionar su diseño favorito, perfeccionamos y pulimos cada detalle. Y con el pago final del 70%, la invitación de sus ensueño está lista para ser compartida. 💜</p>
-
-                    </div>
-
-                </div> <!-- end process__steps -->
-           </div> <!-- end process -->
-        </div> <!-- end about-how -->
-        <!--
-        <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h2 class="display-2">!Tenemos los mejores clientes! 💜</h2>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full slick-slider testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium praesentium corpori.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Naruto Uzumaki</span>
-                            <a href="#0" class="testimonials__link">@narutouzumaki</a>
-                        </div>
-                    </div> 
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-                        
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Sasuke Uchiha</span>
-                            <a href="#0" class="testimonials__link">@sasukeuchiha</a>
-                        </div>
-                    </div> 
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                        <div class="testimonials__author">
-                            <span class="testimonials__name">Shikamaru Nara</span>
-                            <a href="#0" class="testimonials__link">@shikamarunara</a>
-                        </div>
-                    </div> 
-                    
-                </div>
-
-            </div>
-
-        </div> -->
-
-    </section> <!-- end s-about-how -->
-
-    <!-- pricing
-    ================================================== -->
-    <section id="pricing" class="s-pricing target-section">
-
-        <div class="row2 section-header align-center" data-aos="fade-up">
-            <div class="col-full">
-                <h2 class="display-1">
-                    Elijan el plan perfecto <br> para su invitacion digital
-                </h2>
-                <p class="lead">
-                    Descubran el plan ideal para hacer de tu celebración una experiencia memorable 😁
-                </p>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row block-1-3 block-m-1-3 block-tab-full stack">
-
-            <div class="col-block item-plan" data-aos="fade-up">
-                <div class="item-plan__block">
-
-                    <div class="item-plan__top-part">
-                        <h2 style="margin-top: 0rem;">Plan Plata</h2>
-                        <h3 class="item-plan__title"> <b> Invitación PDF </b> Prediseñada</h3>
-                        <p class="item-plan__price">$15.000</p>
-                    </div>
-
-                    <div class="item-plan__bottom-part">
-                        <p class="item-plan__per">Texto personalizado:</p>
-                        <ul class="item-plan__features">
-                            <li>Nombre de los novios</li>
-                            <li>Dirección</li>
-                            <li>Fecha y Hora</li>
-                            <li>Confirmación</li>
-                            <li>Lista de novios</li>
-                            <li>Frases</li>
-                        </ul>
-                        <a href="/invitacion" target="_blank" class="btn btn--primary header-cta__btn large full-width" style="background: #66347F;border-color: #66347F;">VER EJEMPLOS</a>
-                    </div>
-                </div>
-            </div> <!-- end item-plan -->
-
-            <div class="col-block item-plan" data-aos="fade-up">
-                <div class="item-plan__block">
-
-                    <div class="item-plan__top-part">
-                        <h2 style="margin-top: 0rem;">Plan Oro</h2>
-                        <h3 class="item-plan__title"><b> Invitación PDF </b> Personalizada</h3>
-                        <p class="item-plan__price">$30.000</p>
-                    </div>
-
-                    <div class="item-plan__bottom-part">
-                        <p class="item-plan__per">PDF extendido o simple:</p>
-                        <ul class="item-plan__features">
-                            <li>Nombre de los novios</li>
-                            <li>Dirección</li>
-                            <li>Fecha y Hora</li>
-                            <li>Confirmación</li>
-                            <li>Lista de novios</li>
-                            <li>Frases</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> <!-- end item-plan -->
-
-            <div class="col-block item-plan" data-aos="fade-up">
-                <div class="item-plan__block">
-
-                    <div class="item-plan__top-part">
-                        <h2 style="margin-top: 0rem;">Plan Diamante</h2>
-                        <h3 class="item-plan__title"> <b> Invitación PDF </b> Prediseñada <b> + Página Web </b> Básica</h3>
-                        <p class="item-plan__price">$50.000</p>
-                    </div>
-
-                    <div class="item-plan__bottom-part">
-                        <p class="item-plan__per">Página estandar:</p>
-                        <ul class="item-plan__features">
-                            <li> Foto de portada</li>
-                            <li> Cuenta regresiva </li>
-                            <li> Hasta 4 fotos de novios </li>
-                            <li> Mapa de la dirección </li>
-                            <li> Textos personalizados </li>
-                            <li> Link a lista de regalos </li>
-                        </ul>
-                        <a href="/fabiola-felipe" target="_blank" class="btn btn--primary header-cta__btn large full-width" style="background: #66347F;border-color: #66347F;">VER EJEMPLO</a>
-                    </div>
-                </div>
-            </div> <!-- end item-plan -->
-
-        </div> <!-- end plans -->
-
-        <div class="row block-1-2 block-m-1-2 block-tab-full stack">
-
-            <div class="col-block item-plan" data-aos="fade-up">
-                <div class="item-plan__block">
-                    <div class="item-plan__top-part">
-                        <h2 style="margin-top: 0rem;">Plan Platino</h2>
-                        <h3 class="item-plan__title"> <b>PDF </b> Personalizado <b> + Página Web </b> Pro</h3>
-                        <p class="item-plan__price">$70.000</p>
-                    </div>
-
-                    <div class="item-plan__bottom-part">
-                        <p class="item-plan__per">Personalicen su página web con:</p>
-                        <ul class="item-plan__features">
-                            <li> Colores </li>
-                            <li> Música (Una canción a elección) </li>
-                            <li> Foto de portada</li>
-                            <li> Cuenta regresiva </li>
-                            <li> Hasta 12 fotos de novios </li>
-                            <li> Posibilidad de Video </li>
-                            <li> Mapa de la dirección </li>
-                            <li> Textos personalizados </li>
-                            <li> Link a lista de regalos </li>
-                            <li> Botón de confirmación </li>
-                            <li> Emoticones </li>
-                            <li> Otros </li>
-                        </ul>
-                        <a href="/invitacion_web" target="_blank" class="btn btn--primary header-cta__btn large full-width" style="background: #66347F;border-color: #66347F;">VER EJEMPLOS</a>
-                    </div>
-                </div>
-            </div> <!-- end item-plan -->
-
-            <div class="col-block item-plan item-plan--popular" data-aos="fade-up">
-                <div class="item-plan__block">
-
-                    <div class="item-plan__top-part">
-                        <h2 style="margin-top: 0rem;">Plan Esmeralda</h2>
-                        <h3 class="item-plan__title"> <b> Plan Platino </b> + </b> After Boda</h3>
-                        <p class="item-plan__price">$100.000</p>
-                    </div>
-
-                    <div class="item-plan__bottom-part">
-                        <p class="item-plan__per">Plan Esmeralda + AfterBoda:</p>
-                        <ul class="item-plan__features">
-                            <li> Foto de portada</li>
-                            <li> fotos de los recién casados</li>
-                            <li> fotos de la fiesta</li>
-                            <li> Video de la fiesta</li>
-                            <li> Palabras de agradecimiento</li>
-                            <p class="item-plan__per">*Fotos limitadas</p>
-                        </ul>
-                        <a href="#after-boda" class="btn btn--primary header-cta__btn large full-width smoothscroll" style="background: #66347F;border-color: #66347F;color:white">VER EJEMPLO</a>
-                    </div>
-                </div>
-            </div> <!-- end item-plan -->
-
-        </div> <!-- end plans -->
-
-    </section> <!-- end s-pricing -->
-
-
-    <!-- AfterBoda
-    ================================================== -->
-    <section id="after-boda" class="s-download target-section">
-
-        <div class="row section-header align-center" data-aos="fade-up">
-            <div class="col-full">
-                <h2 class="display-1">
-                    AfterBoda
-                </h2>
-                <h2 class="display-1" style="font-size: 3.5rem">
-                    Muestren a sus invitados el material audiovisual inédito de su evento
-                </h2>
-                <p class="lead">
-                    Creamos una página especial para ustedes con el registro inédito. 📷
-                </p>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row download-bottom-image" data-aos="fade-up" style="margin-top: 0px;">
-            <video autoplay loop playsinline muted src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/videos/after-boda.mp4" style="opacity: 1; width: 100%; margin-top: 0px;"></video>
-        </div>
-        <div class="row section-header align-center">
-          <div class="col-full item-plan--popular">
-                <a href="/after-boda" target="_blank" class="btn btn--primary header-cta__btn large">VER EJEMPLO</a>
           </div>
         </div>
-
-
-    </section> <!-- end AfterBoda -->
-
-        <div class="row footer__bottom">
-            <div class="footer__about col-five tab-full left">
-                <br><br>
-                <h4 class="logo-invite-me">Invite-me</h4>
-                <p class="color-p-footer">
-                    ¡Hola! Somos una pareja que decidió emprender en el rubro de matrimonios.
-                    Queremos que tu experiencia sea la mejor, somos muy comprometidos y tenemos los tips que necesitas.🫰
-                    Somos <a href="https://www.instagram.com/camiantil/" target="_blank"> @camiantil </a> y 
-                    <a href="https://www.instagram.com/jeremias.groove/" target="_blank"> @jeremias.groove </a>
-                </p> <a href=""></a>
-            </div>
-            <div class="col-five md-seven tab-full right end">
-                <div class="row">
-                    <div class="footer__contact col-seven mob-full">
-                        <h4 style="color:white">Contáctanos en:</h4>
-                            <a href="https://wa.me/+56976177455?text=Hola+quisiera+saber+más+sobre+su+servicio+😁" target="_blank">
-                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                                +569 76177455
-                            </a>
-                            <br>
-                            <a href="https://www.instagram.com/invite_me.cl/" target="_blank">
-                                <i class="fab fa-instagram" aria-hidden="true"></i>
-                                @invite_me.cl
-                            </a>
-                            <br>
-                            <a href="#" target="_blank">
-                                <i class="fa fa-envelope"></i>
-                                contacto@invite-me.cl
-                            </a>
-                            <br>
-                            <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" target="_blank">
-                                <i class="fa fa-heart"></i>
-                                Matrimonios.cl
-                            </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-full ss-copyright">
-                <span>&copy; Copyright Invite-me 2024</span>
-            </div>
-
-        </div> <!-- end footer__bottom -->
-
-        <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+      </nav>
+    </header>  
+    
+    <section class="header-container-invite-me">
+      <div class="text-center titles-invite-me">
+        <div class="posicion-texto-titulo">
+          <h1 class="title-invite-me">invitaciones digitales</h1>
         </div>
+        <h2 class="subtitle-invite-me">
+          La experiencia de tus invitados comienza con <br>
+          la invitación al matrimonio
+        </h2>
+        <div id="wp-ratedWA posicion-sello">
+          <a target="_blank" href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" rel="nofollow" title="Invite-me, ganador Wedding Awards 2024 Matrimonios.cl" class="posicion-sello">
+            <img alt="Invite-me, ganador Wedding Awards 2024 Matrimonios.cl" id="wp-ratedWA-img-2024" src="https://cdn1.matrimonios.cl/img/badges/2024/badge-weddingawards_es_CL.jpg" class="size-sello">
+          </a>
+        </div>
+        <div class="text-center posicion-boton-titulo">
+          <a href="https://wa.me/+56976177455?text=Hola+quisiera+saber+más+sobre+su+servicio+😁" class="btn btn-primary btn-evento">CONTÁCTANOS AQUÍ</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Sección servicio -->
+    <section class="container-fluid split-background" id="servicios">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/servicios_celular.png" alt="Imagen de teléfono con invitación digital PDF" class="mobile-image">
+        </div>
+        <div class="col-12 col-md-6 justify-content-left nuestros-servicios">
+          <div class="row">
+            <div class="col-12">
+              <div class="title-line"></div>
+              <h2 class="title-servicios">Nuestros Servicios</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-5 pt-4">
+              <h3 class="subtitle-servicios">Un toque de elegancia, <br> 
+                modernidad y <br>
+                diversión desde el <br>
+                primer momento.</h3>
+            </div>
+            <div class="col-md-7 pt-4 sello-servicios">
+              <div id="wp-ratedWA posicion-sello" class="text-left">
+                <a target="_blank" href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" rel="nofollow" title="Invite-me, ganador Wedding Awards 2024 Matrimonios.cl 2" class="text-left">
+                  <img width="125" height="125" alt="Invite-me, ganador Wedding Awards 2024 Matrimonios.cl" id="wp-ratedWA-img-2024" src="https://cdn1.matrimonios.cl/img/badges/2024/badge-weddingawards_es_CL.jpg">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col-12 col-md-10 text-servicios">
+              <p>Somos un servicio especializado en la creación de invitaciones digitales para matrimonios. Nos comprometemos a capturar la esencia única de cada pareja y plasmarla en un diseño que reflejen su historia de amor. </p> 
+              <p>Desde el primer contacto hasta la entrega final, trabajamos mano a mano con nuestros clientes para garantizar que cada detalle de su invitación sea perfecta. </p>
+              <p>Nuestro objetivo es ofrecer una experiencia única y satisfactoria, haciendo que el proceso de crear las invitaciones sea tan emocionante como el día de la boda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </footer> <!-- end s-footer -->
+    <!-- Cómo funciona -->
+    <section class="invite-me container-fluid " id="como-funciona">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-12">
+          <h2 class="hatton-title subtitle-servicios text-center">¿Cómo funciona? </h2>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <span class="h1 text-primary numero-list">1</span>
+                <h3 class="d-inline-block ml-3 text-uppercase font-weight-bold text-primary text-list">Contacto Inicial</h3>
+                <p class="text-list">Contáctanos y recibirás respuesta en menos de 24 horas. Estamos aquí para aclarar todas tus dudas y ayudarte a elegir el plan ideal.</p>
+              </li>
+              <li class="my-3">
+                <span class="h1 text-primary numero-list">2</span>
+                <h3 class="d-inline-block ml-3 text-uppercase font-weight-bold text-primary text-list">Diseño personalizado</h3>
+                <p class="text-list">Déjanos conocerte mejor en una videollamada después de confirmar el plan con un anticipo del 30%.</p>
+              </li>
+              <li class="my-3">
+                <span class="h1 text-primary numero-list">3</span>
+                <h3 class="d-inline-block ml-3 text-uppercase font-weight-bold text-primary text-list">Proceso creativo</h3>
+                <p class="text-list">Creamos un grupo de WhatsApp para diseñar tres propuestas de invitación digital que cuenten tu historia de amor.</p>
+              </li>
+              <li class="my-3">
+                <span class="h1 text-primary numero-list">4</span>
+                <h3 class="d-inline-block ml-3 text-uppercase font-weight-bold text-primary text-list">Selección y refinamiento</h3>
+                <p>Selecciona tu diseño favorito y perfeccionaremos cada detalle para ti.</p>
+              </li>
+              <li class="my-3">
+                <span class="h1 text-primary numero-list">5</span>
+                <h3 class="d-inline-block ml-3 text-uppercase font-weight-bold text-primary text-list">Listos para compartir</h3>
+                <p class="text-list">Con el pago final del 70%, tu invitación de ensueño estará lista para compartir.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12 imagen-pareja2">
+            <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/pareja.png" alt="Pareja mirando una invitación digital en el teléfono" class="pareja-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invitaciones interactivas -->
+    <section class="invite-me container-fluid top-invitaciones" id="invitaciones">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="hatton-title subtitle-servicios text-center">Invitaciones digitales en PDF y Página web</h2>
+          <div class="pdf-container">
+            <div class="pdf">
+              <iframe src="pdf.html" frameborder="0" loading="lazy" onload="this.style.opacity = 1"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección envío de email -->
+    <section class="invite-me"  id="planes-precios">
+      <div class="container-eventos text-center">
+        <h2 class="hatton-title">PRONTAMENTE Obten regalos en efectivo con <a href="https://regalaundeseo.com/" class="text-invite-me" target="_blank">REGALAUNDESEO.COM</a> y <br>
+          obten hasta un 30% de descuento en la creación de la invitación digital a matrimonio.
+        </h2>
+        <div class="text-center pt-4">
+          <a href="/planes-precios" class="btn btn-primary btn-evento">IR A PLANES Y PRECIOS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección testimonios -->
+    <section class="testimonios" id="testimonios">
+      <div class="container-eventos">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-12 text-center">
+            <h2 class="hatton-title">Tenemos los mejores clientes 🤎 </h2>
+            <div id="wp-widget-reviews" class="text-center">
+              <div id="wp-widget-preview" class="text-center">
+                  Lee <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391/opiniones" rel="nofollow" rel="nofollow">nuestras opiniones</a> en &nbsp;
+                  <a href='https://www.matrimonios.cl' rel="nofollow">
+                      <img src="https://cdn1.matrimonios.cl/assets/img/logos/gen_logoHeader.svg" height="20">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- AfterBoda -->
+    <section class="invite-me container-fluid text-center text-light " id="after-boda">
+      <div class="overlay">
+        <div class="mt-5 pt-5 content-box">
+          <h2 class="display-4 title-servicios">After Boda</h2>
+          <p class="display-2" style="font-weight: bold;">$30.000</p>
+          <p class="lead px-5 text-list">
+            Al contratar cualquiera de nuestros cuatro planes, tendrás la opción de agregar el <br> 
+            exclusivo sitio web "After Boda". Una página web personalizada que <br>
+            incluye fotos y video inédito de tu ceremonia y evento!. La página contendrá:
+          </p>
+          <ul class="list-unstyled text-list-after-boda">
+            <li><i class="far fa-check-circle pr-2"></i> Foto portada.</li>
+            <li><i class="far fa-check-circle pr-2"></i> Fotos de los recién casados (máximo 8).</li>
+            <li><i class="far fa-check-circle pr-2"></i> Fotos del cóctel (máximo 20).</li>
+            <li><i class="far fa-check-circle pr-2"></i> Fotos de la fiesta (máximo 28).</li>
+            <li><i class="far fa-check-circle pr-2"></i> Video del evento.</li>
+            <li><i class="far fa-check-circle pr-2"></i> Palabras de agradecimiento.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-5">
+        <a href="https://invite-me.cl/after-boda/" class="btn btn-primary btn-after-boda" target="_blank">VER EJEMPLO</a>
+      </div>
+    </section>
+    
 
 
-    <!-- ================================================== -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <!-- script
-    ================================================== -->
-    <script src="assets/js/modernizr.js"></script>
-    <script src="assets/js/pace.min.js"></script>
-</body>
+    <footer class="bg-dark text-white pt-4 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="pt-5 pb-3">¿Quiénes somos?</h4>
+            <p>Bienvenidos a nuestro mundo creativo. 
+              ¡Somos Cami y Jero!</p>
+            <br>
+            <p><a href="/nosotros" class="link-footer" target="_blank">Conoce más sobre nosotros aquí</a></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="pt-5 pb-3">Regalaundeseo</h4>
+            <p>Crea y comparte listas de deseos o una causa y recibe el dinero en tu cuenta bancária</p>
+            <br>
+            <p><a href="https://regalaundeseo.com/" class="link-footer" target="_blank">regalaundeseo.com</a></p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="pt-5 pb-3">Contáctanos en</h4>
+            <p> <i class="fab fa-whatsapp" aria-hidden="true"></i> +569 76177455 </p>
+            <p> <i class="fa fa-envelope"></i> contacto@invite-me.cl </p>
+          <a href="https://www.instagram.com/invite_me.cl/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> @invite_me.cl </a>
+          <br>
+          <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" class="matrimonios" target="_blank">
+            <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/matrimonios.cl.png" width="23px" alt="logo matrimonios-cl"> MATRIMONIOS.CL
+          </a>
+          </div>
+        </div>
+        <div class="text-center pt-5 pb-1">
+          <div class="divider">
+            <a href="#" class="mx-3"><i class="fab fa-facebook-f link-footer rrss"></i></a>
+            <a href="https://www.instagram.com/regalaundeseo" target="_blank" class="mx-3"><i class="fab fa-instagram link-footer rrss"></i></a>
+            <a href="mailto:contacto@regalaundeseo.com" class="mx-3"><i class="fa fa-envelope link-footer rrss"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn1.matrimonios.cl/js/wp-widget.js?symfnw-CL78-1-20240220-019_www_m_"></script>
+    <script type="text/javascript" src="https://cdn1.matrimonios.cl/_js/wp-rated.js?v=4"></script>
+    <script>wpShowRatedWAv3('178391','2024');</script>
+    <script>wpShowReviews(178391, "red");</script>
+  </body>
+</html>
