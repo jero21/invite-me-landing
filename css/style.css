@@ -2,7 +2,12 @@ body {
   background-color: #ebebeb;
   padding-top: 70px;
 }
-
+.header-invitaciones {
+  display: none;
+}
+.texto-invitaciones {
+  display: block;
+}
 .form-control {
   height: calc(2.5em + 0.75rem + 2px);
 }
@@ -395,7 +400,7 @@ ul.list-unstyled li h3 {
   text-align: right;
 }
 #invitaciones {
-  background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitacion_pdf_web.jpg) center center no-repeat;
+  background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitacion_pdf_web.png) center center no-repeat;
   position: relative;
   min-height: 100vh;
   background-size: 110% 122%;
@@ -729,10 +734,17 @@ footer p {
     font-size: 17px;
   }
   #invitaciones {
-    background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitaciones-celular2.jpg) center center / cover no-repeat;
+    background: url(https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/invitaciones-celular2.jpg) center center / cover no-repeat;;
     position: relative;
-    min-height: 104vh;
-    background-size: 121%;
+    min-height: 100vh;
+    background-size: 109%;
+  }
+  .header-invitaciones {
+    background-color: #af8a78;
+    display: block;
+  }
+  .texto-invitaciones {
+    display: none;
   }
 }
 
