@@ -2,12 +2,6 @@ body {
   background-color: #ebebeb;
   padding-top: 70px;
 }
-.header-invitaciones {
-  display: none;
-}
-.texto-invitaciones {
-  display: block;
-}
 .form-control {
   height: calc(2.5em + 0.75rem + 2px);
 }
@@ -738,13 +732,6 @@ footer p {
     position: relative;
     min-height: 100vh;
     background-size: 109%;
-  }
-  .header-invitaciones {
-    background-color: #af8a78;
-    display: block;
-  }
-  .texto-invitaciones {
-    display: none;
   }
 }
 
