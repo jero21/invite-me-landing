@@ -733,6 +733,14 @@ footer p {
     min-height: 100vh;
     background-size: 109%;
   }
+  .btn-demo {
+    margin-top: 10px;
+  }
+  .btn-diamante {
+    background-color: white!important;
+    color: #B08A79 !important;
+  }
+  
 }
 
 @media (max-width: 767px) {
