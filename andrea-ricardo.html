@@ -26,6 +26,19 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+<style>
+    h1 {
+        letter-spacing: .1rem;
+    }
+    @media (max-width: 768px) {
+        .musica {
+            text-align: center;
+        }
+        .texto_informativo {
+            font-size: 3rem;
+        }
+    }
+</style>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
     <div class="culmn">
@@ -105,13 +118,15 @@
             </div>
         </section>
 
-         <!-- MUSICA-->
-         <section class="musica">
+        <section class="musica">
+            <div class="text-center texto_informativo">
+                <h1 class="texto_informativo">Dale play para tener la experiencia completa</h1>
+            </div>
+            <br>
             <audio controls>
-                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/denise.mp3" loading="lazy" type="audio/mpeg">
+                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/denise.mp3" type="audio/mp3">
             </audio>
         </section>
-        <!-- FIN MUSICA-->
 
         <section id="tiempo" class="portfolio sections">
             <div class="container-fluid">
