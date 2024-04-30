@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="language" content="es">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Fernanda & Luis</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.ico">
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Great+Vibes&family=lora&family=Lora&display=swap&family=Dancing+Script&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/invitaciones/bootstrap.css">
+    <link rel="stylesheet" href="css/invitaciones/cuenta.css">
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/fernanda-luis/style.css">
+    <link rel="stylesheet" href="invitaciones/css/footer.css">
+
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style media="screen">
+    .btn {
+        font-family: 'GODOFWAR'!important;
+        background-color: #505050;
+    }
+    .regalo{
+        background-size: auto 100%;
+        background-color: #505050;
+    }
+    .texto_informativo {
+        font-size: 3.143rem;
+        font-family: 'GODOFWAR';
+        color: black;
+
+    }
+    .simply-amount, .simply-word {
+        color:#505050;
+        font-family: 'GODOFWAR';
+    }
+    .separator3 {
+        height: 2px;
+        width: 40px;
+        margin:20px auto;
+        background: #efcdd3;
+        z-index: 10000;
+    }
+    .another-letter > h3, h2{
+        font-family: 'GODOFWAR';
+        font-size: 3.143rem;
+    }
+    .invite-me {
+        color: white !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+    }
+    .invite-me:hover {
+        color: #5b4f96 !important;
+        font-size: 30px !important; 
+        margin-top: 10px;
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+    }
+    .font-invite-me {
+        font-family: 'theseasons', cursive;
+    }
+    h1 {
+        font-weight: normal;
+    }
+    .nosotros {
+        color: #797979; 
+        font-family: 'GODOFWAR';
+        font-size: 30px;
+    }
+    @font-face {
+        font-family: 'theseasons';
+        src: url("invitaciones/font/Eyesome_Script.otf") format("opentype");
+    }
+    @font-face {
+        font-family: 'GODOFWAR';
+        src: url("invitaciones/font/GODOFWAR.TTF") format("opentype");
+    }
+    @media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/portada.jpeg');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .musica {
+        text-align: center;
+    }
+    .texto_informativo {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/portada.jpeg');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+    }
+    .texto_informativo {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/portada.jpeg');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .texto_informativo {
+        font-size: 2.6rem;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/portada.jpeg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .texto_informativo {
+        font-size: 2.6rem;
+    }
+}
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
+                                            Invite-me
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                            <li><a href="#donde">ITINERARIO</a></li>
+                                            <li><a href="#dresscode">DRESSCODE</a></li>
+                                            <li><a href="#regalos">REGALOS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                            <li><a href="#spotify">SPOTIFY</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br><br><br><br><br><br><br><br><br>
+                                            <br><br><br><br>
+                                            <br>
+                                            <h1 class="font-invite-me" style="font-size: 60px">Fernanda y Luís </h1>
+                                            <div class="separator"></div>
+                                            <h3 class="texto_informativo" style="color: white; font-size: 20px">26 . Octubre . 2024</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- MUSICA-->
+         <section class="musica">
+            <div class="text-center texto_informativo">
+                <h1 class="texto_informativo">Pulsa play para tener la experiencia completa</h1>
+            </div>
+            <br>
+            <audio controls>
+                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/Nanowar.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <!-- FIN MUSICA-->
+
+        <section id="tiempo" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center texto_informativo">
+                                <h1 class="texto_informativo" style="color: #505050">¡Estamos contando los días!</h1>
+                                <div id="cuenta"></div>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center texto_informativo">
+                                <div col-sm-12 class="container">
+                                    <h2 class="texto_informativo">No queremos que te pierdas por nada del mundo nuestro matrimonio. </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End off container -->
+        </section> <!-- End off Work Section -->
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_blog sections">
+                        <div class="text-center">
+                            <h1 class="font-invite-me" style="color: #505050">Nosotros</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div>
+                                <h2 class="texto_informativo" style="color: #797979">El próximo nivel nos espera en Eventos Torres del Paine </h2>
+                                <h2 class="texto_informativo" style="color: #797979;"> donde nuestra historia de amor alcanzará nuevas alturas. </h2>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/0portadaelsi_2023.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/2burla.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/3aniversario_pandemia.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/4disney2021.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/5primerviaje_vzla2022.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/6gatos.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/7kia_oct2022.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/8navidad_iglesias.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/9boda_cristi2024.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/10junta_2023.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/11minos_bodaPedro.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernanda-luis-2024/12anillo_bodaPedro.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-invite-me">Regalos!</h1>
+                            <div class="separator" style="background: white;"></div>
+                            <div>
+                                <h2 class="texto_informativo" style="color:white">Su presencia en nuestro día es el regalo más valioso que podríamos recibir.</h2>
+                                <h2 class="texto_informativo" style="color:white">Sin embargo, si desean honrarnos con un obsequio, les invitamos a explorar nuestro código novios en tiendas París.</h2>
+                                <h2 class="texto_informativo" style="color:white">Allí encontrarán una variedad de opciones que reflejan nuestros sueños y deseos compartidos.</h2>
+                                <br>
+                                <h2 class="texto_informativo" style="color:white">Agradecemos su amor y apoyo mientras nos embarcamos en esta nueva aventura juntos.</h2>
+                            </div>
+                            <br><br>
+                            <div >
+                                <h2 class="texto_informativo" style="color:white">Código Novios Paris: 6958354</h2>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="https://club.noviosparis.cl/home/search-couple/6958354" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> IR A LISTA DE NOVIOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
+        <section id="confirmacion" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-invite-me" style="color: #505050; font-size: 4.143rem;">No olvides confirmar asistencia</h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo" style="color: #505050;"> La cuenta regresiva comienza ahora, tienes 2 meses para confirmar tu asistencia !! </h2>
+                                <h2 class="texto_informativo" style="color: #505050;"> La invitación es individual.</h2>
+                                <br>
+                                <br>
+                                <a href="https://docs.google.com/forms/d/1tyk27rbImEdknA1sxhGsoBmvI45v6YQYiHTnfCuw5HU/edit?chromeless=1" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> CONFIRMA AQUÍ</a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONFIRMACIÓN-->
+
+
+        <footer class="bg-dark text-white pt-4 pb-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="pt-5">¿Quiénes somos?</h4>
+                  <p>¡Hola! Somos una pareja que decidió emprender en el rubro de matrimonios. Queremos que tu experiencia sea la mejor. Somos @camiantil y @jeremias.groove</p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Regalaundeseo</h4>
+                  <p>Crea y comparte listas de deseos o una causa y recibe el dinero en tu cuenta bancária</p>
+                  <p><a href="https://regalaundeseo.com/" class="link-footer" target="_blank">regalaundeseo.com</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Contáctanos en</h4>
+                  <p> <i class="fab fa-whatsapp" aria-hidden="true"></i> +569 76177455 </p>
+                  <p> <i class="fa fa-envelope"></i> contacto@invite-me.cl </p>
+                  <a href="https://www.instagram.com/invite_me.cl/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> @invite_me.cl </a>
+                  <br>
+                  <a href="https://www.pinterest.com/InviteMeCL/" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i> /InviteMeCL</a>
+                  <br><br>
+                  <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" class="matrimonios" target="_blank">
+                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/matrimonios.cl.png" width="23px" alt="logo matrimonios-cl"> MATRIMONIOS.CL
+                  </a>
+                </div>
+              </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- START SCROLL TO TOP  -->
+
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <script src="js/invitaciones/jquery-1.11.2.min.js"></script>
+    <script src="js/invitaciones/bootstrap.min.js"></script>
+    <script src="js/invitaciones/jquery.magnific-popup.js"></script>
+    <script src="js/invitaciones/slick.min.js"></script>
+
+
+    <script src="js/invitaciones/plugins.js"></script>
+    <script src="js/invitaciones/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/invitaciones/simplyCountdown.min.js"></script>
+	<script src="invitaciones/fernanda-luis/countdown.js"></script>
+</body>
+</html>
