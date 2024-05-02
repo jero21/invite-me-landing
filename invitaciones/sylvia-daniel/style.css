@@ -21,7 +21,7 @@
     font-weight: 600;
 }
 .logo-invite-me:hover {
-    color: #5b4f96 !important;
+    color: #b08a79 !important;
     font-size: 23px !important; 
     margin-top: 10px;
     font-family: 'invite-me';
@@ -365,7 +365,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #5b4f96;
+    background: #b08a79;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -476,7 +476,7 @@ Button
 }
 .btn-lg-v2{
     background: white;
-    color:#5b4f96;
+    color:#b08a79;
     padding: 1.125rem 3rem;
 }
 .btn-md{
@@ -1515,7 +1515,7 @@ li .single_team_text p{
     font-weight: 600;
 }
 .invite-me:hover {
-    color: #5b4f96 !important;
+    color: #b08a79 !important;
     font-size: 30px !important; 
     margin-top: 10px;
     font-weight: 600;
