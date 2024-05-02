@@ -1511,18 +1511,15 @@ li .single_team_text p{
     color: white !important;
     font-size: 30px !important; 
     margin-top: 10px;
-    font-family: "Tangerine", cursive;
-    font-weight: 600;
+    font-family: "Pinyon Script", cursive;
 }
 .invite-me:hover {
     color: #b08a79 !important;
     font-size: 30px !important; 
     margin-top: 10px;
-    font-weight: 600;
 }
 .font-principal {
-    font-family: "Tangerine", cursive;
-    font-weight: 600;
+    font-family: "Pinyon Script", cursive;
 }
 h1 {
     font-weight: normal;
