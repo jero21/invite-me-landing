@@ -1511,7 +1511,9 @@ li .single_team_text p{
     color: white !important;
     font-size: 30px !important; 
     margin-top: 10px;
-    font-family: "Pinyon Script", cursive;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .invite-me:hover {
     color: #b08a79 !important;
@@ -1519,7 +1521,15 @@ li .single_team_text p{
     margin-top: 10px;
 }
 .font-principal {
-    font-family: "Pinyon Script", cursive;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-principal-nosotros {
+    font-family: "Tangerine", cursive;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.1;
 }
 h1 {
     font-weight: normal;
