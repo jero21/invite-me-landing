@@ -1476,3 +1476,121 @@ li .single_team_text p{
     text-decoration: none;
 
 }
+.overlay {
+    background-color: rgb(86 84 80 / 35%);
+}
+.fotos > img {
+    border: 3px solid #511c34;
+}
+.btn {
+    font-family: 'Montserrat'!important;
+}
+.regalo{
+    background-size: auto 100%;
+    background-color: #511c34;
+}
+.texto_informativo {
+    font-size: 2.143rem;
+    font-family: 'Montserrat';
+    color: #797979
+}
+.simply-amount, .simply-word {
+    color:#511c34;
+    font-family: 'Montserrat';
+}
+.another-letter > h3, h2{
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+.invite-me {
+    color: white !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+}
+.invite-me:hover {
+    color: #5b4f96 !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+}
+.font-principal {
+    font-family: 'Halimun';
+}
+h1 {
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Halimun';
+    src: url("../font/Aniyah.otf") format("opentype");
+}
+@media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catalina-ismael-2023/portada-min.jpg');
+        background-position: 47% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .font-principal {
+        font-size: 2.5rem;
+    }
+    .texto_informativo {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catalina-ismael-2023/portada-min.jpg');
+        background-position: 49% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .font-principal {
+        font-size: 2.5rem;
+    }
+    .texto_informativo {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catalina-ismael-2023/portada+intento+3-min.jpg');
+        background-position: 31% 51%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .font-principal {
+        font-size: 3.5rem;   
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catalina-ismael-2023/portada+intento+3-min.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .font-principal {
+        font-size: 3.5rem;    
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
