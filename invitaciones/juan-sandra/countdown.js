@@ -1,5 +1,5 @@
 simplyCountdown('#cuenta', {
-	year: 2024, // required
+	year: 2025, // required
 	month: 9, // required
 	day: 17, // required
 	hours: 17, // Default is 0 [0-23] integer
