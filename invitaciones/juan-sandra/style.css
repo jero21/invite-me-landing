@@ -306,7 +306,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #EB5468;
+    background: #031e3e;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -406,13 +406,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #EB5468;
-    border-color: #EB5468;
+    background-color: #031e3e;
+    border-color: #031e3e;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #EB5468;
-    border-color: #EB5468;
+    background-color: #031e3e;
+    border-color: #031e3e;
 }
 .btn {
     display: inline-block;
@@ -425,7 +425,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #EB5468;
+    border: 1px solid #031e3e;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -461,11 +461,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #EB5468;
-    border:1px solid #EB5468;
+    background: #031e3e;
+    border:1px solid #031e3e;
 }
 .btn-lg{
-    background: #EB5468;
+    background: #031e3e;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -608,7 +608,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #EB5468;
+    border-bottom: 1px solid #031e3e;
     background: transparent;
 
 }
@@ -876,7 +876,7 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #EB5468;
+    color: #031e3e;
     text-decoration: none;
     border: 0px solid #f4720a;
 }
@@ -1252,7 +1252,7 @@ li .single_team_text p{
 }
 
 .main_blog_content .single_blog_area .single_blog_text{
-    background: #e74e3e;
+    background: #818181;
     padding: 70px 30px 70px 50px;
     position: relative;
 }
@@ -1264,7 +1264,7 @@ li .single_team_text p{
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-right: 30px solid #e74e3e;;
+    border-right: 30px solid #818181;;
     border-bottom: 30px solid transparent;
 }
 .main_blog_content .single_blog_area .single_blog_text.s_b_right:after{
@@ -1276,7 +1276,7 @@ li .single_team_text p{
     width: 0;
     height: 0;
     border-top: 30px solid transparent;
-    border-left: 30px solid #e74e3e;;
+    border-left: 30px solid #818181;;
     border-bottom: 30px solid transparent;
 }
 .main_blog_content .single_blog_area .single_blog_text a.read_more{
@@ -1298,7 +1298,7 @@ li .single_team_text p{
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.01);
 }
 .contact_info_content h3{
-    color:#e74e3e;
+    color:#818181;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     margin-bottom: 19px;
@@ -1375,7 +1375,7 @@ li .single_team_text p{
 }
 .copyright_text p i{
     padding:0px 10px;
-    color:#ff0000;
+    color:#818181;
 }
 .copyright_text p a{
     padding:0px 10px;
@@ -1416,60 +1416,46 @@ li .single_team_text p{
 
 }
 .btn {
-    font-family: "Playfair Display", serif;
+    font-family: "Caveat Brush", cursive;
 }
 .regalo{
     background-size: auto 100%;
-    background-color: #f5b48a;
+    background-color: #031e3e;
 }
 .texto_informativo {
     font-size: 2.143rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Caveat Brush", cursive;
     color: #797979
 }
 .simply-amount, .simply-word {
-    color:#f5b48a;
-    font-family: "Playfair Display", serif;
+    color:#031e3e;
+    font-family: "Caveat Brush", cursive;
 }
 .separator3 {
     height: 2px;
     width: 40px;
     margin:20px auto;
-    background: #f5b48a;
+    background: #031e3e;
     z-index: 10000;
 }
 .another-letter > h3, h2{
-    font-family: "Playfair Display", serif;
+    font-family: "Caveat Brush", cursive;
     font-size: 22px;
 }
-.invite-me {
-    color: white !important;
-    font-size: 30px !important; 
-    margin-top: 10px;
-    font-family: 'Great Vibes', cursive;
-    font-weight: 600;
-}
-.invite-me:hover {
-    color: #5b4f96 !important;
-    font-size: 30px !important; 
-    margin-top: 10px;
-    font-family: 'Great Vibes', cursive;
-    font-weight: 600;
-}
 .font-principal {
-    font-family: 'Blastine';
+    font-family: 'Playlist_Script';
 }
 h1 {
     font-weight: normal;
 }
 @font-face {
-    font-family: 'Blastine';
-    src: url("../font/Blastine.otf") format("opentype");
+    font-family: 'Playlist_Script';
+    src: url("../font/Playlist_Script.otf") format("opentype");
 }
 @media (max-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-juan-2024/1.jpeg');
-        background-position: 90% 30%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/juan-sandra-2024/portada.jpg');
+        background-position: 60% 30%;
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-appearance: none;
@@ -1480,17 +1466,20 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .another-letter {
-        font-size: 18px;
+        font-size: 25px;
+    }
+    .texto_informativo {
+        font-size: 25px;
     }
     
 }
 @media (min-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-juan-2024/1.jpeg');
-        background-position: 90% 28%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/juan-sandra-2024/portada.jpg');
+        background-position: 60% 28%;
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-appearance: none;
@@ -1501,15 +1490,18 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .another-letter {
-        font-size: 18px;
+        font-size: 25px;
+    }
+    .texto_informativo {
+        font-size: 25px;
     }
 }
 @media (min-width: 992px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-juan-2024/1.jpeg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/juan-sandra-2024/portada.jpg');
         background-position: 31% 51%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1522,12 +1514,12 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 }
 @media (min-width: 1200px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-juan-2024/1.jpeg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/juan-sandra-2024/portada.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-appearance: none;
@@ -1539,6 +1531,6 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 }
