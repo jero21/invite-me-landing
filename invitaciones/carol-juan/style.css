@@ -9,22 +9,26 @@
     color: #797979 !important;
     font-size: 23px !important; 
     margin-top: 10px;
-    font-family: 'Dancing Script', bold;
+    font-family: 'invite-me';
     font-weight: 600;
 }
 .logo-invite-me {
     color: white !important;
     font-size: 23px !important; 
     margin-top: 10px;
-    font-family: 'Dancing Script', bold;
+    font-family: 'invite-me';
     font-weight: 600;
 }
 .logo-invite-me:hover {
-    color: #5b4f96 !important;
+    color: #b08a79 !important;
     font-size: 23px !important; 
     margin-top: 10px;
-    font-family: 'Dancing Script', bold;
+    font-family: 'invite-me';
     font-weight: 600;
+}
+@font-face {
+    font-family: 'invite-me';
+    src: url("../../fonts/Hatton_Ultralight_200.otf") format("opentype");
 }
 a {
     font-size: 15px;
@@ -1420,7 +1424,7 @@ li .single_team_text p{
 }
 .regalo{
     background-size: auto 100%;
-    background-color: #F5B993;
+    background-color: #f5b48a;
 }
 .texto_informativo {
     font-size: 2.143rem;
@@ -1428,14 +1432,14 @@ li .single_team_text p{
     color: #797979
 }
 .simply-amount, .simply-word {
-    color:#F5B993;
+    color:#f5b48a;
     font-family: "Playfair Display", serif;
 }
 .separator3 {
     height: 2px;
     width: 40px;
     margin:20px auto;
-    background: #F5B993;
+    background: #f5b48a;
     z-index: 10000;
 }
 .another-letter > h3, h2{
@@ -1480,8 +1484,12 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
+    .another-letter {
+        font-size: 18px;
+    }
+    
 }
 @media (min-width: 768px) {
     .home{
@@ -1497,7 +1505,10 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 3.2rem;
+        font-size: 3rem;
+    }
+    .another-letter {
+        font-size: 18px;
     }
 }
 @media (min-width: 992px) {
