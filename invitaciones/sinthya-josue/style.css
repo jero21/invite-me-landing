@@ -1460,7 +1460,7 @@ h1 {
 @media (max-width: 768px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/sinthya-josue-2024/2.jpg');
-        background-position: 60% 30%;
+        background-position: 10% 30%;
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-appearance: none;
