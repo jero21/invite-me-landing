@@ -699,7 +699,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #fff;
+    border-bottom: 125px solid #fff;
     border-right: 680px solid transparent;
 
 }
@@ -710,7 +710,7 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 86px solid #fff;
+    border-bottom: 125px solid #fff;
     border-left: 680px solid transparent;
 }
 .main_home h1{
@@ -1549,8 +1549,8 @@ h1 {
 }
 @media (max-width: 768px) {
 .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catherine-ignacio-2024/PORTADA3.png');
-    background-position: 47% 30%;
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/catherine-ignacio-2024/test2.png');
+    background-position: 62% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-appearance: none;
