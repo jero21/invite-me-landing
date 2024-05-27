@@ -1454,7 +1454,7 @@ h1 {
 }
 @media (max-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carolina-jonathan-2024/1.jpg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carolina-jonathan-2024/nueva_portada.jpeg');
         background-position: 47% 30%;
         background-repeat: no-repeat;
         -webkit-appearance: none;
@@ -1477,7 +1477,7 @@ h1 {
 }
 @media (min-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carolina-jonathan-2024/1.jpg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carolina-jonathan-2024/nueva_portada.jpeg');
         background-position: 47% 28%;
         background-repeat: no-repeat;
         -webkit-appearance: none;
@@ -1506,6 +1506,7 @@ h1 {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        height: 893px;
     }
     .musica {
         text-align: center;
@@ -1513,6 +1514,12 @@ h1 {
     }
     .font-principal {
         font-size: 6rem;
+    }
+    .home_skew_border:before {
+        border-bottom: 0px solid #fff
+    }
+    .home_skew_border:after {
+        border-bottom: 0px solid #fff
     }
 }
 @media (min-width: 1200px) {
@@ -1523,6 +1530,7 @@ h1 {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        height: 893px;
     }
     .musica {
         text-align: center;
@@ -1530,5 +1538,11 @@ h1 {
     }
     .font-principal {
         font-size: 6rem;
+    }
+    .home_skew_border:before {
+        border-bottom: 0px solid #fff
+    }
+    .home_skew_border:after {
+        border-bottom: 0px solid #fff
     }
 }
