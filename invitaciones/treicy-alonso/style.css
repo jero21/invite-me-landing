@@ -312,7 +312,7 @@ Separator
     width: 10px;
     height: 10px;
     margin: 20px auto;
-    background: #b76e79;
+    background: #B88917;
     position: relative;
     display: inline-block;
     border-radius: 50%;
@@ -1487,7 +1487,7 @@ li .single_team_text p{
 }
 .regalo{
     background-size: auto 100%;
-    background-color: #fea064;
+    background-color: #b76e79;
 }
 .texto_informativo {
     font-family: "Marcellus", serif;
