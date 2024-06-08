@@ -1454,10 +1454,9 @@ h1 {
 }
 @media (max-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/4.jpeg');
-        background-position: 66% 30%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
+        background-position: 53% 0%;
         background-repeat: no-repeat;
-        background-size: cover;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none; 
@@ -1466,7 +1465,7 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 4rem;
+        font-size: 6rem;
     }
     .another-letter {
         font-size: 25px;
@@ -1478,10 +1477,9 @@ h1 {
 }
 @media (min-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/4.jpeg');
-        background-position: 66% 30%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
+        background-position: 53% 0%;
         background-repeat: no-repeat;
-        background-size: cover;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -1490,7 +1488,7 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 4rem;
+        font-size: 6rem;
     }
     .another-letter {
         font-size: 25px;
@@ -1501,7 +1499,7 @@ h1 {
 }
 @media (min-width: 992px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/5.jpeg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
         background-position: 54% 99%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1514,12 +1512,12 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 6rem;
+        font-size: 8rem;
     }
 }
 @media (min-width: 1200px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/5.jpeg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
         background-repeat: no-repeat;
         background-position: 54% 99%;
         background-size: cover;
@@ -1532,6 +1530,6 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 6rem;
+        font-size: 8rem;
     }
 }
