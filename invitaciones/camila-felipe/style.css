@@ -1454,12 +1454,13 @@ h1 {
 }
 @media (max-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada3.jpeg');
-        background-position: 51% 266%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
+        background-position: 51% 0%;
         background-repeat: no-repeat;
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none; 
+        appearance: none;
+        background-size: cover;
     }
     .musica {
         text-align: center;
@@ -1477,12 +1478,13 @@ h1 {
 }
 @media (min-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada3.jpeg');
-        background-position: 51% 266%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
+        background-position: 51% 0%;
         background-repeat: no-repeat;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        background-size: cover;
     }
     .musica {
         text-align: center;
@@ -1500,7 +1502,7 @@ h1 {
 @media (min-width: 992px) {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
-        background-position: 54% 99%;
+        background-position: 54% 51%;
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-appearance: none;
@@ -1519,7 +1521,7 @@ h1 {
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/camila-felipe-2024/portada.jpeg');
         background-repeat: no-repeat;
-        background-position: 54% 99%;
+        background-position: 54% 51%;
         background-size: cover;
         -webkit-appearance: none;
         -moz-appearance: none;
