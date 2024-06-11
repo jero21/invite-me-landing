@@ -699,8 +699,8 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 125px solid #fff;
-    border-right: 680px solid transparent;
+    border-bottom: 129px solid #fff;
+    border-right: 200000px solid transparent
 
 }
 .home_skew_border:before{
@@ -710,8 +710,8 @@ input::-ms-input-placeholder {
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 125px solid #fff;
-    border-left: 680px solid transparent;
+    border-bottom: 129px solid #fff;
+    border-right: 8000px solid transparent;
 }
 .main_home h1{
     color: #fff;
@@ -1545,12 +1545,13 @@ h1 {
 }
 @media (max-width: 768px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/treicy-alonso-2024/portada_celu.jpg');
-        background-position: 62% 800%;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/treicy-alonso-2024/portada_sin_editar.jpeg');
+        background-position: 51% 0%;
         background-repeat: no-repeat;
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none; 
+        appearance: none;
+        background-size: contain;
     }
     .musica {
         text-align: center;
@@ -1596,7 +1597,7 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 8rem;   
+        font-size: 7rem;   
     }
     .texto_informativo {
         font-size: 2.5rem;
@@ -1621,7 +1622,7 @@ h1 {
         margin-top: 20px;
     }
     .font-principal {
-        font-size: 8rem;    
+        font-size: 7rem;    
     }
     .texto_informativo {
         font-size: 2.5rem;
