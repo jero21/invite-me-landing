@@ -91,6 +91,11 @@ h1 {
     src: url("invitaciones/font/BrittanySignature.ttf") format("opentype");
 }
 @media (max-width: 768px) {
+    .main_home {
+        padding-top: 140px;
+        padding-bottom: 278px;
+        display: block;
+    }
     .home{
         background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/treicy-alonso-2024/portada_sin_editar.jpeg');
         background-position: 51% 0%;
@@ -98,27 +103,30 @@ h1 {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background-size: contain;
+        background-size: cover;
+        height: 633px;
     }
     .musica {
         text-align: center;
+        margin-top: 30px;
     }
     .font-principal {
         font-size: 4.5rem;
     }
     .texto_informativo {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 }
 @media (min-width: 768px) {
 .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/treicy-alonso-2024/portada_sin_editar.jpeg');
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/treicy-alonso-2024/2.jpg');
     background-position: 51% 0%;
     background-repeat: no-repeat;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-size: contain;
+    background-size: cover;
+    height: 633px;
 }
 .musica {
     text-align: center;
@@ -231,21 +239,19 @@ h1 {
         <!--home Section -->
         <section id="home" class="home">
             <div class="overlay">
-                <div class="home_skew_border">
+                <div>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 ">
                                 <div class="main_home_slider text-center">
                                     <div class="single_home_slider">
-                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="height: 800px">
-                                            <br><br><br><br><br><br><br><br><br>
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                             <h1 class="font-principal">Alonso & Treicy</h1>
-                                            <br>
-                                            <div class="separator"></div>
+                                            <!-- <div class="separator"></div>
                                             <br>
                                             <div>
                                                 <h2 class="texto_informativo" style="color: white;">23 . Noviembre . 2024</h2>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
