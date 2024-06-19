@@ -1539,7 +1539,7 @@ h1 {
 @media (max-width: 768px) {
 .home{
     background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/christian-rudolf/Portada.jpeg');
-    background-position: 62% 30%;
+    background-position: 200% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-appearance: none;
@@ -1554,6 +1554,9 @@ h1 {
 }
 .texto_informativo {
     font-size: 2rem;
+}
+.simply-amount {
+    font-size: 35px;
 }
 }
 @media (min-width: 768px) {
