@@ -1483,7 +1483,7 @@ li .single_team_text p{
 
 }
 .btn {
-     font-family: 'Brown_Sugar';
+    font-family: 'Brown_Sugar';
 }
 .regalo{
     background-size: auto 100%;
@@ -1496,7 +1496,7 @@ li .single_team_text p{
 }
 .simply-amount, .simply-word {
     color:#c09c48;
-     font-family: 'Brown_Sugar';
+    font-family: 'Brown_Sugar';
 }
 .separator3 {
     height: 2px;
@@ -1522,15 +1522,20 @@ h1 {
     line-height: 3rem;
     letter-spacing: .1rem;
 }
+.font-Brown_Sugar {
+    font-family: 'Brown_Sugar';
+}
+.font-SulatRizal {
+    font-family: 'SulatRizal';
+}
 @font-face {
     font-family: 'BDScript';
     src: url("../font/BDScript-Regular.ttf") format("opentype");
 }
 @font-face {
-    font-family: 'Brown_Sugar';
-    src: url("../font/Brown_Sugar.otf") format("opentype");
+    font-family: 'SulatRizal';
+    src: url("../font/SulatRizal.otf") format("opentype");
 }
-
 @media (max-width: 768px) {
 .home{
     background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/christian-rudolf/Portada.jpeg');
@@ -1621,5 +1626,8 @@ h1 {
         padding-top: 419px;
         padding-bottom: 24px;
         display: block;
+    }
+    .ultima-foto {
+        width: 40%;
     }
 }
