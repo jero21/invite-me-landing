@@ -351,6 +351,11 @@ h1 {
   font-size: 60px;
   padding-top: 20px;
 }
+.title-servicios-planes {
+  font-family: 'BrittanySignature';
+  font-size: 35px;
+  padding-top: 20px
+}
 .subtitle-servicios {
   font-family: 'TAN-MONCHERI';
   color: white;
@@ -469,7 +474,7 @@ ul.list-unstyled li h3 {
 }
 .font-tan-moncheri-planes {
   font-family: 'TAN-MONCHERI';
-  font-size: 40px;
+  font-size: 30px;
 }
 #servicios {
   padding-bottom: 40px;
@@ -502,7 +507,7 @@ footer p {
   }
   .font-tan-moncheri-planes {
     font-family: 'TAN-MONCHERI';
-    font-size: 30px;
+    font-size: 25px;
   }
   .text-list {
     font-size: 15px;
