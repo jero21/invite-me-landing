@@ -357,12 +357,13 @@ h1 {
   padding-top: 20px
 }
 .subtitle-servicios {
-  font-family: 'TAN-MONCHERI';
+  font-family: Hatton;
   color: white;
+  font-size: 2.5rem;
 }
 .numero-list {
-  font-family: 'BrittanySignature';
-  font-size: 60px;
+  font-family: 'Hatton';
+  font-size: 40px;
 }
 .text-list {
   font-family: 'Livvic', sans-serif;
@@ -528,7 +529,7 @@ footer p {
     font-size: 13px;
   }
   .subtitle-servicios {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .title-servicios {
     font-size: 50px;
