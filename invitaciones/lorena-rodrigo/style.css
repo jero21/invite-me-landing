@@ -777,11 +777,6 @@ input::-ms-input-placeholder {
     color: #fff;
     background: #000000;
 }
-
-/*==================================================================
-            Feature section Style
-====================================================================*/
-
 .main_feature{}
 .main_feature .single_feature{}
 .main_feature .single_feature:hover .single_feature_icon{
@@ -811,9 +806,6 @@ input::-ms-input-placeholder {
     transition: all 0.6s;
 }
 
-/*==================================================================
-            History section Style
-====================================================================*/
 .main_history{
 
 }
@@ -822,10 +814,6 @@ input::-ms-input-placeholder {
     padding-left: 30px;
 }
 
-
-/*==================================================================
-            service section Style
-====================================================================*/
 .main_service .head_title{
     padding: 100px 0px 40px 0px;
     margin-bottom: 0px;
@@ -874,9 +862,6 @@ input::-ms-input-placeholder {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
-/*======================================================================
-                    portfolio section css
-========================================================================*/
 .btn-md:active, .btn-md.active {
     background-image: none;
     outline: 0;
@@ -985,9 +970,6 @@ button.btn-md:hover {
     background: #fff;
 }
 
-/*========================================================================
-                    Study Section Css
-==========================================================================*/
 .study{
     background: #f4f5f9;
 }
@@ -1021,10 +1003,6 @@ button.btn-md:hover {
 .single_study_right_img{
     position: relative;
 }
-
-/*=====================================================================
-                    counter section css
-=======================================================================*/
 .counter{
     background: url(../images/counterbg.jpg) no-repeat top center;
     background-size: cover;
@@ -1273,9 +1251,6 @@ li .single_team_text p{
     transform: rotate(0deg);
 }
 
-/*====================================================================
-                        clogo section css
-======================================================================*/
 .clogo{
     background: #f4f5f9;
 }
@@ -1293,10 +1268,6 @@ li .single_team_text p{
     box-shadow: 1px 1px 1px 0px rgba(0,0,0, 0.25);
 }
 
-
-/*=================================================================
-                            Blog Section
-===================================================================*/
 .blog{
     background: #f4f5f9;
 }
@@ -1378,9 +1349,6 @@ li .single_team_text p{
     overflow: hidden;
 }
 
-/*====================================================================
-                        Trail Section 
-======================================================================*/
 .main_trial_area{
     background: url(../images/fotos/entrada.jpg) no-repeat top center;
     overflow: hidden;
@@ -1403,9 +1371,6 @@ li .single_team_text p{
     text-transform: none;
 }
 
-/*=================================================================
-                        footer section
-===================================================================*/
 .footer{
     background: white;
 }
