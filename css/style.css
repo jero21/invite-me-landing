@@ -50,7 +50,7 @@ h1 {
   height: 125px;
 }
 .header-container-invite-me {
-  background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/regalaundeseo/invite-me/Inicio.jpg') no-repeat center center;
+  background: url('../img/banner.png') no-repeat center center;
   background-size: cover;
   position: relative;
   min-height: 107vh;
