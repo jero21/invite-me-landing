@@ -412,13 +412,13 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ffffff;
-    background-color: #c09c48;
-    border-color: #c09c48;
+    background-color: #555350;
+    border-color: #555350;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #c09c48;
-    border-color: #c09c48;
+    background-color: #555350;
+    border-color: #555350;
 }
 .btn {
     display: inline-block;
@@ -431,7 +431,7 @@ Button
     border-radius: 0px;
     margin-top: 20px;
     transition: .5s;
-    border: 1px solid #c09c48;
+    border: 1px solid #555350;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 0.8rem 3rem;
@@ -467,11 +467,11 @@ Button
     padding: 1.125rem 3rem;
 }
 .btn-default:hover{
-    background: #c09c48;
-    border:1px solid #c09c48;
+    background: #555350;
+    border:1px solid #555350;
 }
 .btn-lg{
-    background: #c09c48;
+    background: #555350;
     padding: 1.125rem 3rem;
 }
 .btn-lg-v2{
@@ -614,7 +614,7 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #000000;
     padding-bottom: 22px;
-    border-bottom: 1px solid #c09c48;
+    border-bottom: 1px solid #555350;
     background: transparent;
 
 }
@@ -889,6 +889,7 @@ button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-lista-novios {
     font-size: 20px;
+    border:1px solid #b4c3ae!important;
 }
 button.btn-md {
     text-align: center;
@@ -905,7 +906,7 @@ button.btn-md {
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #c09c48;
+    color: #555350;
     text-decoration: none;
     border: 0px solid #f4720a;
 }
