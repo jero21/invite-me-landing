@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="language" content="es">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lorena & Rodrigo</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.ico">
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Tangerine:wght@400;700&family=Pinyon+Script&family=Arapey:ital@0;1&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/invitaciones/bootstrap.css">
+    <link rel="stylesheet" href="css/invitaciones/cuenta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/lorena-rodrigo/style.min.css">
+    <link rel="stylesheet" href="invitaciones/css/footer.css">
+
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+.btn {
+    font-family: 'Brown_Sugar';
+}
+.regalo{
+    background-size: auto 100%;
+    background-color: #b4c3ae;
+}
+.texto_informativo {
+    font-family: 'Brown_Sugar';
+    color: #797979;
+    letter-spacing: 2px; 
+}
+.simply-amount, .simply-word {
+    color:#b4c3ae;
+    font-family: 'Brown_Sugar';
+}
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin:20px auto;
+    background: #b4c3ae;
+    z-index: 10000;
+}
+.font-principal {
+    font-family: "Amsterdam";
+}
+.font-principal-nosotros {
+    font-family: "Amsterdam";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.1;
+}
+h1 {
+    font-weight: normal;
+    line-height: 5rem;
+    letter-spacing: .3rem;
+}
+.font-Brown_Sugar {
+    font-family: 'Brown_Sugar';
+}
+.font-SulatRizal {
+    font-family: 'SulatRizal';
+}
+@font-face {
+    font-family: 'Amsterdam';
+    src: url("invitaciones/font/Amsterdam.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'SulatRizal';
+    src: url("invitaciones/font/SulatRizal.otf") format("opentype");
+}
+@media (max-width: 768px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/portada.jpeg');
+        background-position: 62% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .andpersan {
+        font-size: 3rem!important;    
+    }
+    h1 {
+        line-height: 3rem;
+        letter-spacing: .3rem;
+    }
+    .font-principal {
+        font-size: 3rem;
+    }
+    .texto_informativo {
+        font-size: 2rem;
+    }
+    .simply-amount {
+        font-size: 30px;
+    }
+}
+@media (min-width: 768px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/portada.jpeg');
+    background-position: 49% 28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+h1 {
+    line-height: 3rem;
+    letter-spacing: .3rem;
+}
+.andpersan {
+    font-size: 3rem;    
+}
+.musica {
+    text-align: center;
+}
+.font-principal {
+font-size: 4rem;
+}
+.texto_informativo {
+    font-size: 2.2rem;
+}
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/portada.jpeg');
+        background-position: 50% 92%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    h1 {
+        line-height: 3rem;
+        letter-spacing: .3rem;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 7rem;   
+    }
+    .andpersan {
+        font-size: 3rem;    
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+    .main_home {
+        padding-top: 419px;
+        padding-bottom: 24px;
+        display: block;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/portada.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50% 92%;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 5rem;    
+    }
+    .andpersan {
+        font-size: 3rem;    
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+    .main_home {
+        padding-top: 419px;
+        padding-bottom: 67px;
+        display: block;
+    }
+    .ultima-foto {
+        margin-top: 260px;
+    }
+}
+</style>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="/" target="_blank">
+                                            INVITE-ME.CL
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                            <li><a href="#dresscode">DRESSCODE Y REGLAS</a></li>
+                                            <li><a href="#regalos">OBSEQUIOS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                                            <h1 class="font-principal">Lorena & Rodrigo</h1>
+                                            <!-- <h1 class="font-principal andpersan">&</h1>
+                                            <h1 class="font-principal">Rodrigo</h1> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tiempo" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio" style="margin-top: -50px;">
+                        <div class="col-sm-12">
+                            <div class="text-center texto_informativo">
+                                <h1 class="texto_informativo">Estamos contando los días</h1>
+                                <div id="cuenta"></div>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center texto_informativo">
+                                <div col-sm-12 class="container">
+                                    <h2 class="texto_informativo font-Brown_Sugar">Te esperamos el Viernes 04 de Octubre del 2024.</h2>
+                                    <h2 class="texto_informativo font-Brown_Sugar">Comenzamos a las 16:30 horas</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        </div>
+
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog">
+            <div class="container-fluid">
+                <div class="row2">
+                    <div class="main_blog sections">
+                        <div class="text-center">
+                            <h1 class="font-principal" style="color: #6E6C5A">¡Nos casamos!</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div>
+                                <h2 class="texto_informativo text-center">Se parte de nuestra mágica aventura</h2>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container"  style="padding-bottom: 50px;">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-6 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/1.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-6 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/3.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-lg-6 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/2.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+
+                            <div class="col-lg-6 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/lorena-rodrigo-2024/4.jpeg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #6E6C5A">Ceremonia </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">16:30 horas</h2>
+                                <br>
+                                <h2 class="texto_informativo">Nuestra señora de Loreto</h2>
+                                <h2 class="texto_informativo">San Jose de la Sierra 200 Las Condes</h2>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.458799106263!2d-70.50478741544696!3d-33.37152757985529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cb83e722b3ad%3A0x942af6eb65cbc1b4!2sIglesia%20Nuestra%20Se%C3%B1ora%20de%20Loreto!5e0!3m2!1ses-419!2scl!4v1720992436518!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #6E6C5A">Recepción </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">22:00 horas</h2>
+                                <br>
+                                <h2 class="texto_informativo">Casona de la Laguna</h2>
+                                <h2 class="texto_informativo">Av. Chicureo 13000, Colina</h2>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13341.938622362793!2d-70.6306951!3d-33.2799815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662b82f77c61d33%3A0xe524fbf2ae72610!2sSof%C3%ADa%20Jottar%20Banquetes%20y%20Eventos%20-%20Casona%20de%20la%20Laguna!5e0!3m2!1ses-419!2scl!4v1720992706326!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+
+
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;"">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #6E6C5A"> Dress code </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <br><br>
+                                <h2 class="texto_informativo"> En Iglesia</h2>
+                                <br>
+                                <h2 class="texto_informativo"> Uniforme con condecoraciones y espada.</h2>
+                                <h2 class="texto_informativo"> Y personal civil con tenida formal.</h2>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo"> En Salón de evento</h2>
+                                <br>
+                                <h2 class="texto_informativo"> Se considerará salón para personal uniformado para cambio de tenida posterior ceremonia.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN DRESSCODE-->
+
+        <!-- REGLA-->
+        <section id="reglas" class="portfolio sections" style="background-color: #f4f5f9; margin-top: -40px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #6E6C5A"> Información  importante </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <br><br>
+                                <h2 class="texto_informativo">Este no es un evento diseñado para niños. No considera instalaciones ni actividades</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN REGLA-->     
+
+        
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-principal">¡Regalos!</h1>
+                            <br><br>
+                            <div class="separator" style="background: white;"></div>
+                            <div>
+                                <h2 class="texto_informativo" style="color:white">Nuestro mejor regalo es tu presencia, pero si quisieras contribuir con nuestro proyecto de vida, puedes elegir un regalo  en novios paris donde armamos nuestra lista con el código <strong>6957412</strong></h2>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="https://club.noviosparis.cl/home/couple-catalog/6957412" style="background-color: #555350;" class="btn btn-primary btn-lg btn-lista-novios" target="_blank"> LISTA DE NOVIOS PARIS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
+        <section id="confirmacion" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #6E6C5A;"> Confirmación</h1>
+                                <br><br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo"> No olvides confirmar tu asistencia antes del 2 de Septiembre.</h2>
+                                <br>
+                                <a href="https://wa.me/+56961937641?text=Hola+confirmamos+asistencia+a+su+matrimonio!" style="background-color: #b4c3ae;" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> CONFIRMA AQUÍ</a>
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONFIRMACIÓN-->
+
+        <footer class="bg-dark text-white pt-4 pb-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="pt-5">¿Quiénes somos?</h4>
+                  <p>¡Hola! Somos una pareja que decidió emprender en el rubro de matrimonios. Queremos que tu experiencia sea la mejor. Somos @camiantil y @jeremias.groove</p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Regalaundeseo</h4>
+                  <p>Crea y comparte listas de deseos o una causa y recibe el dinero en tu cuenta bancária</p>
+                  <p><a href="https://regalaundeseo.cl/" class="link-footer" target="_blank">regalaundeseo.cl</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Contáctanos en</h4>
+                  <p> <i class="fab fa-whatsapp" aria-hidden="true"></i> +569 41094120 </p>
+                  <p> <i class="fa fa-envelope"></i> contacto@invite-me.cl </p>
+                  <a href="https://www.instagram.com/invite_me_invitaciones/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> @invite_me_invitaciones </a>
+                  <br>
+                  <a href="https://www.pinterest.com/InviteMeCL/" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i> /InviteMeCL</a>
+                  <br><br>
+                  <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" class="matrimonios" target="_blank">
+                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/matrimonios.cl.png" width="23px" alt="logo matrimonios-cl"> MATRIMONIOS.CL
+                  </a>
+                </div>
+              </div>
+            </div>
+        </footer>
+    </div>
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    
+    <script src="js/invitaciones/simplyCountdown.min.js"></script>
+	<script src="invitaciones/lorena-rodrigo/countdown.js"></script>
+    <script src="js/invitaciones/jquery-1.11.2.min.js"></script>
+    <script src="js/invitaciones/bootstrap.min.js"></script>
+    <script src="js/invitaciones/jquery.magnific-popup.js"></script>
+    <script src="js/invitaciones/slick.min.js"></script>
+    <script src="js/invitaciones/plugins.js"></script>
+    <script src="js/invitaciones/main.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
