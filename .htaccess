@@ -1,6 +1,13 @@
-RewriteEngine on
+RewriteEngine On
+
+# Redirigir de www a no-www
+RewriteCond %{HTTP_HOST} ^www\.invite-me\.cl [NC]
+RewriteRule ^(.*)$ https://invite-me.cl/$1 [L,R=301]
+
+# Redirigir URLs con extensión .html a URLs sin la extensión
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
+# Servir archivos .html sin la extensión en la URL
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
