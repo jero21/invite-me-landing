@@ -1528,7 +1528,7 @@ li .single_team_text p{
     font-size: 30px !important; 
     margin-top: 10px;
 }
-.font-principal, .font-principal-banner {
+.font-principal {
     font-family: "Abundant_Script_Demo";
     font-optical-sizing: auto;
     font-style: normal;
