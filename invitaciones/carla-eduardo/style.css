@@ -1533,6 +1533,11 @@ li .single_team_text p{
     font-optical-sizing: auto;
     font-style: normal;
 }
+.font-principal-banner {
+    font-family: "Abundant_Script_Demo";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .font-principal-nosotros {
     font-family: "Abundant_Script_Demo";
     font-style: normal;
