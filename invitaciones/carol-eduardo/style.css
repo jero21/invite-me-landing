@@ -1555,7 +1555,7 @@ h1 {
 }
 @media (max-width: 768px) {
 .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpg');
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
     background-position: 88% 30%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1584,7 +1584,7 @@ h1 {
 }
 @media (min-width: 768px) {
 .home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpg');
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
     background-position: 42% 28%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1613,7 +1613,7 @@ h1 {
 }
 @media (min-width: 992px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
         background-position: 50% 99%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1637,7 +1637,7 @@ h1 {
 }
 @media (min-width: 1200px) {
     .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpg');
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
         background-repeat: no-repeat;
         background-position: 50% 29%;
         background-size: cover;
