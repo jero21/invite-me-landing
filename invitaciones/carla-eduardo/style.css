@@ -1528,7 +1528,7 @@ li .single_team_text p{
     font-size: 30px !important; 
     margin-top: 10px;
 }
-.font-principal {
+.font-principal, .font-principal-banner {
     font-family: "Abundant_Script_Demo";
     font-optical-sizing: auto;
     font-style: normal;
@@ -1562,7 +1562,10 @@ h1 {
     text-align: center;
 }
 .font-principal {
-    font-size: 5rem;
+    font-size: 5.5rem;
+}
+.font-principal-banner {
+    font-size: 4.5rem;
 }
 .texto_informativo {
     font-size: 2.2rem;
@@ -1588,6 +1591,9 @@ h1 {
     text-align: center;
 }
 .font-principal {
+    font-size: 5.5rem;
+}
+.font-principal-banner {
     font-size: 5.5rem;
 }
 .texto_informativo {
@@ -1617,6 +1623,9 @@ h1 {
     .font-principal {
         font-size: 6rem;   
     }
+    .font-principal-banner {
+        font-size: 6rem;
+    }
     .texto_informativo {
         font-size: 2.5rem;
     }
@@ -1637,6 +1646,9 @@ h1 {
     }
     .font-principal {
         font-size: 6rem;    
+    }
+    .font-principal-banner {
+        font-size: 6rem;
     }
     .texto_informativo {
         font-size: 2.5rem;
