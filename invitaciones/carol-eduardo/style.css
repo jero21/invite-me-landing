@@ -1497,7 +1497,7 @@ li .single_team_text p{
 }
 .texto_informativo {
     font-family: "Cormorant Garamond", serif;
-    color: #797979
+    color: #656565;
 }
 .simply-amount, .simply-word {
     color:#236a91;
@@ -1556,7 +1556,7 @@ h1 {
 @media (max-width: 768px) {
 .home{
     background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
-    background-position: 80% 30%;
+    background-position: 77% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-appearance: none;
@@ -1580,6 +1580,11 @@ h1 {
 }
 .home_skew_border:before {
     border-left: 0px solid transparent;
+}
+.main_home {
+    padding-top: 297px;
+    padding-bottom: 22px;
+    display: block;
 }
 }
 @media (min-width: 768px) {
