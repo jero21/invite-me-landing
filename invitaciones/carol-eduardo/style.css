@@ -1556,7 +1556,7 @@ h1 {
 @media (max-width: 768px) {
 .home{
     background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
-    background-position: 88% 30%;
+    background-position: 80% 30%;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-appearance: none;
@@ -1570,7 +1570,7 @@ h1 {
     font-size: 5.5rem;
 }
 .font-principal-banner {
-    font-size: 4.5rem;
+    font-size: 5rem;
 }
 .texto_informativo {
     font-size: 2.2rem;
