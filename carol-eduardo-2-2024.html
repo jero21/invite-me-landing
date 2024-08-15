@@ -1,0 +1,598 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="language" content="es">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Carol & Eduardo</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="icon.ico">
+
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Tangerine:wght@400;700&family=Cinzel&family=Arapey:ital@0;1&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/invitaciones/bootstrap.css">
+    <link rel="stylesheet" href="css/invitaciones/cuenta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="invitaciones/carol-eduardo-2/style.css">
+    <link rel="stylesheet" href="invitaciones/css/footer.css">
+
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+    .btn {
+    font-family: "Marcellus", serif;
+}
+.regalo{
+    background-size: auto 100%;
+    background-color: #236a91;
+}
+.texto_informativo {
+    font-family: "Marcellus", serif;
+    color: #656565;
+}
+.simply-amount, .simply-word {
+    color:#236a91;
+     font-family: "Marcellus", serif;
+}
+.separator3 {
+    height: 2px;
+    width: 40px;
+    margin:20px auto;
+    background: #236a91;
+    z-index: 10000;
+}
+.another-letter > h3, h2{
+    font-family: "Marcellus", serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.invite-me {
+    color: white !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+    font-family: "Abundant_Script_Demo";
+    font-weight: 400;
+    font-style: normal;
+}
+.invite-me:hover {
+    color: #b08a79 !important;
+    font-size: 30px !important; 
+    margin-top: 10px;
+}
+.font-principal {
+    font-family: "Abundant_Script_Demo";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.font-principal-banner {
+    font-family: "Abundant_Script_Demo";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.font-principal-nosotros {
+    font-family: "Abundant_Script_Demo";
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.1;
+}
+h1 {
+    font-weight: normal;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+}
+@font-face {
+    font-family: 'Abundant_Script_Demo';
+    src: url("invitaciones/font/Abundant_Script_Demo.ttf") format("opentype");
+}
+@media (max-width: 768px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+    background-position: 77% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+.musica {
+    text-align: center;
+}
+.font-principal {
+    font-size: 5.5rem;
+}
+.font-principal-banner {
+    font-size: 6rem;
+}
+.texto_informativo {
+    font-size: 2rem;
+}
+.home_skew_border:after {
+    border-right: 0px solid transparent;
+}
+.home_skew_border:before {
+    border-left: 0px solid transparent;
+}
+.main_home {
+    padding-top: 297px;
+    padding-bottom: 22px;
+    display: block;
+}
+}
+@media (min-width: 768px) {
+.home{
+    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+    background-position: 42% 28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.musica {
+    text-align: center;
+}
+.font-principal {
+    font-size: 5.5rem;
+}
+.font-principal-banner {
+    font-size: 5.5rem;
+}
+.texto_informativo {
+    font-size: 2.2rem;
+}
+.home_skew_border:after {
+    border-right: 0px solid transparent;
+}
+.home_skew_border:before {
+    border-left: 0px solid transparent;
+}
+}
+@media (min-width: 992px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+        background-position: 50% 99%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 6rem;   
+    }
+    .font-principal-banner {
+        font-size: 6rem;
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 1200px) {
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+        background-repeat: no-repeat;
+        background-position: 50% 29%;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .font-principal {
+        font-size: 6rem;    
+    }
+    .font-principal-banner {
+        font-size: 6rem;
+    }
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+}
+</style>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div class="culmn">
+        <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="nave_menu">
+                            <nav class="navbar navbar-default">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand logo-invite-me" href="https://invite-me.cl" target="_blank">
+                                            INVITE-ME.CL
+                                        </a>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="#home">INICIO</a></li>
+                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#nosotros">NOSOTROS</a></li>
+                                            <li><a href="#donde">¿DÓNDE?</a></li>
+                                            <li><a href="#dresscode">DRESSCODE Y REGLAS</a></li>
+                                            <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+        <!--End of header -->
+
+        <!--home Section -->
+        <section id="home" class="home">
+            <div class="overlay">
+                <div class="home_skew_border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="main_home_slider text-center">
+                                    <div class="single_home_slider">
+                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
+                                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                                            <br>
+                                            <h1 class="font-principal-banner">Carol</h1>
+                                            <h1 class="font-principal-banner"> y </h1>
+                                            <h1 class="font-principal-banner"> Eduardo</h1>
+                                            <div class="separator"></div>
+                                            <br>
+                                            <div>
+                                                <h2 class="texto_informativo" style="color: white;">07 . Diciembre . 2024</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <!-- MUSICA-->
+        <section class="musica">
+            <div class="text-center texto_informativo">
+                <h1 class="texto_informativo">Dale play a la melodía que nos une.</h1>
+            </div>
+            <br>
+            <audio controls>
+                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/Por-primera-vez.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <!-- FIN MUSICA-->
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog" style="background-color: white;">
+            <div class="container-fluid">
+                <div class="row2">
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-0 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/1.png"
+                                    class="w-100 shadow-1-strong rounded mb-4" loading="lazy"
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tiempo" class="portfolio sections" style="padding-bottom: 0px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio" style="margin-top: -50px;">
+                        <div class="col-sm-12">
+                            <div class="text-center texto_informativo">
+                                <h1 class="texto_informativo"> <strong>¡Estamos contando los días!</strong></h1>
+                                <div id="cuenta"></div>
+                            </div>
+                        </div>
+                        <div class="container text-center">
+                            <div class="row justify-content-md-center texto_informativo">
+                                <div col-sm-12 class="container">
+                                    <h2 class="texto_informativo">Te esperamos el sábado 07 de Diciembre del 2024. </h2>
+                                    <h2 class="texto_informativo">Comenzamos a las 17:00 horas</h2>
+                                </div>
+                                <br>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog"  style="background-color: white;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <!-- Gallery -->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/3.png"
+                                    class="w-100 shadow-1-strong rounded mb-4" loading="lazy"
+                                />
+
+                            </div>
+                            <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 fotos">
+
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/4.png"
+                                    class="w-100 shadow-1-strong rounded mb-4" loading="lazy"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Blog Section -->
+        <section id="nosotros" class="blog" style="padding-bottom: 70px; margin-top: 52px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main_blog sections text-center">
+                            <blockquote>
+                                <h2 class="texto_informativo"><q>Hay momentos en la vida que son especiales
+                                    por sí solos, pero compartirlos con las personas que queremos lo convierte en mágicos e inolvidables</q></h2>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        
+
+        <!-- Blog Section -->
+        <section id="nosotros" style="background-color: white; margin-bottom: 57px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-0 col-md-12 mb-4 mb-lg-0 fotos">
+                                <img
+                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/5.png"
+                                    class="w-100 shadow-1-strong rounded mb-4" loading="lazy"
+                                />
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CEREMONIA-->
+        <section id="donde" class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #a5760c">Ceremonia </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">Iglesia Catedral de Temuco</h2>
+                                <h2 class="texto_informativo">Claro Solar #835</h2>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.0598074647164!2d-72.59264112407081!3d-38.739389771758134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d3dded2de813%3A0xa2e7f2c271ccd4f6!2sIglesia%20Catedral%20de%20Temuco!5e0!3m2!1ses-419!2scl!4v1723428626916!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CEREMONIA-->
+
+        <!-- RECEPCIÓN-->
+        <section id="donde" class="contact-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                            <div class="head_title text-center">
+                                <h1 class="font-principal" style="color: #a5760c">Evento </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">Club de Rodeo Sofo </h2>
+                                <h2 class="texto_informativo">Rudecindo Ortega #3502, Temuco</h2>
+                                <h3 class="texto_informativo" style="font-size: 18px;">(Ingresar por costado de Abastible)</h3>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.7158788356073!2d-72.5486361!3d-38.7013702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d28c441f5411%3A0xbc48f2de0c990c70!2sClub%20De%20Rodeo%20(Centro%20De%20Eventos)!5e0!3m2!1ses!2scl!4v1723428810585!5m2!1ses!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN RECEPCIÓN-->
+
+        <!-- DRESSCODE-->
+        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #a5760c"> Dress code </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo">  Formal / Semi Formal</h2>
+                                <h2 class="texto_informativo">  Blanco exclusivo para la Novia</h2> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN DRESSCODE-->
+
+        <!-- REGLA-->
+        <section id="reglas" class="portfolio sections" style="background-color: white; margin-top: -40px;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #a5760c"> Reglas </h1>
+                                <br>
+                                <div class="separator"></div>
+                                <h2 class="texto_informativo"> Queremos que todos nuestros invitados
+                                    estén a gusto y disfruten sin preocupaciones,
+                                    es por esto que hemos elegido que el día de
+                                    nuestro matrimonio sea una ocasión
+                                    </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- FIN REGLA--> 
+
+        <!-- REGALOS-->
+        <section id="regalos" class="regalo">
+            <div class="container">
+                <div class="row2">
+                    <div class="main_pricing_area sections">
+                        <div class="text-center">
+                            <h1 class="font-principal">Obsequios</h1>
+                            <br>
+                            <div class="separator"></div>
+                            <div class="subtitle texto_informativo">
+                                <h2 class="texto_informativo" style="color:white">Como nuestra casita ya tiene todo lo que necesita
+                                    para comenzar esta nueva etapa, </h2>
+                                    <h2 class="texto_informativo" style="color:white">les agradecemos su apoyo para lograr nuestros sueños y qué mejor que sea de una manera original.
+                                    </h2>
+                                <h2 class="texto_informativo" style="color:white">¡Gracias! </h2>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="https://milistadenovios.cl/enviar-regalo?id=17238" class="btn btn-primary btn-lg btn-lista-regalos" target="_blank"> LISTA DE NOVIOS</a>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN REGALOS-->
+
+        <!-- CONFIRMACIÓN-->
+        <section id="confirmacion" class="portfolio sections">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio">
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <h1 class="font-principal" style="color: #a5760c;"> No te olvides de confirmar</h1>
+                                <br><br>
+                                <h2 class="texto_informativo"> ¡Tu compañía es importante para nosotros!</h2>
+                                <h2 class="texto_informativo"> Por favor confirma tu asistencia a la brevedad posible, a los números:</h2>
+                                <br>
+                                <div class="separator"></div>
+                                <br>
+                                <a href="https://wa.me/+56934413644?text=Hola+confirmamos+asistencia+a+su+matrimonio!" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> NOVIA</a>
+                                <a href="https://wa.me/+56999357086?text=Hola+confirmamos+asistencia+a+su+matrimonio!" class="btn btn-primary btn-lg btn-lista-novios btn-circle" target="_blank"> NOVIO</a>       
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CONFIRMACIÓN-->
+
+        <footer class="bg-dark text-white pt-4 pb-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="pt-5">¿Quiénes somos?</h4>
+                  <p>¡Hola! Somos una pareja que decidió emprender en el rubro de matrimonios. Queremos que tu experiencia sea la mejor. Somos @camiantil y @jeremias.groove</p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Regalaundeseo</h4>
+                  <p>¡Pide dinero sin pedir dinero! Crea y comparte tu lista de deseos o un objetivo para recibir donaciones de tus invitados.</p>
+                  <p><a href="https://regalaundeseo.cl/" class="link-footer" target="_blank">regalaundeseo.cl</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h4 class="pt-5 pb-3">Contáctanos en</h4>
+                  <p> <i class="fab fa-whatsapp" aria-hidden="true"></i> +569 41094120 </p>
+                  <p> <i class="fa fa-envelope"></i> contacto@invite-me.cl </p>
+                  <a href="https://www.instagram.com/invite_me_invitaciones/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> @invite_me_invitaciones </a>
+                  <br>
+                  <a href="https://www.pinterest.com/InviteMeCL/" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i> /InviteMeCL</a>
+                  <br><br>
+                  <a href="https://www.matrimonios.cl/invitaciones-matrimonio/invite-me--e178391" class="matrimonios" target="_blank">
+                    <img src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/landingpage/matrimonios.cl.png" width="23px" alt="logo matrimonios-cl"> MATRIMONIOS.CL
+                  </a>
+                </div>
+              </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- START SCROLL TO TOP  -->
+
+    <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <script src="js/invitaciones/jquery-1.11.2.min.js"></script>
+    <script src="js/invitaciones/bootstrap.min.js"></script>
+    <script src="js/invitaciones/jquery.magnific-popup.js"></script>
+    <script src="js/invitaciones/slick.min.js"></script>
+
+
+    <script src="js/invitaciones/plugins.js"></script>
+    <script src="js/invitaciones/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/invitaciones/simplyCountdown.min.js"></script>
+	<script src="invitaciones/carol-eduardo-2/countdown.js"></script>
+
+</body>
+</html>
