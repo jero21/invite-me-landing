@@ -81,9 +81,15 @@
 }
 .font-principal-nosotros {
     font-family: "Abundant_Script_Demo";
+    font-optical-sizing: auto;
     font-style: normal;
     font-size: 30px;
     line-height: 1.1;
+}
+.font-principal-invitacion {
+    font-family: "Abundant_Script_Demo";
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 h1 {
     font-weight: normal;
@@ -110,6 +116,9 @@ h1 {
 .font-principal {
     font-size: 5.5rem;
 }
+.font-principal-invitacion {
+    font-size: 3.5rem;
+}
 .font-principal-banner {
     font-size: 6rem;
 }
@@ -129,33 +138,36 @@ h1 {
 }
 }
 @media (min-width: 768px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
-    background-position: 42% 28%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-.musica {
-    text-align: center;
-}
-.font-principal {
-    font-size: 5.5rem;
-}
-.font-principal-banner {
-    font-size: 5.5rem;
-}
-.texto_informativo {
-    font-size: 2.2rem;
-}
-.home_skew_border:after {
-    border-right: 0px solid transparent;
-}
-.home_skew_border:before {
-    border-left: 0px solid transparent;
-}
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+        background-position: 42% 28%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .musica {
+        text-align: center;
+    }
+    .font-principal {
+        font-size: 5.5rem;
+    }
+    .font-principal-invitacion {
+        font-size: 4rem;
+    }
+    .font-principal-banner {
+        font-size: 5.5rem;
+    }
+    .texto_informativo {
+        font-size: 2.2rem;
+    }
+    .home_skew_border:after {
+        border-right: 0px solid transparent;
+    }
+    .home_skew_border:before {
+        border-left: 0px solid transparent;
+    }
 }
 @media (min-width: 992px) {
     .home{
@@ -173,6 +185,9 @@ h1 {
     }
     .font-principal {
         font-size: 6rem;   
+    }
+    .font-principal-invitacion {
+        font-size: 4rem;
     }
     .font-principal-banner {
         font-size: 6rem;
@@ -198,12 +213,47 @@ h1 {
     .font-principal {
         font-size: 6rem;    
     }
+    .font-principal-invitacion {
+        font-size: 4rem;
+    }
     .font-principal-banner {
         font-size: 6rem;
     }
     .texto_informativo {
         font-size: 2.5rem;
     }
+}
+
+.date-container {
+    text-align: center;
+    padding: 20px;
+}
+.date-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-section > div {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.date-divider {
+    border-left: 2px solid #6c757d;
+    height: 40px;
+    width: 0;
+    margin: 0 15px; 
+    align-self: center;
+}
+.date-day {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.date-text {
+    line-height: 1.2;
+    margin: 0;
 }
 </style>
 
@@ -325,16 +375,26 @@ h1 {
                             <div class="text-center texto_informativo">
                                 <h1 class="texto_informativo"> <strong>¡Estamos contando los días!</strong></h1>
                                 <div id="cuenta"></div>
-                            </div>
-                        </div>
-                        <div class="container text-center">
-                            <div class="row justify-content-md-center texto_informativo">
-                                <div col-sm-12 class="container">
-                                    <h2 class="texto_informativo">Te esperamos el sábado 07 de Diciembre del 2024. </h2>
-                                    <h2 class="texto_informativo">Comenzamos a las 17:00 horas</h2>
-                                </div>
-                                <br>
                                 <div class="separator"></div>
+                            </div>
+                            
+                            <div class="container">
+                                <div class="date-container">
+                                    <div>
+                                        <h1 class="font-principal-invitacion" style="color: #a5760c"> Tenemos el agrado de invitarlos a nuestra boda </h1>
+                                    </div>
+                                    <br>
+                                    <div class="date-section">
+                                        <div class="date-text texto_informativo">SÁBADO</div>
+                                        <div class="date-divider"></div>
+                                        <div>
+                                            <div class="date-day texto_informativo">07</div>
+                                            <div class="date-text texto_informativo">DIC</div>
+                                        </div>
+                                        <div class="date-divider"></div>
+                                        <div class="date-text texto_informativo">17:00 Hrs</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
