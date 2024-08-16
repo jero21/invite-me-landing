@@ -65,46 +65,89 @@ h1 {
     line-height: 3rem;
     letter-spacing: .1rem;
 }
+.date-container {
+    text-align: center;
+    padding: 20px;
+}
+.date-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date-section > div {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.date-divider {
+    border-left: 2px solid #6c757d;
+    height: 40px;
+    width: 0;
+    margin: 0 15px; 
+    align-self: center;
+}
+.date-day {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.date-text {
+    line-height: 1.2;
+    margin: 0;
+}
+.icono-btn {
+    margin-right: 8px;
+    width: 50px; 
+    height: 50px;
+}
 @font-face {
     font-family: 'Abundant_Script_Demo';
     src: url("../font/Abundant_Script_Demo.ttf") format("opentype");
 }
 @media (max-width: 768px) {
-.home{
-    background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
-    background-position: 77% 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none; 
-}
-.musica {
-    text-align: center;
-}
-.font-principal {
-    font-size: 5.5rem;
-}
-.font-principal-invitacion {
-    font-size: 3.5rem;
-}
-.font-principal-banner {
-    font-size: 6rem;
-}
-.texto_informativo {
-    font-size: 2rem;
-}
-.home_skew_border:after {
-    border-right: 0px solid transparent;
-}
-.home_skew_border:before {
-    border-left: 0px solid transparent;
-}
-.main_home {
-    padding-top: 297px;
-    padding-bottom: 22px;
-    display: block;
-}
+    .home{
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/portada.jpeg');
+        background-position: 77% 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none; 
+    }
+    .musica {
+        text-align: center;
+    }
+    .font-principal {
+        font-size: 5.5rem;
+    }
+    .font-principal-invitacion {
+        font-size: 3.5rem;
+    }
+    .font-principal-banner {
+        font-size: 6rem;
+    }
+    .texto_informativo {
+        font-size: 2rem;
+    }
+    .home_skew_border:after {
+        border-right: 0px solid transparent;
+    }
+    .home_skew_border:before {
+        border-left: 0px solid transparent;
+    }
+    .main_home {
+        padding-top: 297px;
+        padding-bottom: 22px;
+        display: block;
+    }
+    .iconos {
+        width: 23%;
+    }
+    .icono-btn {
+        width: 45px; 
+        height: 45px; 
+    }
 }
 @media (min-width: 768px) {
     .home{
@@ -137,6 +180,13 @@ h1 {
     .home_skew_border:before {
         border-left: 0px solid transparent;
     }
+    .iconos {
+        width: 23%;
+    }
+    .icono-btn {
+        width: 45px; 
+        height: 45px; 
+    }
 }
 @media (min-width: 992px) {
     .home{
@@ -163,6 +213,9 @@ h1 {
     }
     .texto_informativo {
         font-size: 2.5rem;
+    }
+    .iconos {
+        width: 20%;
     }
 }
 @media (min-width: 1200px) {
@@ -191,36 +244,7 @@ h1 {
     .texto_informativo {
         font-size: 2.5rem;
     }
-}
-
-.date-container {
-    text-align: center;
-    padding: 20px;
-}
-.date-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.date-section > div {
-    margin: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.date-divider {
-    border-left: 2px solid #6c757d;
-    height: 40px;
-    width: 0;
-    margin: 0 15px; 
-    align-self: center;
-}
-.date-day {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.date-text {
-    line-height: 1.2;
-    margin: 0;
+    .iconos {
+        width: 10%;
+    }
 }
