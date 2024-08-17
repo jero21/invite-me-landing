@@ -145,14 +145,14 @@ h1 {
         width: 23%;
     }
     .icono-btn {
-        width: 45px; 
-        height: 45px; 
+        width: 43px; 
+        height: 43px; 
     }
     .date-section > div {
         margin: 0 20px;
     }
     .btn-lista-novios {
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 @media (min-width: 768px) {
