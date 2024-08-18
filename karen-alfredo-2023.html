@@ -71,6 +71,37 @@
     .font-principal {
         font-family: 'Halimun';
     }
+    .date-container {
+        text-align: center;
+        padding: 20px;
+    }
+    .date-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .date-section > div {
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .date-divider {
+        border-left: 2px solid #6c757d;
+        height: 40px;
+        width: 0;
+        margin: 0 15px; 
+        align-self: center;
+    }
+    .date-day {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .date-text {
+        line-height: 1.2;
+        margin: 0;
+    }
     @font-face {
         font-family: 'Halimun';
         src: url("invitaciones/font/Halimun.ttf") format("opentype");
@@ -101,6 +132,9 @@
         }
         .musica {
             text-align: center;
+        }
+        .another-letter {
+            font-size: 17px;
         }
     }
     @media (min-width: 768px) {
@@ -155,9 +189,6 @@
         }
         .home_skew_border {
             height: 915px;
-        }
-        .music-col {
-            margin-top: -170px;
         }
     }
     @media (min-width: 400px) {
@@ -265,6 +296,7 @@
                                         <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                             <h2 class="font-principal font-portada" style="color: white">Karen </h2>
                                             <h2 class="font-principal font-portada" style="color: white">y</h2>
+                                            <br>
                                             <h2 class="font-principal font-portada" style="color: white"> Alfredo</h2>
                                             <div class="separator"></div>
                                             <div>
@@ -301,19 +333,27 @@
                     <div class="main_portfolio">
                         <div class="col-sm-12">
                             <div class="text-center another-letter">
-                                <h1 class="texto_informativo" style="color: #292929; font-size: 33px;">Estamos contando los días!</h1>
+                                <h1 class="texto_informativo" style="color: #292929; font-size: 26px; margin-top: -40px; margin-bottom: -40px;">¡Estamos contando los días!</h1>
                                 <br><br>
                                 <div id="cuenta"></div>
-                                <div class="separator"></div>
                             </div>
                         </div>
                         <div class="container text-center">
                             <div class="row justify-content-md-center another-letter">
                                 <div col-sm-12 class="container">
                                     <h2 style="color: #292929">Y el anillo pa cuándo?... ya está, y ahora a sellar nuestro amor. </h2>
-                                    <br><br>
-                                    <h2 style="color: #292929">Te esperamos el viernes 22 de Diciembre del 2023. </h2>
-                                    <h2 style="color: #292929">Comenzamos a las 19:30 horas</h2>
+                                    <br>
+                                    <div class="separator"></div>
+                                    <div class="date-section">
+                                        <div class="date-text texto_informativo">Viernes</div>
+                                        <div class="date-divider"></div>
+                                        <div>
+                                            <div class="date-day texto_informativo">22</div>
+                                            <div class="date-text texto_informativo">DIC</div>
+                                        </div>
+                                        <div class="date-divider"></div>
+                                        <div class="date-text texto_informativo">18:00 Hrs</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
