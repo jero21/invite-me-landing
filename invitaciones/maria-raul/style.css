@@ -8,6 +8,13 @@
     --font-color-secondary: #d9ad7c;
     --text-shadow-main: 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
+.home_skew_border:before  {
+    border-left: 0px solid !important;
+}
+
+.home_skew_border:after {
+    border-right: 0px solid !important;
+}
 
 body {
     background-color: var(--background-color);
@@ -163,7 +170,7 @@ h1 {
     }
 
     .font-principal {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .font-principal-invitacion {
