@@ -6,7 +6,7 @@
     --font-family-alternate: "Interphases";
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
-    --text-shadow-main: 3px 3px 0 rgba(0, 0, 0, 0.3);
+    --text-shadow-main: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
@@ -53,7 +53,7 @@ body {
 }
 
 .texto_informativo_direccion {
-    font-size: 1.5rem;
+    font-size: 2rem !important;
 }
 
 .simply-amount, .simply-word {
@@ -189,6 +189,9 @@ h1 {
         font-size: 1.6rem;
         margin-bottom: 5px !important;
     }
+    .texto_informativo_direccion {
+        font-size: 1.7rem !important;
+    }
 
     .font-contador {
         font-size: 2rem;
@@ -267,7 +270,7 @@ h1 {
     }
 
     .iconos {
-        width: 20%;
+        width: 5%;
     }
 }
 
