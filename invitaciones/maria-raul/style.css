@@ -1,9 +1,22 @@
-body {
-    background-color: #f9f9f9 !important;
+:root {
+    --primary-color: #875d44;
+    --secondary-color: #656565;
+    --background-color: #f9f9f9;
+    --font-family-main: "Marcellus", serif;
+    --font-family-alternate: "Interphases";
+    --font-color-light: #e7dbca;
+    --font-color-secondary: #d9ad7c;
+    --text-shadow-main: 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
+
+body {
+    background-color: var(--background-color);
+}
+
 #playPauseIcon {
     width: 50px;
 }
+
 #playButton {
     background-color: transparent;
     border: none;
@@ -11,285 +24,255 @@ body {
     cursor: pointer;
     outline: none;
 }
+
 .btn {
-    font-family: "Marcellus", serif;
-    border: 1px solid #875d44;
+    font-family: var(--font-family-main);
+    border: 1px solid var(--primary-color);
 }
+
 .btn-lista-novios, .btn-lista-novios:hover {
     font-size: 20px;
-    background-color: #875d44;
+    background-color: var(--primary-color);
 }
-.regalo{
+
+.regalo {
     background-size: auto 100%;
-    background-color: #875d44;
+    background-color: var(--primary-color);
 }
+
 .texto_informativo {
-    font-family: "Marcellus", serif;
-    color: #656565;
+    font-family: var(--font-family-main);
+    color: var(--secondary-color);
 }
+
 .texto_informativo_direccion {
-    font-size: 1.5rem!important;
+    font-size: 1.5rem;
 }
+
 .simply-amount, .simply-word {
-    color:#875d44;
-     font-family: "Marcellus", serif;
+    color: var(--primary-color);
+    font-family: var(--font-family-main);
 }
-.another-letter > h3, h2{
-    font-family: "Marcellus", serif;
-    font-style: normal;
+
+.another-letter > h3, h2 {
+    font-family: var(--font-family-main);
     font-weight: 300;
 }
-.separator {
-    background: #875d44;
+
+.separator, .separator:before, .separator:after {
+    background: var(--primary-color);
 }
+
 .sections {
     padding-top: 100px;
     padding-bottom: 70px;
 }
-.separator:before, .separator:after {
-    background: #875d44;
-} 
-.invite-me {
-    color: white !important;
-    font-size: 30px !important; 
+
+.invite-me, .invite-me:hover {
+    color: white;
+    font-size: 30px;
     margin-top: 10px;
-    font-family: "Interphases";
+    font-family: var(--font-family-alternate);
     font-weight: 400;
-    font-style: normal;
 }
+
 .invite-me:hover {
-    color: #b08a79 !important;
-    font-size: 30px !important; 
-    margin-top: 10px;
+    color: #b08a79;
 }
-.home_skew_border:after {
-    border-right: 0px solid transparent;
-}
-.home_skew_border:before {
-    border-left: 0px solid transparent;
-}
-.font-principal, .font-principal-banner, .font-principal-invitacion, .date-banner  {
+
+.font-principal, .font-principal-banner, .font-principal-invitacion, .date-banner {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
-    color: #e7dbca;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    color: var(--font-color-light);
+    text-shadow: var(--text-shadow-main);
 }
-.font-principal-invitacion  {
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+
+.font-principal-invitacion {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
+
 .date-banner {
-    color: #d9ad7c !important;
+    color: var(--font-color-secondary);
 }
+
 .font-principal-nosotros {
-    font-family: "Interphases";
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-family: var(--font-family-alternate);
     font-size: 30px;
     line-height: 1.1;
 }
+
 .texto_informativo_musica {
     font-size: 1.8rem;
 }
+
 h1 {
     font-weight: normal;
     line-height: 3rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
 }
+
 .date-container {
     text-align: center;
     padding: 20px;
 }
+
 .date-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .date-section > div {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
+
 .date-divider {
     border-left: 2px solid #6c757d;
     height: 40px;
-    width: 0;
-    margin: 0 15px; 
-    align-self: center;
+    margin: 0 15px;
 }
+
 .date-day {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .date-text {
     line-height: 1.2;
-    margin: 0;
 }
+
 .icono-btn {
     margin-right: 8px;
-    width: 50px; 
+    width: 50px;
     height: 50px;
 }
+
 @font-face {
-    font-family: 'Interphases';
+    font-family: var(--font-family-alternate);
     src: url("../font/TT\ Interphases\ Pro\ Mono\ Trial\ Regular.ttf") format("opentype");
 }
+
+/* Mobile styles */
 @media (max-width: 768px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg');
-        background-position: 40% 30%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 40% 30% / cover no-repeat;
         appearance: none;
     }
-    .musica {
-        text-align: center;
-    }
+
     .font-principal {
         font-size: 4rem;
     }
+
     .font-principal-invitacion {
         font-size: 2.5rem;
     }
+
     .font-principal-banner {
         font-size: 3rem;
     }
+
     .texto_informativo {
         font-size: 2rem;
     }
+
     .texto_informativo_musica {
         font-size: 1.6rem;
         margin-bottom: 5px !important;
     }
+
     .font-contador {
         font-size: 2rem;
         margin-top: 30px;
     }
+
     .main_home {
         padding-top: 297px;
         padding-bottom: 0px;
-        display: block;
     }
+
     .iconos {
         width: 17%;
     }
+
     .icono-btn {
-        width: 43px; 
-        height: 43px; 
+        width: 43px;
+        height: 43px;
     }
+
     .date-section > div {
         margin: 0 20px;
     }
+
     .btn-lista-novios {
         font-size: 13px;
     }
 }
+
+/* Tablet styles */
 @media (min-width: 768px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg');
-        background-position: 42% 28%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 42% 28% / cover no-repeat;
         appearance: none;
     }
-    .musica {
-        text-align: center;
-    }
+
     .font-principal {
         font-size: 5.5rem;
     }
+
     .font-principal-invitacion {
         font-size: 4rem;
     }
+
     .font-principal-banner {
         font-size: 5.5rem;
     }
+
     .texto_informativo {
         font-size: 2.2rem;
     }
-    .home_skew_border:after {
-        border-right: 0px solid transparent;
-    }
-    .home_skew_border:before {
-        border-left: 0px solid transparent;
-    }
+
     .iconos {
         width: 5%;
     }
+
     .icono-btn {
-        width: 45px; 
-        height: 45px; 
+        width: 45px;
+        height: 45px;
     }
 }
+
+/* Desktop styles */
 @media (min-width: 992px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg');
-        background-position: 50% 99%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 99% / cover no-repeat;
         appearance: none;
     }
-    .musica {
-        text-align: center;
-        margin-top: 20px;
-    }
+
     .font-principal {
-        font-size: 6rem;   
-    }
-    .font-principal-invitacion {
-        font-size: 4rem;
-    }
-    .font-principal-banner {
         font-size: 6rem;
     }
+
     .texto_informativo {
         font-size: 2.5rem;
     }
+
     .iconos {
         width: 20%;
     }
 }
+
+/* Large desktop styles */
 @media (min-width: 1200px) {
-    .home{
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg');
-        background-repeat: no-repeat;
-        background-position: 50% 29%;
-        background-size: cover;
-        -webkit-appearance: none;
-        -moz-appearance: none;
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 29% / cover no-repeat;
         appearance: none;
     }
-    .musica {
-        text-align: center;
-        margin-top: 20px;
-    }
-    .font-principal {
-        font-size: 6rem;    
-    }
-    .font-principal-invitacion {
-        font-size: 4rem;
-    }
-    .font-principal-banner {
-        font-size: 6rem;
-    }
-    .texto_informativo {
-        font-size: 2.5rem;
-    }
-    .iconos {
-        width: 5%;
-    }
+
     .main_home {
         padding-top: 716px;
         padding-bottom: 12px;
-        display: block;
     }
 }
-
