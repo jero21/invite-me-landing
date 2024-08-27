@@ -150,7 +150,7 @@ h1 {
         text-align: center;
     }
     .font-principal {
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
     .font-principal-invitacion {
         font-size: 2.5rem;
@@ -160,6 +160,10 @@ h1 {
     }
     .texto_informativo {
         font-size: 2rem;
+    }
+    .texto_informativo_musica {
+        font-size: 1.6rem;
+        margin-bottom: 5px !important;
     }
     .font-contador {
         font-size: 2rem;
@@ -171,7 +175,7 @@ h1 {
         display: block;
     }
     .iconos {
-        width: 23%;
+        width: 12%;
     }
     .icono-btn {
         width: 43px; 
