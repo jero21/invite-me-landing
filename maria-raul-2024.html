@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="language" content="es">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Carol & Eduardo</title>
+    <title>María & Raúl</title>
     <meta name="robots" content="noindex, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="icon.ico">
@@ -14,34 +14,21 @@
     <!--Google Fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Tangerine:wght@400;700&family=Cinzel&family=Arapey:ital@0;1&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
 
     <link rel="stylesheet" href="css/invitaciones/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!--Theme custom css -->
     <link rel="stylesheet" href="invitaciones/css/style.min.css">
-    <link rel="stylesheet" href="invitaciones/carol-eduardo/style.min.css">
-    <link rel="stylesheet" href="invitaciones/carol-eduardo/cuenta.min.css">
+    <link rel="stylesheet" href="invitaciones/maria-raul/style.css">
+    <link rel="stylesheet" href="invitaciones/maria-raul/cuenta.css">
     <link rel="stylesheet" href="invitaciones/css/footer.min.css">
 
     <link rel="apple-touch-icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-<style>
-    .texto-final{
-        font-size: 2rem;
-    }
-    @media (max-width: 768px) {
-        .texto-final{
-            font-size: 1.5rem;
-        }
-    }
-    .btn-lista-regalos {
-        color: #2e6da4;
-    }
-</style>
 <body data-spy="scroll" data-target=".navbar-collapse">
     <div class="culmn">
         <header id="main_menu" class="header navbar-fixed-top">
@@ -69,7 +56,7 @@
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a href="#home">INICIO</a></li>
-                                            <li><a href="#tiempo">¿CUÁNTO FALTA? </a></li>
+                                            <li><a href="#contador">¿CUÁNTO FALTA? </a></li>
                                             <li><a href="#nosotros">NOSOTROS</a></li>
                                             <li><a href="#donde">¿DÓNDE?</a></li>
                                             <li><a href="#dresscode">DRESSCODE Y REGLAS</a></li>
@@ -97,15 +84,16 @@
                                 <div class="main_home_slider text-center">
                                     <div class="single_home_slider">
                                         <div class="main_home wow fadeInUp" data-wow-duration="700ms" style="margin-bottom: 20px;">
-                                            <br><br><br><br><br><br><br><br><br><br><br><br>
-                                            <br>
-                                            <h1 class="font-principal-banner">Carol</h1>
-                                            <h1 class="font-principal-banner"> y </h1>
-                                            <h1 class="font-principal-banner"> Eduardo</h1>
+                                            <h1 class="font-principal-banner">María & Raúl</h1>
                                             <div class="separator"></div>
-                                            <br>
-                                            <div>
-                                                <h2 class="texto_informativo" style="color: white;">07 . Diciembre . 2024</h2>
+                                            <div class="text-center texto_informativo">
+                                                <div class="text-center texto_informativo">
+                                                    <h1 class="texto_informativo_musica">Dale play a la melodía que nos une</h1>
+                                                </div>
+                                                <audio id="audioPlayer" src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/fotos_invitacion_web_2/denise.mp3"></audio>
+                                                <button id="playButton">
+                                                    <img id="playPauseIcon" src="invitaciones/img/play.png" alt="Play">
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -116,75 +104,52 @@
                 </div>
             </div>
         </section>
-        <br><br>
-        <!-- MUSICA-->
-        <section class="musica">
-            <div class="text-center texto_informativo">
-                <h1 class="texto_informativo"><strong>Dale play a la melodía que nos une</strong></h1>
-            </div>
-            <br>
-            <audio controls>
-                <source src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/Por-primera-vez.mp3" type="audio/mpeg">
-            </audio>
-        </section>
-        <!-- FIN MUSICA-->
-
-        <section class="blog" style="background-color: white;">
-            <div class="row">
-                <div class="container" style="padding-right: 0; padding-left: 0;">
-                    <!-- Gallery -->
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 fotos" style="padding-right: 0; padding-left: 0;">
-                            <img
-                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/horizontal1.png"
-                                class="w-100 shadow-1-strong mb-4"
-                            />
-                        </div>
-                        <div class="col-lg-6 col-md-12 mb-4 mb-lg-0 fotos" style="padding-right: 0; padding-left: 0;">
-                            <img
-                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/horizontal2.png"
-                                class="w-100 shadow-1-strong mb-4"
-                            />
+        <section id="fecha" class="portfolio sections" style="padding-bottom: 0px; background-image: url('invitaciones/img/fondo.PNG'); background-size: cover; background-repeat: no-repeat;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_portfolio" style="margin-top: -50px;">
+                        <div class="col-sm-12">
+                            <div class="date-container">
+                                <div>
+                                    <h1 class="font-principal-invitacion" style="color: #a39787">DECIDIMOS UNIRNOS PARA SIEMPRE </h1>
+                                    <br>
+                                    <h2 class="texto_informativo">Y queremos que nos acompañes en este día especial</h2>
+                                    <br>
+                                    <div class="date-container">
+                                        <div class="date-box">
+                                            <div class="date-number">23</div>
+                                            <div class="date-label">DÍA</div>
+                                        </div>
+                                        <div class="date-box">
+                                            <div class="date-number">11</div>
+                                            <div class="date-label">MES</div>
+                                        </div>
+                                        <div class="date-box">
+                                            <div class="date-number">24</div>
+                                            <div class="date-label">AÑO</div>
+                                        </div>
+                                    </div>
+                                    <h2 class="texto_informativo">A las 17:00 Horas</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section id="tiempo" class="portfolio sections" style="padding-bottom: 0px;">
+        <section id="contador" class="portfolio sections" style="padding-bottom: 0px; background-color: #333333;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="main_portfolio" style="margin-top: -50px;">
                         <div class="col-sm-12">
-                            <div class="text-center texto_informativo">
-                                <h1 class="texto_informativo"> <strong>¡Estamos contando los días!</strong></h1>
-                                <br>
-                                <div id="cuenta"></div>
-                                <div class="separator"></div>
-                            </div>
-                            
                             <div class="container">
-                                <div class="date-container">
+                                <div class="text-center">
                                     <div>
-                                        <img
-                                            src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/anillos1.png"
-                                            class="iconos strong mb-4"
-                                        />
-                                    </div>
-                                    <div>
-                                        <h1 class="font-principal-invitacion" style="color: #a5760c"> Tenemos el agrado de invitarlos a nuestra boda </h1>
-                                    </div>
-                                    <br>
-                                    <div class="date-section">
-                                        <div class="date-text texto_informativo">SÁBADO</div>
-                                        <div class="date-divider"></div>
-                                        <div>
-                                            <div class="date-day texto_informativo">07</div>
-                                            <div class="date-text texto_informativo">DIC</div>
+                                        <h1 class="font-principal-invitacion font-contador" style="color: white">¡ESTAMOS CONTANDO LOS DÍAS! </h1>
+                                        <div class="text-center texto_informativo">
+                                            <div id="cuenta"></div>
                                         </div>
-                                        <div class="date-divider"></div>
-                                        <div class="date-text texto_informativo">17:00 Hrs</div>
                                     </div>
                                 </div>
                             </div>
@@ -194,14 +159,14 @@
             </div>
         </section>
 
-        <section class="blog" style="background-color: white;">
+        <section class="blog" style="background-color: white;margin-bottom: -30px;">
             <div class="row">
                 <div class="container" style="padding-right: 0; padding-left: 0;">
                     <!-- Gallery -->
                     <div class="row">
                         <div class="col-lg-0 col-md-12 mb-4 mb-lg-0 fotos" style="padding-right: 0; padding-left: 0;">
                             <img
-                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/5.png"
+                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/3.JPG"
                                 class="w-100 shadow-1-strong mb-4"
                             />
                         </div>
@@ -211,26 +176,28 @@
         </section>
 
         <!-- CEREMONIA-->
-        <section id="donde" class="blog">
+        <section id="donde" class="blog" style="background-color: #f2ede4;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                        <div class="contact_contant" style="padding-bottom: 20px;">
                             <div class="head_title text-center">
                                 <div>
                                     <img
-                                        src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/iglesia1.png"
+                                        src="invitaciones/img/church.png"
                                         class="iconos strong mb-4"
                                     />
                                 </div>
+                                <br><br>
                                 <h1 class="font-principal" style="color: #a5760c">Ceremonia </h1>
+                                <div class="separator"></div>
                                 <br>
-                                <h2 class="texto_informativo">Iglesia Catedral de Temuco</h2>
-                                <h2 class="texto_informativo">Claro Solar #835</h2>
+                                <h2 class="texto_informativo">Iglesia María Madre de la Misericordia</h2>
                                 <br>
+                                <h3 class="texto_informativo texto_informativo_direccion">Cam. Real 4334, Lo Barnechea, Región Metropolitana</h3>
                                 <div>
-                                    <a href="https://www.google.com/maps?ll=-38.73939,-72.590066&z=16&t=m&hl=es-419&gl=CL&mapclient=embed&cid=11738617870711313654" class="btn btn-primary btn-lista-novios btn-circle" target="_blank">
-                                        <img src="invitaciones/img/location.png" alt="Icono de mapa" class="icono-btn">
+                                    <a href="https://maps.app.goo.gl/5FX1SveREBoRw6vv9" class="btn btn-primary btn-lista-novios btn-circle" target="_blank">
+                                        <i class="fas fa-map-marker-alt"></i>
                                         IR A LA IGLESIA
                                     </a>
                                 </div>
@@ -242,23 +209,29 @@
         </section>
         <!-- FIN CEREMONIA-->
 
-        <!-- RECEPCIÓN-->
-        <section id="donde" class="blog">
+        <!-- CEREMONIA-->
+        <section id="donde" class="blog" style="background-color: #f4f5f9;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="contact_contant sections" style="padding-bottom: 20px;">
+                        <div class="contact_contant" style="padding-bottom: 20px; padding-top: 40px;">
                             <div class="head_title text-center">
-                                <h1 class="font-principal" style="color: #a5760c">Evento </h1>
-                                <br>
-                                <h2 class="texto_informativo">Club de Rodeo Sofo </h2>
-                                <h2 class="texto_informativo">Rudecindo Ortega #3502, Temuco</h2>
-                                <h3 class="texto_informativo" style="font-size: 18px;">(Ingresar por costado de Abastible)</h3>
-                                <br>
-                                
                                 <div>
-                                    <a href="https://www.google.com/maps?ll=-38.70137,-72.548636&z=16&t=m&hl=es&gl=CL&mapclient=embed&cid=13567360912961637488" class="btn btn-primary btn-lista-novios btn-circle" target="_blank">
-                                        <img src="invitaciones/img/location.png" alt="Icono de mapa" class="icono-btn">
+                                    <img
+                                        src="invitaciones/img/evento.png"
+                                        class="iconos strong mb-4"
+                                    />
+                                </div>
+                                <br><br>
+                                <h1 class="font-principal" style="color: #a5760c">Centro de eventos </h1>
+                                <div class="separator"></div>
+                                <br>
+                                <h2 class="texto_informativo">Hacienda San Martina, Salón Mirador</h2>
+                                <br>
+                                <h3 class="texto_informativo texto_informativo_direccion">Sta. Martina, Lo Barnechea, Región Metropolitana</h3>
+                                <div>
+                                    <a href="https://maps.app.goo.gl/jKXmmD2mNovF1vwbA" class="btn btn-primary btn-lista-novios btn-circle" target="_blank">
+                                        <i class="fas fa-map-marker-alt"></i>
                                         IR AL CENTRO DE EVENTOS
                                     </a>
                                 </div>
@@ -268,79 +241,27 @@
                 </div>
             </div>
         </section>
-        <!-- FIN RECEPCIÓN-->
+        <!-- FIN CEREMONIA-->
 
-        <section class="blog" style="background-color: white;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
+        <section class="blog" style="background-color: white;margin-bottom: -30px;">
+            <div class="row">
+                <div class="container" style="padding-right: 0; padding-left: 0;">
+                    <!-- Gallery -->
+                    <div class="row">
                         <div class="main_blog sections text-center">
+                            <h1 class="font-principal" style="color: #a5760c">Nosotros </h1>
+                            <div class="separator"></div>
                             <blockquote>
                                 <h2 class="texto_informativo"><q>Hay momentos en la vida que son especiales
                                     por sí solos, pero compartirlos con las personas que queremos los convierte en mágicos e inolvidables</q></h2>
                             </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  
-
-        <!-- Blog Section -->
-        <section class="blog"  style="background-color: white;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="container">
-                        <!-- Gallery -->
-                        <div class="row">
-                            <div class="col-lg-0 col-md-12 mb-1 mb-lg-0 fotos">
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/FOTO+3.png"
-                                    class="w-100 shadow-1-strong mb-1" loading="lazy"
-                                />
-    
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="blog"  style="background-color: white; margin-top: 20px;">
-            <div class="row">
-                <div class="container">    
-                    <!-- Gallery -->
-                    <div class="row">
-                        <div class="text-center">
-                            <h1 class="font-principal" style="color: #a5760c">itinerario </h1>
-                            <div class="separator"></div>
-                        </div>
-                        <div class="col-lg-0 col-md-12 mb-1 mb-lg-0 fotos">
+                            <br>
+                        </div>                
+                        <div class="col-lg-0 col-md-12 mb-4 mb-lg-0 fotos" style="padding-right: 0; padding-left: 0;">
                             <img
-                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/Itinerario.png"
-                                class="w-100 shadow-1-strong mb-1" loading="lazy"
+                                src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/1.jpg"
+                                class="w-100 shadow-1-strong mb-4"
                             />
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="blog"  style="background-color: white;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="container">
-                        <!-- Gallery -->
-                        <div class="row">
-
-                            <div class="col-lg-0 col-md-12 mb-1 mb-lg-0 fotos">
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/FOTO+4.png"
-                                    class="w-100 shadow-1-strong mb-1" loading="lazy"
-                                />
-
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,47 +269,41 @@
         </section>
 
         <!-- DRESSCODE-->
-        <section id="dresscode" class="portfolio sections" style="background-color: #f4f5f9; margin-bottom: -40px;">
-            <div class="container-fluid">
+        <section id="donde" class="blog" style="background-color: #f4f5f9;">
+            <div class="container">
                 <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <h1 class="font-principal" style="color: #a5760c"> Dress code </h1>
-                                <br>
+                    <div class="col-sm-12">
+                        <div class="contact_contant" style="padding-bottom: 20px; padding-top: 40px;">
+                            <div class="head_title text-center">
+                                <div>
+                                    <img
+                                        src="invitaciones/img/dress_women.png"
+                                        class="iconos strong mb-4"
+                                    />
+                                    <img
+                                        src="invitaciones/img/dress_men.png"
+                                        class="iconos strong mb-4"
+                                    />
+                                </div>
+                                <br><br>
+                                <h1 class="font-principal" style="color: #a5760c">DressCode </h1>
                                 <div class="separator"></div>
-                                <h2 class="texto_informativo">  Formal / Semi Formal</h2>
-                                <h2 class="texto_informativo">  Blanco exclusivo para la Novia</h2> 
+                                <br>
+                                <h2 class="texto_informativo">Formal</h2>
+                                <br>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-lista-novios btn-circle" target="_blank">
+                                        VER EJEMPLOS
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <!-- FIN DRESSCODE-->
-
-        <!-- REGLA-->
-        <section id="reglas" class="portfolio sections" style="background-color: white; margin-top: -40px;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_portfolio">
-                        <div class="col-sm-12">
-                            <div class="text-center">
-                                <h1 class="font-principal" style="color: #a5760c"> Reglas </h1>
-                                <br>
-                                <div class="separator"></div>
-                                <h2 class="texto_informativo"> Queremos que todos nuestros invitados
-                                    estén a gusto y disfruten sin preocupaciones,
-                                    es por esto que hemos elegido que el día de
-                                    nuestro matrimonio sea una ocasión solo para ADULTOS!
-                                    </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
-        <!-- FIN REGLA--> 
 
         <!-- REGALOS-->
         <section id="regalos" class="regalo">
@@ -443,34 +358,6 @@
         </section>
         <!-- FIN CONFIRMACIÓN-->
 
-        <section class="blog"  style="background-color: white;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_blog">
-                        <div class="text-center">
-                            <div>
-                                <h2 class="texto_informativo text-center texto-final" style="font-style: italic;"><q>Familia, donde la vida comienza y el amor nunca termina.</q> </h2>
-                                <div class="separator"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <!-- Gallery -->
-                        <div class="row">
-
-                            <div class="col-lg-0 col-md-12 mb-1 mb-lg-0 fotos" style="margin-top: -75px;">
-                                <img
-                                    src="https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/carol-eduardo-2024/FOTO+5.png"
-                                    class="w-100 shadow-1-strong mb-1" loading="lazy"
-                                />
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <footer class="bg-dark text-white pt-4 pb-4">
             <div class="container">
               <div class="row">
@@ -505,7 +392,20 @@
     <div class="scrollup">
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
-
+    <script>
+       document.getElementById('playButton').addEventListener('click', function() {
+            var audioPlayer = document.getElementById('audioPlayer');
+            var playPauseIcon = document.getElementById('playPauseIcon');
+            
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+                playPauseIcon.src = 'invitaciones/img/pause.png'; // Cambia la imagen a pausa
+            } else {
+                audioPlayer.pause();
+                playPauseIcon.src = 'invitaciones/img/play.png'; // Cambia la imagen a play
+            }
+        });
+    </script>
     <script src="js/invitaciones/jquery-1.11.2.min.js"></script>
     <script src="js/invitaciones/bootstrap.min.js"></script>
     <script src="js/invitaciones/jquery.magnific-popup.js"></script>
@@ -515,9 +415,8 @@
     <script src="js/invitaciones/plugins.js"></script>
     <script src="js/invitaciones/main.js"></script>
 
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="js/invitaciones/simplyCountdown.min.js"></script>
-	<script src="invitaciones/carol-eduardo/countdown.js"></script>
+	<script src="invitaciones/maria-raul/countdown.js"></script>
 
 </body>
 </html>
