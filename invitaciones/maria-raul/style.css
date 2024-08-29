@@ -1,15 +1,30 @@
 :root {
-    --primary-color: #875d44;
+    --color-btn : #bbb494;
+    --primary-color: #908d71;
     --secondary-color: #656565;
     --background-color: #f9f9f9;
     --font-family-main: "Marcellus", serif;
-    --font-family-alternate: "Interphases";
+    --font-family-alternate: "Montserrat";
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
     --text-shadow-main: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
+}
+.btn-primary:hover {
+    transform: none;
+    transition: none;
+}
+.btn-primary:active {
+    color: white!important;
+}
+.fotos > img {
+    margin-bottom: 10px;
+}
+
+.fotos {
+   margin-bottom: 0px;
 }
 
 .home_skew_border:after {
@@ -34,17 +49,19 @@ body {
 
 .btn {
     font-family: var(--font-family-main);
-    border: 1px solid var(--primary-color);
 }
-
-.btn-lista-novios, .btn-lista-novios:hover {
+.btn-primary:hover {
+    background-color: var(--color-btn);
+    border: var(--color-btn);
+}
+.btn-lista-novios{
     font-size: 20px;
-    background-color: var(--primary-color);
+    background-color: var(--color-btn);
 }
 
 .regalo {
     background-size: auto 100%;
-    background-color: var(--primary-color);
+    background-color: #8a866e;
 }
 
 .texto_informativo {
@@ -68,6 +85,10 @@ body {
 
 .separator, .separator:before, .separator:after {
     background: var(--primary-color);
+}
+
+.asd, .asd:before, .asd:after {
+    background: var(--background-color) !important;
 }
 
 .sections {
@@ -270,7 +291,7 @@ h1 {
     }
 
     .iconos {
-        width: 7%;
+        width: 5%;
     }
 }
 
