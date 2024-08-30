@@ -1,3 +1,7 @@
+:root {
+    --color-fecha : #91a6d3;
+    --color-cuenta : #8d956e;
+}
 #cuenta {
 	display: flex;
 	justify-content: center;
@@ -7,7 +11,7 @@
 	font-family: "Montserrat", sans-serif;
 }
 .simply-section {
-	background: #ba976a;
+	background: var(--color-cuenta);
 	width: 180px;
 	height: 180px;
 	margin: 0 15px;
@@ -15,6 +19,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.cuenta-regresiva-seccion {
+    padding-bottom: 0px; 
+    background-color: var(--color-cuenta);
 }
 
 /* FECHA */
@@ -26,7 +35,7 @@
 }
 
 .date-box {
-    background-color: #ba976a; /* Color de fondo de las cajas */
+    background-color: var(--color-fecha); /* Color de fondo de las cajas */
     color: #fff; /* Color del texto */
     padding: 20px;
     border-radius: 10px;

@@ -1,13 +1,12 @@
 :root {
-    --color-btn : #ba976a;
-    --primary-color: #908d71;
-    --secondary-color: #656565;
+    --color-btn : #91a6d3;
+    --primary-color: #91a6d3;
+    --secondary-color: #8d956e;
     --background-color: #f9f9f9;
-    --font-family-main: "Marcellus", serif;
-    --font-family-alternate: "Montserrat";
+    --font-family-main: 'LaLuxesScript';
+    --font-family-alternate: "roboto";
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
-    --text-shadow-main: 2px 2px 0 rgba(0, 0, 0, 0.3);
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
@@ -48,7 +47,7 @@ body {
 }
 
 .btn {
-    font-family: var(--font-family-main);
+    font-family: var(--font-family-alternate);
 }
 .btn-primary:hover {
     background-color: var(--color-btn);
@@ -61,26 +60,16 @@ body {
 
 .regalo {
     background-size: auto 100%;
-    background-color: #8a866e;
+    background-color: var(--secondary-color);
 }
 
 .texto_informativo {
-    font-family: var(--font-family-main);
-    color: var(--secondary-color);
+    font-family: var(--font-family-alternate);
+    color: grey;
 }
 
 .texto_informativo_direccion {
     font-size: 2rem !important;
-}
-
-.simply-amount, .simply-word {
-    color: var(--primary-color);
-    font-family: var(--font-family-main);
-}
-
-.another-letter > h3, h2 {
-    font-family: var(--font-family-main);
-    font-weight: 300;
 }
 
 .separator, .separator:before, .separator:after {
@@ -96,31 +85,23 @@ body {
     padding-bottom: 70px;
 }
 
-.invite-me, .invite-me:hover {
-    color: white;
-    font-size: 30px;
-    margin-top: 10px;
-    font-family: var(--font-family-alternate);
-    font-weight: 400;
-}
-
 .invite-me:hover {
     color: #b08a79;
 }
 
-.font-principal, .font-principal-banner, .font-principal-invitacion, .date-banner {
-    font-family: "Montserrat", sans-serif;
+.font-principal, .font-principal-banner, .font-principal-invitacion {
+    font-family: var(--font-family-main);
     font-style: normal;
-    color: var(--font-color-light);
-    text-shadow: var(--text-shadow-main);
+    color: var(--secondary-color);
 }
 
 .font-principal-invitacion {
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    font-family: var(--font-family-alternate);
 }
 
 .date-banner {
-    color: var(--font-color-secondary);
+    font-family: 'roboto';
+    color: var(--font-family-alternate);
 }
 
 .font-principal-nosotros {
@@ -179,19 +160,20 @@ h1 {
 }
 
 @font-face {
-    font-family: var(--font-family-alternate);
-    src: url("../font/TT\ Interphases\ Pro\ Mono\ Trial\ Regular.ttf") format("opentype");
+    font-family: 'LaLuxesScript';
+    src: url("../font/LaLuxesScript-Regular.otf") format("opentype");
 }
+
 
 /* Mobile styles */
 @media (max-width: 768px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 40% 30% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/boris-felipe/portada.jpg') 40% 30% / cover no-repeat;
         appearance: none;
     }
 
     .font-principal {
-        font-size: 3.5rem;
+        font-size: 6.5rem;
     }
 
     .font-principal-invitacion {
@@ -199,7 +181,7 @@ h1 {
     }
 
     .font-principal-banner {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .texto_informativo {
@@ -245,12 +227,12 @@ h1 {
 /* Tablet styles */
 @media (min-width: 768px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 42% 28% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/boris-felipe/portada.jpg') 42% 28% / cover no-repeat;
         appearance: none;
     }
 
     .font-principal {
-        font-size: 5.5rem;
+        font-size: 6.5rem;
     }
 
     .font-principal-invitacion {
@@ -273,19 +255,24 @@ h1 {
         width: 45px;
         height: 45px;
     }
+
+    .main_home {
+        padding-top: 716px;
+        padding-bottom: 12px;
+    }
 }
 
 /* Desktop styles */
 @media (min-width: 992px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 99% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/boris-felipe/portada.jpg') 50% 99% / cover no-repeat;
         appearance: none;
     }
 
-    .font-principal {
-        font-size: 5rem;
+    .font-principal, .font-principal-banner {
+        font-size: 8rem;
     }
-
+    
     .texto_informativo {
         font-size: 2.5rem;
     }
@@ -298,7 +285,7 @@ h1 {
 /* Large desktop styles */
 @media (min-width: 1200px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 29% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/boris-felipe/portada.jpg') 50% 29% / cover no-repeat;
         appearance: none;
     }
 
