@@ -107,8 +107,7 @@ body {
 .invite-me:hover {
     color: #b08a79;
 }
-
-.font-principal, .font-principal-banner, .font-principal-invitacion, .date-banner {
+.font-principal, .font-principal-invitacion, .date-banner {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     color: var(--font-color-light);
@@ -178,11 +177,6 @@ h1 {
     height: 50px;
 }
 
-@font-face {
-    font-family: var(--font-family-alternate);
-    src: url("../font/TT\ Interphases\ Pro\ Mono\ Trial\ Regular.ttf") format("opentype");
-}
-
 /* Mobile styles */
 @media (max-width: 768px) {
     .home {
@@ -199,7 +193,7 @@ h1 {
     }
 
     .font-principal-banner {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .texto_informativo {
