@@ -8,6 +8,9 @@
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
 }
+h1 {
+    font-family: var(--font-family-main);
+}
 .home_skew_border:before  {
     border-left: 0px solid !important;
 }
