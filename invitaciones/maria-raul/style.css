@@ -180,12 +180,12 @@ h1 {
 /* Mobile styles */
 @media (max-width: 768px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 40% 30% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/portada2.JPG') 40% 30% / cover no-repeat;
         appearance: none;
     }
 
     .font-principal {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
     .font-principal-invitacion {
@@ -239,7 +239,7 @@ h1 {
 /* Tablet styles */
 @media (min-width: 768px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 42% 28% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/portada2.JPG') 42% 28% / cover no-repeat;
         appearance: none;
     }
 
@@ -272,7 +272,7 @@ h1 {
 /* Desktop styles */
 @media (min-width: 992px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 99% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/portada2.JPG') 50% 99% / cover no-repeat;
         appearance: none;
     }
 
@@ -292,7 +292,7 @@ h1 {
 /* Large desktop styles */
 @media (min-width: 1200px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/2.jpg') 50% 29% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/maria-raul-2024/portada2.JPG') 50% 29% / cover no-repeat;
         appearance: none;
     }
 
