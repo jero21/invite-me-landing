@@ -4,7 +4,7 @@
     --secondary-color: #8d956e;
     --background-color: #f9f9f9;
     --font-family-main: 'LaLuxesScript';
-    --font-family-alternate: "roboto";
+    --font-family-alternate: "Roboto", sans-serif;
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
 }
@@ -48,6 +48,8 @@ body {
 
 .btn {
     font-family: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
 }
 .btn-primary:hover {
     background-color: var(--color-btn);
@@ -65,6 +67,8 @@ body {
 
 .texto_informativo {
     font-family: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
     color: grey;
 }
 
@@ -97,15 +101,21 @@ body {
 
 .font-principal-invitacion {
     font-family: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
 }
 
 .date-banner {
     font-family: 'roboto';
     color: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
 }
 
 .font-principal-nosotros {
     font-family: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
     font-size: 30px;
     line-height: 1.1;
 }
