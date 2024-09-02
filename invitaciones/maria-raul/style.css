@@ -1,13 +1,13 @@
 :root {
     --color-btn : #ba976a;
-    --primary-color: #908d71;
+    --primary-color: #ba976a;
     --secondary-color: #656565;
     --background-color: #f9f9f9;
     --font-family-main: "Marcellus", serif;
     --font-family-alternate: "Montserrat";
     --font-color-light: #e7dbca;
     --font-color-secondary: #d9ad7c;
-    --text-shadow-main: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    --text-shadow-main: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
@@ -61,7 +61,7 @@ body {
 
 .regalo {
     background-size: auto 100%;
-    background-color: #8a866e;
+    background-color: #ba976a;
 }
 
 .texto_informativo {
@@ -115,7 +115,7 @@ body {
 }
 
 .font-principal-invitacion {
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 
 .date-banner {
@@ -185,7 +185,7 @@ h1 {
     }
 
     .font-principal {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .font-principal-invitacion {
