@@ -10,6 +10,9 @@
 }
 h1 {
     font-family: var(--font-family-main);
+    font-weight: normal;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
@@ -95,42 +98,32 @@ body {
 .invite-me:hover {
     color: #b08a79;
 }
-
-.font-principal, .font-principal-banner, .font-principal-invitacion {
+.font-principal-banner, .font-principal {
     font-family: var(--font-family-main);
     font-style: normal;
+    color: white;
+}
+.font-principal {
     color: var(--secondary-color);
 }
 
+.texto_informativo_musica, .font-principal-invitacion, .font-principal-nosotros {
+    font-family: var(--font-family-alternate);
+    font-weight: 100; 
+    font-style: normal;
+}
+
 .font-principal-invitacion {
-    font-family: var(--font-family-alternate);
-    font-weight: 100; 
-    font-style: normal;
+    color: var(--secondary-color);
 }
 
-.date-banner {
-    font-family: 'roboto';
-    color: var(--font-family-alternate);
-    font-weight: 100; 
-    font-style: normal;
-}
-
-.font-principal-nosotros {
-    font-family: var(--font-family-alternate);
-    font-weight: 100; 
-    font-style: normal;
+.font-principal-nosotros{
     font-size: 30px;
     line-height: 1.1;
 }
 
 .texto_informativo_musica {
     font-size: 1.8rem;
-}
-
-h1 {
-    font-weight: normal;
-    line-height: 3rem;
-    letter-spacing: 0.1rem;
 }
 
 .date-container {
@@ -235,6 +228,9 @@ h1 {
     .btn-lista-novios {
         font-size: 13px;
     }
+    .cogi {
+        max-width: 30%;
+    }
 }
 
 /* Tablet styles */
@@ -292,6 +288,9 @@ h1 {
 
     .iconos {
         width: 5%;
+    }
+    .cogi {
+        max-width: 10%;
     }
 }
 
