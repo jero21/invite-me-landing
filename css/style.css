@@ -25,9 +25,16 @@ body {
   min-width: 36vw!important;
 }
 
+.btn {
+  font-family: 'Alta_regular';
+}
+
 .hatton-title {
     font-family: 'Hatton';
     font-weight: bold;
+}
+.hatton-title li {
+  font-size: 20px;
 }
 .container {
     max-width: 1335px;
@@ -357,7 +364,7 @@ h1 {
   padding-top: 20px
 }
 .subtitle-servicios {
-  font-family: Hatton;
+  font-family: 'Alta_regular';
   color: white;
   font-size: 2.5rem;
 }
@@ -366,10 +373,10 @@ h1 {
   font-size: 40px;
 }
 .text-list {
-  font-family: 'Livvic', sans-serif;
+  font-family: 'Hatton';
 }
 .text-servicios {
-  font-family: 'Livvic', sans-serif;
+  font-family: 'Alta_regular';
   font-size: 20px;
 }
 #como-funciona {
@@ -474,14 +481,18 @@ ul.list-unstyled li h3 {
   color: #4B4B3D!important;
 }
 .font-tan-moncheri-planes {
-  font-family: 'TAN-MONCHERI';
-  font-size: 30px;
+  font-family: 'Alta_regular';
+  font-size: 50px;
 }
 #servicios {
   padding-bottom: 40px;
 }
 #servicios p, #servicios h2 {
   color: white;
+}
+#servicios p {
+  font-family: 'Hatton';
+  font-weight: bold;
 }
 .color-fondo {
   background-color: white;
