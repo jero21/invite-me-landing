@@ -1,0 +1,58 @@
+:root {
+    --color-fecha : #a2b79c;
+    --color-cuenta : #354744;
+}
+#cuenta {
+	display: flex;
+	justify-content: center;
+}
+.simply-amount, .simply-word {
+    color:white;
+	font-family: "Montserrat", sans-serif;
+}
+.simply-section {
+	background: var(--color-cuenta);
+	width: 180px;
+	height: 180px;
+	margin: 0 15px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cuenta-regresiva-seccion {
+    padding-bottom: 0px; 
+    background-color: var(--color-cuenta);
+}
+
+/* FECHA */
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre las cajas */
+}
+
+.date-box {
+    background-color: var(--color-fecha); /* Color de fondo de las cajas */
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px; /* Ancho de cada caja */
+}
+
+.date-number {
+    font-size: 36px; /* Tamaño del número */
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio entre el número y la etiqueta */
+}
+
+.date-label {
+    font-size: 14px; /* Tamaño de la etiqueta (DÍA, MES, AÑO) */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-top: 1px dotted #fff; /* Línea punteada debajo del número */
+    padding-top: 5px; /* Espacio entre la línea y el texto */
+}

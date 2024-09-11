@@ -1,0 +1,297 @@
+:root {
+    --color-btn : #b5c19c;
+    --primary-color: #b5c19c;
+    --secondary-color: #454444; /* titulos secciones*/
+    --background-color: #f9f9f9;
+    --regalos-color: #b5c19c;
+    --font-family-main: 'e111viva';
+    --font-family-alternate: "Calgary_DEMO";
+    --font-family-second: 'lora';
+    --font-color-light: #e7dbca;
+    --font-color-secondary: #d9ad7c;
+}
+.home_skew_border:before  {
+    border-left: 0px solid !important;
+}
+.btn-primary:hover {
+    transform: none;
+    transition: none;
+}
+.btn-primary:active {
+    color: white!important;
+}
+.fotos > img {
+    margin-bottom: 10px;
+}
+
+.fotos {
+   margin-bottom: 0px;
+}
+
+.home_skew_border:after {
+    border-right: 0px solid !important;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#playPauseIcon {
+    width: 50px;
+}
+
+#playButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn {
+    font-family: var(--font-family-alternate);
+}
+.btn-primary:hover {
+    background-color: var(--color-btn);
+    border: var(--color-btn);
+}
+.btn-lista-novios{
+    font-size: 20px;
+    background-color: var(--color-btn);
+}
+
+.regalo {
+    background-size: auto 100%;
+    background-color: var(--regalos-color);
+}
+
+.texto_informativo {
+    font-family: var(--font-family-second);
+    color: grey;
+}
+
+.texto_informativo_direccion {
+    font-size: 2rem !important;
+}
+
+.separator{
+    background: #396bac;
+}
+
+.asd, .asd:before, .asd:after {
+    background: var(--background-color) !important;
+}
+
+.sections {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.invite-me:hover {
+    color: #b08a79;
+}
+
+.font-principal, .font-principal-banner, .font-principal-invitacion {
+    font-family: var(--font-family-main);
+    font-style: normal;
+    color: var(--secondary-color);
+}
+
+.font-principal-invitacion {
+    font-family: var(--font-family-alternate);
+}
+
+.font-principal-nosotros {
+    font-family: var(--font-family-alternate);
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.texto_informativo_musica {
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-weight: normal;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.date-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.date-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-section > div {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-divider {
+    border-left: 2px solid #6c757d;
+    height: 40px;
+    margin: 0 15px;
+}
+
+.date-day {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.date-text {
+    line-height: 1.2;
+}
+
+.icono-btn {
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+@font-face {
+    font-family: 'e111viva';
+    src: url("../font/e111viva.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'Calgary_DEMO';
+    src: url("../font/Calgary_DEMO.ttf") format("opentype");
+}
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 40% 30% / cover no-repeat;
+        appearance: none;
+    }
+
+    .font-principal {
+        font-size: 5.5rem;
+    }
+
+    .font-principal-invitacion {
+        font-size: 2.5rem;
+    }
+
+    .font-principal-banner {
+        font-size: 5rem;
+    }
+
+    .texto_informativo {
+        font-size: 2rem;
+    }
+
+    .texto_informativo_musica {
+        font-size: 1.6rem;
+        margin-bottom: 5px !important;
+    }
+    .texto_informativo_direccion {
+        font-size: 1.7rem !important;
+    }
+
+    .font-contador {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    .main_home {
+        padding-top: 211px;
+        padding-bottom: 341px;
+    }
+
+    .iconos {
+        width: 17%;
+    }
+
+    .icono-btn {
+        width: 43px;
+        height: 43px;
+    }
+
+    .date-section > div {
+        margin: 0 20px;
+    }
+
+    .btn-lista-novios {
+        font-size: 13px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 42% 28% / cover no-repeat;
+        appearance: none;
+    }
+
+    .font-principal {
+        font-size: 6.5rem;
+    }
+
+    .font-principal-invitacion {
+        font-size: 4rem;
+    }
+
+    .font-principal-banner {
+        font-size: 5.5rem;
+    }
+
+    .texto_informativo {
+        font-size: 2.2rem;
+    }
+
+    .iconos {
+        width: 5%;
+    }
+
+    .icono-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .main_home {
+        padding-top: 716px;
+        padding-bottom: 12px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 50% 99% / cover no-repeat;
+        appearance: none;
+    }
+
+    .font-principal, .font-principal-banner {
+        font-size: 10rem;
+    }
+    
+    .texto_informativo {
+        font-size: 2.5rem;
+    }
+
+    .iconos {
+        width: 5%;
+    }
+}
+
+/* Large desktop styles */
+@media (min-width: 1200px) {
+    .home {
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 50% 29% / cover no-repeat;
+        appearance: none;
+    }
+
+    .main_home {
+        padding-top: 716px;
+        padding-bottom: 12px;
+    }
+}
