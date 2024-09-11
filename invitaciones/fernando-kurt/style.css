@@ -92,13 +92,17 @@ body {
 }
 
 .font-principal, .font-principal-banner, .font-principal-invitacion {
+    color: var(--secondary-color);
+}
+
+.font-principal, .font-principal-banner {
     font-family: var(--font-family-main);
     font-style: normal;
-    color: var(--secondary-color);
 }
 
 .font-principal-invitacion {
     font-family: var(--font-family-alternate);
+    font-style: normal;
 }
 
 .font-principal-nosotros {
