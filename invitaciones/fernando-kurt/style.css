@@ -3,12 +3,9 @@
     --primary-color: #b5c19c;
     --secondary-color: #454444; /* titulos secciones*/
     --background-color: #f9f9f9;
-    --regalos-color: #b5c19c;
+    --regalos-color: #354744;
     --font-family-main: 'e111viva';
-    --font-family-alternate: "Calgary_DEMO";
-    --font-family-second: 'lora';
-    --font-color-light: #e7dbca;
-    --font-color-secondary: #d9ad7c;
+    --font-family-alternate: "indifference";
 }
 .home_skew_border:before  {
     border-left: 0px solid !important;
@@ -66,7 +63,7 @@ body {
 }
 
 .texto_informativo {
-    font-family: var(--font-family-second);
+    font-family: var(--font-family-alternate);
     color: grey;
 }
 
@@ -75,7 +72,7 @@ body {
 }
 
 .separator{
-    background: #396bac;
+    background: #354744;
 }
 
 .asd, .asd:before, .asd:after {
@@ -165,8 +162,8 @@ h1 {
     src: url("../font/e111viva.ttf") format("opentype");
 }
 @font-face {
-    font-family: 'Calgary_DEMO';
-    src: url("../font/Calgary_DEMO.ttf") format("opentype");
+    font-family: 'indifference';
+    src: url("../font/glacial-indifference.regular.otf") format("opentype");
 }
 
 
@@ -178,7 +175,7 @@ h1 {
     }
 
     .font-principal {
-        font-size: 5.5rem;
+        font-size: 6rem;
     }
 
     .font-principal-invitacion {
@@ -290,7 +287,7 @@ h1 {
 /* Large desktop styles */
 @media (min-width: 1200px) {
     .home {
-        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 50% 29% / cover no-repeat;
+        background: url('https://s3.us-east-2.amazonaws.com/s3.tusminutas.cl/invite-me/invitaciones/fernando-kurt/4.jpeg') 50% 63% / cover no-repeat;
         appearance: none;
     }
 
